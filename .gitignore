@@ -3,7 +3,7 @@
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 .idea/
-# utils/secret.go
+utils/secret.go
 
 # User-specific stuff
 .idea/**/workspace.xml
