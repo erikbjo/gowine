@@ -11,7 +11,7 @@ import (
 var StartTime time.Time
 
 var client = &http.Client{
-	Timeout: 3 * time.Second,
+	Timeout: 10 * time.Second,
 }
 
 // Start
