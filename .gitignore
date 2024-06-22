@@ -4,6 +4,8 @@
 
 .idea/
 utils/secret.go
+.env
+
 
 # User-specific stuff
 .idea/**/workspace.xml
