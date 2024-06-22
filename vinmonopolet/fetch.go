@@ -16,8 +16,8 @@ func init() {
 	// This package is used to fetch wines from Vinmonopolet
 }
 
-// GetWines returns all wines from Vinmonopolet within the price range [minPrice, maxPrice]
-func GetWines(minPrice string, maxPrice string) []Product {
+// GetWines returns all wines from Vinmonopolet
+func GetWines() []Product {
 	client := &http.Client{
 		Timeout: 5 * time.Second,
 	}
@@ -39,7 +39,7 @@ func GetWines(minPrice string, maxPrice string) []Product {
 	r.Header.Add("Cache-Control", "no-cache")
 	r.Header.Add("Ocp-Apim-Subscription-Key", apiKey)
 
-	r.URL.RawQuery = "minPrice=" + minPrice + "&maxPrice=" + maxPrice + "&maxResults=100"
+	r.URL.RawQuery = "maxResults=100" + "&start=1000"
 
 	res, err2 := client.Do(r)
 	if err2 != nil {

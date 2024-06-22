@@ -15,8 +15,22 @@ func init() {
 
 func main() {
 	// Testing
-	products := vinmonopolet.GetWines("100", "1200")
-	for _, product := range products {
-		log.Println(product.GetVinmonopoletUrl())
+	products := vinmonopolet.GetWines()
+
+	// Test first
+	if len(products) > 0 {
+		wine := products[0]
+		log.Println(wine)
+		vinmonopolet.ScrapeVinmonopolet(&wine)
+		log.Println(wine)
 	}
+
+	// Flow:
+	// 1. Fetch wines from Vinmonopolet
+	// 2. Scrape Vinmonopolet for more details
+	// 3. Filter and validate wines
+	// 5. Scrape Apertif for prices
+	// 6. Save wines to database
+
+	// On next run, only update wines missing prices
 }
