@@ -2,6 +2,7 @@ package vinmonopolet
 
 import (
 	"encoding/json"
+	"gowine/internal/shared"
 	"log"
 	"net/http"
 	"os"
@@ -17,7 +18,7 @@ func init() {
 }
 
 // GetWines returns all wines from Vinmonopolet
-func GetWines() []Product {
+func GetWines() []shared.Product {
 	client := &http.Client{
 		Timeout: 5 * time.Second,
 	}
@@ -39,16 +40,17 @@ func GetWines() []Product {
 	r.Header.Add("Cache-Control", "no-cache")
 	r.Header.Add("Ocp-Apim-Subscription-Key", apiKey)
 
-	r.URL.RawQuery = "maxResults=100" + "&start=1000"
+	r.URL.RawQuery = "start=54522"
 
 	res, err2 := client.Do(r)
 	if err2 != nil {
 		log.Println("Error in response:", err2.Error())
 		return nil
 	}
+	log.Println(res.Body)
 
 	decoder := json.NewDecoder(res.Body)
-	var mp []Product
+	var mp []shared.Product
 
 	err := decoder.Decode(&mp)
 	if err != nil {

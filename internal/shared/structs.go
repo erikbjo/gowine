@@ -1,4 +1,4 @@
-package vinmonopolet
+package shared
 
 type Product struct {
 	Basic struct {
@@ -12,6 +12,7 @@ type Product struct {
 	Volume            int     `json:"volume"`
 	VinmonopoletPrice int     `json:"vinmonopolet_price"`
 	ApertifPrice      int     `json:"apertif_price"`
+	ApertifScore      int     `json:"apertif_score"`
 	Type              string  `json:"type"`
 	Country           string  `json:"country"`
 	Grape             string  `json:"grape"`
@@ -20,4 +21,8 @@ type Product struct {
 
 func (p *Product) GetVinmonopoletUrl() string {
 	return "https://www.vinmonopolet.no/p/" + p.Basic.ProductId
+}
+
+func (p *Product) GetApertifUrl() string {
+	return "https://www.aperitif.no/pollisten?query=" + p.Basic.ProductId
 }
