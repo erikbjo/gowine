@@ -46,7 +46,7 @@ func main() {
 
 			// Scrape data from both sources
 			vinmonopolet.ScrapeVinmonopolet(&wine)
-			apertif.ScrapeApertif(&wine)
+			apertif.ScrapeApertif(&wine, false)
 
 			if wine.VinmonopoletPrice == -1 {
 				log.Printf("Product %s, art.nr %s is expired, skipping", wine.Basic.ProductShortName, wine.Basic.ProductId)

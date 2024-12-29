@@ -11,7 +11,7 @@ import (
 
 const (
 	apiUrl = "https://apis.vinmonopolet.no/products/v0/details-normal"
-	START  = "54522"
+	START  = "0"
 )
 
 func init() {

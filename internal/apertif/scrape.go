@@ -12,7 +12,7 @@ import (
 	"time"
 )
 
-func ScrapeApertif(wine *shared.Product) {
+func ScrapeApertif(wine *shared.Product, retry bool) {
 	c := colly.NewCollector()
 
 	c.WithTransport(&http.Transport{
@@ -54,6 +54,12 @@ func ScrapeApertif(wine *shared.Product) {
 	err := c.Visit(url)
 	if err != nil {
 		log.Println("Error while visiting Apertif: " + err.Error())
+		// Retry once
+		if !retry {
+			log.Println("Retrying...")
+			time.Sleep(time.Second * 1)
+			ScrapeApertif(wine, true)
+		}
 	}
 
 	// time.Sleep(time.Millisecond * 2000)
