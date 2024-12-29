@@ -57,7 +57,7 @@ func ScrapeApertif(wine *shared.Product, retry bool) {
 		// Retry once
 		if !retry {
 			log.Println("Retrying...")
-			time.Sleep(time.Second * 1)
+			time.Sleep(time.Second * 2)
 			ScrapeApertif(wine, true)
 		}
 	}

@@ -1,1 +1,74 @@
-null
+[
+  {
+    "basic": {
+      "productId": "18792701",
+      "productShortName": "Waterford Cuvée Argot Irish Single Malt"
+    },
+    "lastChanged": {
+      "date": "2024-10-02",
+      "time": "14:53:30"
+    },
+    "volume": 70,
+    "vinmonopolet_price": 749,
+    "apertif_price": 769,
+    "apertif_score": 0,
+    "type": "Brennevin - Whisky - Whisky, malt",
+    "country": "Irland",
+    "grape": "",
+    "alcohol": 47
+  },
+  {
+    "basic": {
+      "productId": "18792601",
+      "productShortName": "Waterford Peated Lacken Single Malt"
+    },
+    "lastChanged": {
+      "date": "2024-10-02",
+      "time": "14:53:30"
+    },
+    "volume": 70,
+    "vinmonopolet_price": 1099,
+    "apertif_price": 1120,
+    "apertif_score": 0,
+    "type": "Brennevin - Whisky - Whisky, malt",
+    "country": "Irland",
+    "grape": "",
+    "alcohol": 50
+  },
+  {
+    "basic": {
+      "productId": "18792901",
+      "productShortName": "Waterford The Cuvée Irish Single Malt"
+    },
+    "lastChanged": {
+      "date": "2024-10-02",
+      "time": "14:53:30"
+    },
+    "volume": 70,
+    "vinmonopolet_price": 949,
+    "apertif_price": 969,
+    "apertif_score": 0,
+    "type": "Brennevin - Whisky - Whisky, malt",
+    "country": "Irland",
+    "grape": "",
+    "alcohol": 50
+  },
+  {
+    "basic": {
+      "productId": "18792501",
+      "productShortName": "Waterford Peated Woodbrook Single Malt"
+    },
+    "lastChanged": {
+      "date": "2024-10-02",
+      "time": "14:53:30"
+    },
+    "volume": 70,
+    "vinmonopolet_price": 1099,
+    "apertif_price": 1100,
+    "apertif_score": 0,
+    "type": "Brennevin - Whisky - Whisky, malt",
+    "country": "Irland",
+    "grape": "",
+    "alcohol": 50
+  }
+]

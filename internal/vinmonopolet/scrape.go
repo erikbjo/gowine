@@ -39,8 +39,8 @@ func ScrapeVinmonopolet(wine *shared.Product) {
 	// volumeScraped := false
 
 	// Scrape price, but only take the first element
-	c.OnHTML(".product-price", func(e *colly.HTMLElement) {
-		if wine.VinmonopoletPrice != 0 {
+	c.OnHTML(".product__price", func(e *colly.HTMLElement) {
+		if wine.VinmonopoletPrice == 0 {
 			priceText := e.Text
 			re := regexp.MustCompile(`[^0-9]`)
 			price := re.ReplaceAllString(priceText, "")
@@ -48,21 +48,19 @@ func ScrapeVinmonopolet(wine *shared.Product) {
 				price = price[:len(price)-2] // Remove last 2 digits
 			}
 			wine.VinmonopoletPrice, _ = strconv.Atoi(price)
-			log.Printf("Scraped price for %s: %d", wine.Basic.ProductId, wine.VinmonopoletPrice)
+			// log.Printf("Scraped price for %s: %d", wine.Basic.ProductId, wine.VinmonopoletPrice)
 			// priceScraped = true // Set the flag to true after scraping the first price
 		}
 	})
 
 	// Scrape volume, but only take the first element
 	c.OnHTML(".amount", func(e *colly.HTMLElement) {
-		if wine.Volume == 0 {
-			volumeText := e.Text
-			re := regexp.MustCompile(`[^0-9]`)
-			volume := re.ReplaceAllString(volumeText, "")
-			wine.Volume, _ = strconv.Atoi(volume)
-			log.Printf("Scraped volume for %s: %d", wine.Basic.ProductId, wine.Volume)
-			// volumeScraped = true // Set the flag to true after scraping the first volume
-		}
+		volumeText := e.Text
+		re := regexp.MustCompile(`[^0-9]`)
+		volume := re.ReplaceAllString(volumeText, "")
+		wine.Volume, _ = strconv.Atoi(volume)
+		// log.Printf("Scraped volume for %s: %d", wine.Basic.ProductId, wine.Volume)
+		// volumeScraped = true // Set the flag to true after scraping the first volume
 	})
 
 	// Scrape type

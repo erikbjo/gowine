@@ -2,7 +2,6 @@ package main
 
 import (
 	"encoding/json"
-	"fmt"
 	"github.com/joho/godotenv"
 	"gowine/internal/apertif"
 	"gowine/internal/shared"
@@ -27,9 +26,38 @@ func main() {
 
 	var wg sync.WaitGroup
 	var scrapedProducts []*shared.Product
-	var mutex sync.Mutex
+	var validMutex sync.Mutex
 
-	log.Printf("Starting to scrape %d products", len(products))
+	var expiredProducts []*shared.Product
+	var expiredMutex sync.Mutex
+
+	// Load expired products from JSON, if it exists
+	file, err := os.Open("expired_products.json")
+	if err == nil {
+		decoder := json.NewDecoder(file)
+		err := decoder.Decode(&expiredProducts)
+		if err != nil {
+			log.Fatalf("Failed to decode expired products: %s", err)
+		}
+		file.Close()
+	}
+
+	// Log expired products
+	if len(expiredProducts) > 0 {
+		log.Printf("Found %d expired products, filtering...", len(expiredProducts))
+		log.Printf("Amount of products before filtering: %d", len(products))
+		for _, product := range expiredProducts {
+			for i, p := range products {
+				if p.Basic.ProductId == product.Basic.ProductId {
+					products = append(products[:i], products[i+1:]...)
+					break
+				}
+			}
+		}
+		log.Printf("Amount of products after filtering: %d", len(products))
+	}
+
+	log.Printf("Starting to scrape products")
 
 	// Limit the number of concurrent goroutines
 	semaphore := make(chan struct{}, 10)
@@ -49,11 +77,14 @@ func main() {
 			apertif.ScrapeApertif(&wine, false)
 
 			if wine.VinmonopoletPrice == -1 {
-				log.Printf("Product %s, art.nr %s is expired, skipping", wine.Basic.ProductShortName, wine.Basic.ProductId)
+				log.Printf("Product %s, art.nr %s is expired, check expired_products.json", wine.Basic.ProductShortName, wine.Basic.ProductId)
+				expiredMutex.Lock()
+				expiredProducts = append(expiredProducts, &wine)
+				expiredMutex.Unlock()
 			} else {
-				mutex.Lock()
+				validMutex.Lock()
 				scrapedProducts = append(scrapedProducts, &wine)
-				mutex.Unlock()
+				validMutex.Unlock()
 
 				log.Printf("\tFinished scraping %s, art.nt %s", wine.Basic.ProductShortName, wine.Basic.ProductId)
 			}
@@ -70,7 +101,12 @@ func main() {
 
 	// Save results to JSON
 	saveToJSON("scraped_products.json", priceDifferenceProducts)
-	fmt.Println("Scraping and saving to JSON completed")
+
+	// Save expired products to JSON
+	saveToJSON("expired_products.json", expiredProducts)
+
+	log.Printf("Saved %d products with price differences to scraped_products.json", len(priceDifferenceProducts))
+	log.Printf("Saved %d expired products to expired_products.json", len(expiredProducts))
 }
 
 // Filters products that have valid prices from both sources
@@ -79,6 +115,8 @@ func filterCompleteProducts(products []*shared.Product) []*shared.Product {
 	for _, product := range products {
 		if product.VinmonopoletPrice != 0 && product.ApertifPrice != 0 {
 			filtered = append(filtered, product)
+		} else {
+			log.Printf("Product %s, art.nr %s has missing prices, skipping", product.Basic.ProductShortName, product.Basic.ProductId)
 		}
 	}
 	return filtered
