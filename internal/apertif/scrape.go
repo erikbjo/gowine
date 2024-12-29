@@ -12,7 +12,7 @@ import (
 	"time"
 )
 
-func ScrapeApertif(wine *shared.Product, resultChan chan<- *shared.Product) {
+func ScrapeApertif(wine *shared.Product) {
 	c := colly.NewCollector()
 
 	c.WithTransport(&http.Transport{
@@ -24,7 +24,7 @@ func ScrapeApertif(wine *shared.Product, resultChan chan<- *shared.Product) {
 
 	// Error handling
 	c.OnError(func(r *colly.Response, err error) {
-		log.Printf("Error while visiting Vinmonopolet: %s\n", err)
+		log.Printf("Error while visiting Apertif: %s\n", err)
 	})
 
 	// Scrape price
@@ -57,6 +57,4 @@ func ScrapeApertif(wine *shared.Product, resultChan chan<- *shared.Product) {
 	}
 
 	// time.Sleep(time.Millisecond * 2000)
-
-	resultChan <- wine
 }

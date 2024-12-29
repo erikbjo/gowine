@@ -13,7 +13,7 @@ import (
 	"time"
 )
 
-func ScrapeVinmonopolet(wine *shared.Product, resultChan chan<- *shared.Product) {
+func ScrapeVinmonopolet(wine *shared.Product) {
 	c := colly.NewCollector()
 
 	c.WithTransport(&http.Transport{
@@ -25,7 +25,7 @@ func ScrapeVinmonopolet(wine *shared.Product, resultChan chan<- *shared.Product)
 
 	// Error handling
 	c.OnError(func(r *colly.Response, err error) {
-		log.Printf("Error while visiting Apertif: %s\n", err)
+		log.Printf("Error while visiting Vinmonopolet: %s\n", err)
 	})
 
 	// Sjekker om utgått, utgått hvis product-price-expired finnes
@@ -33,11 +33,6 @@ func ScrapeVinmonopolet(wine *shared.Product, resultChan chan<- *shared.Product)
 		wine.VinmonopoletPrice = -1
 		log.Printf("Product %s is expired", wine.Basic.ProductShortName)
 	})
-
-	if wine.VinmonopoletPrice == -1 {
-		resultChan <- wine
-		return
-	}
 
 	// Boolean flags to scrape only the first price and volume
 	// priceScraped := false
@@ -106,6 +101,4 @@ func ScrapeVinmonopolet(wine *shared.Product, resultChan chan<- *shared.Product)
 	if err != nil {
 		log.Println("Error in visiting Vinmonopolet:", err.Error())
 	}
-
-	resultChan <- wine
 }
