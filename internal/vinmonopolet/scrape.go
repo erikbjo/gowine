@@ -31,7 +31,7 @@ func ScrapeVinmonopolet(wine *shared.Product) {
 	// Sjekker om utgått, utgått hvis product-price-expired finnes
 	c.OnHTML(".product-price-expired", func(e *colly.HTMLElement) {
 		wine.VinmonopoletPrice = -1
-		log.Printf("Product %s is expired", wine.Basic.ProductShortName)
+		log.Printf("Product %s is expired", wine.Basic.ProductId)
 	})
 
 	// Boolean flags to scrape only the first price and volume
@@ -48,7 +48,7 @@ func ScrapeVinmonopolet(wine *shared.Product) {
 				price = price[:len(price)-2] // Remove last 2 digits
 			}
 			wine.VinmonopoletPrice, _ = strconv.Atoi(price)
-			log.Printf("Scraped price for %s: %d", wine.Basic.ProductShortName, wine.VinmonopoletPrice)
+			log.Printf("Scraped price for %s: %d", wine.Basic.ProductId, wine.VinmonopoletPrice)
 			// priceScraped = true // Set the flag to true after scraping the first price
 		}
 	})
@@ -60,7 +60,7 @@ func ScrapeVinmonopolet(wine *shared.Product) {
 			re := regexp.MustCompile(`[^0-9]`)
 			volume := re.ReplaceAllString(volumeText, "")
 			wine.Volume, _ = strconv.Atoi(volume)
-			log.Printf("Scraped volume for %s: %d", wine.Basic.ProductShortName, wine.Volume)
+			log.Printf("Scraped volume for %s: %d", wine.Basic.ProductId, wine.Volume)
 			// volumeScraped = true // Set the flag to true after scraping the first volume
 		}
 	})
@@ -90,7 +90,7 @@ func ScrapeVinmonopolet(wine *shared.Product) {
 				alcohol := strings.Replace(match[1], ",", ".", 1)
 				wine.Alcohol, _ = strconv.ParseFloat(alcohol, 64)
 			} else {
-				fmt.Printf("Failed to scrape alcohol for %s (%s)\n", wine.Basic.ProductShortName, wine.Basic.ProductId)
+				fmt.Printf("Failed to scrape alcohol for %s\n", wine.Basic.ProductId)
 			}
 		}
 	})

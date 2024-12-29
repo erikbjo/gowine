@@ -42,18 +42,21 @@ func main() {
 			defer wg.Done()
 			defer func() { <-semaphore }() // Release the slot
 
-			log.Printf("Starting to scrape %s, art.nr %s", wine.Basic.ProductShortName, wine.Basic.ProductId)
+			log.Printf("\tStarting to scrape %s, art.nr %s", wine.Basic.ProductShortName, wine.Basic.ProductId)
 
 			// Scrape data from both sources
 			vinmonopolet.ScrapeVinmonopolet(&wine)
 			apertif.ScrapeApertif(&wine)
 
-			// Safely append results
-			mutex.Lock()
-			scrapedProducts = append(scrapedProducts, &wine)
-			mutex.Unlock()
+			if wine.VinmonopoletPrice == -1 {
+				log.Printf("Product %s, art.nr %s is expired, skipping", wine.Basic.ProductShortName, wine.Basic.ProductId)
+			} else {
+				mutex.Lock()
+				scrapedProducts = append(scrapedProducts, &wine)
+				mutex.Unlock()
 
-			log.Printf("Finished scraping %s", wine.Basic.ProductShortName)
+				log.Printf("\tFinished scraping %s, art.nt %s", wine.Basic.ProductShortName, wine.Basic.ProductId)
+			}
 		}(product)
 	}
 

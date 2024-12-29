@@ -11,6 +11,7 @@ import (
 
 const (
 	apiUrl = "https://apis.vinmonopolet.no/products/v0/details-normal"
+	START  = "54522"
 )
 
 func init() {
@@ -40,7 +41,7 @@ func GetWines() []shared.Product {
 	r.Header.Add("Cache-Control", "no-cache")
 	r.Header.Add("Ocp-Apim-Subscription-Key", apiKey)
 
-	r.URL.RawQuery = "start=54522"
+	r.URL.RawQuery = "start=" + START
 
 	res, err2 := client.Do(r)
 	if err2 != nil {

@@ -23,9 +23,9 @@ func ScrapeApertif(wine *shared.Product) {
 	})
 
 	// Error handling
-	c.OnError(func(r *colly.Response, err error) {
-		log.Printf("Error while visiting Apertif: %s\n", err)
-	})
+	// c.OnError(func(r *colly.Response, err error) {
+	// 	log.Printf("\tError while visiting Apertif: %s", err)
+	// })
 
 	// Scrape price
 	c.OnHTML(".price", func(e *colly.HTMLElement) {
@@ -43,7 +43,7 @@ func ScrapeApertif(wine *shared.Product) {
 		scoreText := e.Text
 		score, err := strconv.Atoi(scoreText)
 		if err != nil {
-			fmt.Printf("Failed to scrape score for %s (%s)\n", wine.Basic.ProductShortName, wine.Basic.ProductId)
+			fmt.Printf("Failed to scrape score for %s", wine.Basic.ProductId)
 		} else {
 			wine.ApertifScore = score
 		}
@@ -53,7 +53,7 @@ func ScrapeApertif(wine *shared.Product) {
 	url := wine.GetApertifUrl()
 	err := c.Visit(url)
 	if err != nil {
-		log.Println("Error while visiting Apertif" + err.Error())
+		log.Println("Error while visiting Apertif: " + err.Error())
 	}
 
 	// time.Sleep(time.Millisecond * 2000)
