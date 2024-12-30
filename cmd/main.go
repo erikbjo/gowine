@@ -60,7 +60,7 @@ func main() {
 	log.Printf("Starting to scrape products")
 
 	// Limit the number of concurrent goroutines
-	semaphore := make(chan struct{}, 10)
+	semaphore := make(chan struct{}, 20)
 
 	for _, product := range products {
 		semaphore <- struct{}{} // Reserve a slot

@@ -18,7 +18,7 @@ func ScrapeApertif(wine *shared.Product, retry bool) {
 	c.WithTransport(&http.Transport{
 		ResponseHeaderTimeout: 5 * time.Second,
 		DialContext: (&net.Dialer{
-			Timeout: 5 * time.Second,
+			Timeout: 15 * time.Second,
 		}).DialContext,
 	})
 
@@ -57,9 +57,11 @@ func ScrapeApertif(wine *shared.Product, retry bool) {
 		// Retry once
 		if !retry {
 			log.Println("Retrying...")
-			time.Sleep(time.Second * 2)
+			time.Sleep(time.Second * 1)
 			ScrapeApertif(wine, true)
 		}
+	} else {
+		log.Printf("Scraped Apertif for %s", wine.Basic.ProductId)
 	}
 
 	// time.Sleep(time.Millisecond * 2000)

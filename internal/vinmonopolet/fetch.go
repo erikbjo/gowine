@@ -41,7 +41,7 @@ func GetWines() []shared.Product {
 	r.Header.Add("Cache-Control", "no-cache")
 	r.Header.Add("Ocp-Apim-Subscription-Key", apiKey)
 
-	r.URL.RawQuery = "productShortNameContains=Waterford"
+	r.URL.RawQuery = "start=" + START
 
 	res, err2 := client.Do(r)
 	if err2 != nil {
