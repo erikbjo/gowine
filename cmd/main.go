@@ -57,6 +57,22 @@ func main() {
 		log.Printf("Amount of products after filtering: %d", len(products))
 	}
 
+	// Load scraped products from JSON, if it exists
+	file, err = os.Open("scraped_products.json")
+	if err == nil {
+		decoder := json.NewDecoder(file)
+		err := decoder.Decode(&scrapedProducts)
+		if err != nil {
+			log.Fatalf("Failed to decode scraped products: %s", err)
+		}
+		file.Close()
+	}
+
+	// Log scraped products
+	if len(scrapedProducts) > 0 {
+		log.Printf("Found %d pre-scraped products, adding to scraped...", len(scrapedProducts))
+	}
+
 	log.Printf("Starting to scrape products")
 
 	// Limit the number of concurrent goroutines
