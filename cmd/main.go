@@ -73,7 +73,7 @@ func main() {
 		log.Printf("Found %d pre-scraped products, adding to scraped...", len(scrapedProducts))
 	}
 
-	log.Printf("Starting to scrape products")
+	log.Printf("Starting to scrape %d products", len(products))
 
 	// Limit the number of concurrent goroutines
 	semaphore := make(chan struct{}, 20)
