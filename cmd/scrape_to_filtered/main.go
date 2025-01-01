@@ -12,7 +12,7 @@ func main() {
 	var scrapedProducts []*shared.Product
 
 	// Load scraped products from JSON, if it exists
-	file, err := os.Open("scraped_products.json")
+	file, err := os.Open("json/scraped_products.json")
 	if err == nil {
 		decoder := json.NewDecoder(file)
 		err := decoder.Decode(&scrapedProducts)
@@ -28,15 +28,16 @@ func main() {
 	var gowineProducts []*shared.Product
 	for _, product := range scrapedProducts {
 		if product.ApertifPrice <= 400 {
-			discount := 100 - (product.ApertifPrice * 100 / product.VinmonopoletPrice)
-			if discount >= 40 {
+			product.Discount = 100 - (product.ApertifPrice * 100 / product.VinmonopoletPrice)
+			product.Difference = product.VinmonopoletPrice - product.ApertifPrice
+			if product.Discount >= 30 {
 				gowineProducts = append(gowineProducts, product)
 			}
 		}
 	}
 
 	// Save gowine products to JSON
-	file, err = os.Create("gowine_products.json")
+	file, err = os.Create("json/gowine_products.json")
 	if err != nil {
 		log.Fatalf("Failed to create file: %s", err)
 	}

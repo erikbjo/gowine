@@ -32,7 +32,7 @@ func main() {
 	var expiredMutex sync.Mutex
 
 	// Load expired products from JSON, if it exists
-	file, err := os.Open("expired_products.json")
+	file, err := os.Open("json/expired_products.json")
 	if err == nil {
 		decoder := json.NewDecoder(file)
 		err := decoder.Decode(&expiredProducts)
@@ -58,7 +58,7 @@ func main() {
 	}
 
 	// Load scraped products from JSON, if it exists
-	file, err = os.Open("scraped_products.json")
+	file, err = os.Open("json/scraped_products.json")
 	if err == nil {
 		decoder := json.NewDecoder(file)
 		err := decoder.Decode(&scrapedProducts)
@@ -116,10 +116,10 @@ func main() {
 	priceDifferenceProducts := filterPriceDifferences(filteredProducts)
 
 	// Save results to JSON
-	saveToJSON("scraped_products.json", priceDifferenceProducts)
+	saveToJSON("json/scraped_products.json", priceDifferenceProducts)
 
 	// Save expired products to JSON
-	saveToJSON("expired_products.json", expiredProducts)
+	saveToJSON("json/expired_products.json", expiredProducts)
 
 	log.Printf("Saved %d products with price differences to scraped_products.json", len(priceDifferenceProducts))
 	log.Printf("Saved %d expired products to expired_products.json", len(expiredProducts))

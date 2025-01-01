@@ -17,6 +17,8 @@ type Product struct {
 	Country           string  `json:"country"`
 	Grape             string  `json:"grape"`
 	Alcohol           float64 `json:"alcohol"`
+	Difference        int     `json:"difference"`
+	Discount          int     `json:"discount"`
 }
 
 func (p *Product) GetVinmonopoletUrl() string {
