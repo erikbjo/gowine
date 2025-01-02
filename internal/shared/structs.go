@@ -1,5 +1,7 @@
 package shared
 
+import "net/url"
+
 type Product struct {
 	Basic struct {
 		ProductId        string `json:"productId"`
@@ -19,6 +21,8 @@ type Product struct {
 	Alcohol           float64 `json:"alcohol"`
 	Difference        int     `json:"difference"`
 	Discount          int     `json:"discount"`
+	VivinoScore       string  `json:"vivino_score"`
+	VivinoUrl         string  `json:"vivino_url"`
 }
 
 func (p *Product) GetVinmonopoletUrl() string {
@@ -27,4 +31,8 @@ func (p *Product) GetVinmonopoletUrl() string {
 
 func (p *Product) GetApertifUrl() string {
 	return "https://www.aperitif.no/pollisten?query=" + p.Basic.ProductId
+}
+
+func (p *Product) GetVivinoUrl() string {
+	return "https://www.vivino.com/search/wines?q=" + url.QueryEscape(p.Basic.ProductShortName)
 }

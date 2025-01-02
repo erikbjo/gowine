@@ -91,7 +91,10 @@ func main() {
 
 			// Scrape data from both sources
 			vinmonopolet.ScrapeVinmonopolet(&wine)
-			apertif.ScrapeApertif(&wine, false)
+			apertif.ScrapeApertif(&wine)
+
+			// Too many requests to vivino, TODO: fix, delay or something
+			// vivino.ScrapeVivino(&wine)
 
 			if wine.VinmonopoletPrice == -1 {
 				//log.Printf("%s: product expired, check expired_products.json", wine.Basic.ProductId)

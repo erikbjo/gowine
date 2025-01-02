@@ -11,11 +11,11 @@ import (
 	"time"
 )
 
-func ScrapeApertif(wine *shared.Product, retry bool) {
+func ScrapeApertif(wine *shared.Product) {
 	c := colly.NewCollector()
 
 	c.WithTransport(&http.Transport{
-		ResponseHeaderTimeout: 5 * time.Second,
+		ResponseHeaderTimeout: 15 * time.Second,
 		DialContext: (&net.Dialer{
 			Timeout: 15 * time.Second,
 		}).DialContext,
@@ -48,12 +48,9 @@ func ScrapeApertif(wine *shared.Product, retry bool) {
 	err := c.Visit(url)
 	if err != nil {
 		// log.Println("Error while visiting Apertif: " + err.Error())
-		// Retry once
-		if !retry {
-			log.Println("Retrying...")
-			time.Sleep(time.Second * 1)
-			ScrapeApertif(wine, true)
-		}
+		log.Println("Retrying...")
+		time.Sleep(time.Second * 5)
+		ScrapeApertif(wine)
 	} else {
 		// log.Printf("Scraped Apertif for %s", wine.Basic.ProductId)
 	}
