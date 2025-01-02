@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/json"
 	"github.com/joho/godotenv"
+	"github.com/schollz/progressbar/v3"
 	"gowine/internal/apertif"
 	"gowine/internal/shared"
 	"gowine/internal/vinmonopolet"
@@ -75,6 +76,8 @@ func main() {
 
 	log.Printf("Starting to scrape %d products", len(products))
 
+	loadingBar := progressbar.Default(int64(len(products)))
+
 	// Limit the number of concurrent goroutines
 	semaphore := make(chan struct{}, 20)
 
@@ -86,14 +89,12 @@ func main() {
 			defer wg.Done()
 			defer func() { <-semaphore }() // Release the slot
 
-			log.Printf("\tStarting to scrape %s, art.nr %s", wine.Basic.ProductShortName, wine.Basic.ProductId)
-
 			// Scrape data from both sources
 			vinmonopolet.ScrapeVinmonopolet(&wine)
 			apertif.ScrapeApertif(&wine, false)
 
 			if wine.VinmonopoletPrice == -1 {
-				log.Printf("Product %s, art.nr %s is expired, check expired_products.json", wine.Basic.ProductShortName, wine.Basic.ProductId)
+				//log.Printf("%s: product expired, check expired_products.json", wine.Basic.ProductId)
 				expiredMutex.Lock()
 				expiredProducts = append(expiredProducts, &wine)
 				expiredMutex.Unlock()
@@ -102,7 +103,8 @@ func main() {
 				scrapedProducts = append(scrapedProducts, &wine)
 				validMutex.Unlock()
 
-				log.Printf("\tFinished scraping %s, art.nt %s", wine.Basic.ProductShortName, wine.Basic.ProductId)
+				//log.Printf("%s: finished scraping", wine.Basic.ProductId)
+				loadingBar.Add(1)
 			}
 		}(product)
 	}

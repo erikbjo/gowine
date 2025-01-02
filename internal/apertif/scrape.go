@@ -1,7 +1,6 @@
 package apertif
 
 import (
-	"fmt"
 	"github.com/gocolly/colly"
 	"gowine/internal/shared"
 	"log"
@@ -22,11 +21,6 @@ func ScrapeApertif(wine *shared.Product, retry bool) {
 		}).DialContext,
 	})
 
-	// Error handling
-	// c.OnError(func(r *colly.Response, err error) {
-	// 	log.Printf("\tError while visiting Apertif: %s", err)
-	// })
-
 	// Scrape price
 	c.OnHTML(".price", func(e *colly.HTMLElement) {
 		priceText := e.Text
@@ -43,7 +37,7 @@ func ScrapeApertif(wine *shared.Product, retry bool) {
 		scoreText := e.Text
 		score, err := strconv.Atoi(scoreText)
 		if err != nil {
-			fmt.Printf("Failed to scrape score for %s", wine.Basic.ProductId)
+			// fmt.Printf("Failed to scrape score for %s", wine.Basic.ProductId)
 		} else {
 			wine.ApertifScore = score
 		}
@@ -53,7 +47,7 @@ func ScrapeApertif(wine *shared.Product, retry bool) {
 	url := wine.GetApertifUrl()
 	err := c.Visit(url)
 	if err != nil {
-		log.Println("Error while visiting Apertif: " + err.Error())
+		// log.Println("Error while visiting Apertif: " + err.Error())
 		// Retry once
 		if !retry {
 			log.Println("Retrying...")
@@ -61,7 +55,7 @@ func ScrapeApertif(wine *shared.Product, retry bool) {
 			ScrapeApertif(wine, true)
 		}
 	} else {
-		log.Printf("Scraped Apertif for %s", wine.Basic.ProductId)
+		// log.Printf("Scraped Apertif for %s", wine.Basic.ProductId)
 	}
 
 	// time.Sleep(time.Millisecond * 2000)
