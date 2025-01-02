@@ -7,6 +7,7 @@ import (
 	"os"
 	"sort"
 	"strconv"
+	"strings"
 )
 
 func main() {
@@ -28,7 +29,7 @@ func main() {
 		log.Fatalf("Failed to decode gowine products: %s", err)
 	}
 
-	// Write the products to the README
+	// Prepare the README
 	readme, err := os.Create("README.md")
 	if err != nil {
 		log.Fatalf("Failed to create README: %s", err)
@@ -40,39 +41,30 @@ func main() {
 		return filteredProducts[i].Discount > filteredProducts[j].Discount
 	})
 
+	whiteWines := strings.Builder{}
+	redWines := strings.Builder{}
+	otherProducts := strings.Builder{}
+
+	whiteWines.WriteString("## Hvite viner\n\n| Navn | ID | Gammel pris | Ny pris | Delta | Rabatt % | Score | Land |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n")
+	redWines.WriteString("## Røde viner\n\n| Navn | ID | Gammel pris | Ny pris | Delta | Rabatt % | Score | Land |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n")
+	otherProducts.WriteString("## Andre produkter\n\n| Navn | ID | Gammel pris | Ny pris | Delta | Rabatt % | Score | Type |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n")
+
+	for _, product := range filteredProducts {
+		switch product.Type {
+		case "Hvitvin":
+			whiteWines.WriteString("| " + product.Basic.ProductShortName + " | " + product.Basic.ProductId + " | " + strconv.Itoa(product.VinmonopoletPrice) + " | " + strconv.Itoa(product.ApertifPrice) + " | " + strconv.Itoa(product.Difference) + " | " + strconv.Itoa(product.Discount) + " | " + strconv.Itoa(product.ApertifScore) + " | " + product.Country + " |\n")
+		case "Rødvin":
+			redWines.WriteString("| " + product.Basic.ProductShortName + " | " + product.Basic.ProductId + " | " + strconv.Itoa(product.VinmonopoletPrice) + " | " + strconv.Itoa(product.ApertifPrice) + " | " + strconv.Itoa(product.Difference) + " | " + strconv.Itoa(product.Discount) + " | " + strconv.Itoa(product.ApertifScore) + " | " + product.Country + " |\n")
+		default:
+			otherProducts.WriteString("| " + product.Basic.ProductShortName + " | " + product.Basic.ProductId + " | " + strconv.Itoa(product.VinmonopoletPrice) + " | " + strconv.Itoa(product.ApertifPrice) + " | " + strconv.Itoa(product.Difference) + " | " + strconv.Itoa(product.Discount) + " | " + strconv.Itoa(product.ApertifScore) + " | " + product.Type + " |\n")
+		}
+	}
+
 	// Write the header
 	readme.WriteString("# Go(d) wine\n\n")
 	readme.WriteString("Liste over produkter som blir billigere etter månedsskiftet:\n\n")
 
-	// Write the products
-	// One table for white wines, one for red wines, and one for everything else
-	readme.WriteString("## Hvite viner\n\n")
-	readme.WriteString("| Navn | ID | Gammel pris | Ny pris | Delta | Rabatt % | Score | Land |\n")
-	readme.WriteString("| --- | --- | --- | --- | --- | --- | --- | --- |\n")
-	for _, product := range filteredProducts {
-		if product.Type == "Hvitvin" {
-			info := "| " + product.Basic.ProductShortName + " | " + product.Basic.ProductId + " | " + strconv.Itoa(product.VinmonopoletPrice) + " | " + strconv.Itoa(product.ApertifPrice) + " | " + strconv.Itoa(product.Difference) + " | " + strconv.Itoa(product.Discount) + " | " + strconv.Itoa(product.ApertifScore) + " | " + product.Country + " |\n"
-			readme.WriteString(info)
-		}
-	}
-
-	readme.WriteString("## Røde viner\n\n")
-	readme.WriteString("| Navn | ID | Gammel pris | Ny pris | Delta | Rabatt % | Score | Land |\n")
-	readme.WriteString("| --- | --- | --- | --- | --- | --- | --- | --- |\n")
-	for _, product := range filteredProducts {
-		if product.Type == "Rødvin" {
-			info := "| " + product.Basic.ProductShortName + " | " + product.Basic.ProductId + " | " + strconv.Itoa(product.VinmonopoletPrice) + " | " + strconv.Itoa(product.ApertifPrice) + " | " + strconv.Itoa(product.Difference) + " | " + strconv.Itoa(product.Discount) + " | " + strconv.Itoa(product.ApertifScore) + " | " + product.Country + " |\n"
-			readme.WriteString(info)
-		}
-	}
-
-	readme.WriteString("## Andre produkter\n\n")
-	readme.WriteString("| Navn | ID | Gammel pris | Ny pris | Delta | Rabatt % | Score | Type |\n")
-	readme.WriteString("| --- | --- | --- | --- | --- | --- | --- | --- |\n")
-	for _, product := range filteredProducts {
-		if product.Type != "Rødvin" && product.Type != "Hvitvin" {
-			info := "| " + product.Basic.ProductShortName + " | " + product.Basic.ProductId + " | " + strconv.Itoa(product.VinmonopoletPrice) + " | " + strconv.Itoa(product.ApertifPrice) + " | " + strconv.Itoa(product.Difference) + " | " + strconv.Itoa(product.Discount) + " | " + strconv.Itoa(product.ApertifScore) + " | " + product.Type + " |\n"
-			readme.WriteString(info)
-		}
-	}
+	readme.WriteString(whiteWines.String())
+	readme.WriteString(redWines.String())
+	readme.WriteString(otherProducts.String())
 }
