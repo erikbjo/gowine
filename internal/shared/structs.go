@@ -29,6 +29,10 @@ func (p *Product) GetVinmonopoletUrl() string {
 	return "https://www.vinmonopolet.no/p/" + p.Basic.ProductId
 }
 
+func (p *Product) GetVinmonopoletMarkdownUrl() string {
+	return "[" + p.Basic.ProductId + "](" + p.GetVinmonopoletUrl() + ")"
+}
+
 func (p *Product) GetApertifUrl() string {
 	return "https://www.aperitif.no/pollisten?query=" + p.Basic.ProductId
 }
