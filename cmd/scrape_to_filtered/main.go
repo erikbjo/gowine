@@ -27,12 +27,8 @@ func main() {
 	// This is the concept of gowine
 	var gowineProducts []*shared.Product
 	for _, product := range scrapedProducts {
-		if product.ApertifPrice <= 400 {
-			product.Discount = 100 - (product.ApertifPrice * 100 / product.VinmonopoletPrice)
-			product.Difference = product.VinmonopoletPrice - product.ApertifPrice
-			if product.Discount >= 30 {
-				gowineProducts = append(gowineProducts, product)
-			}
+		if product.ApertifPrice <= 400 && product.GetDiscount() >= 20 {
+			gowineProducts = append(gowineProducts, product)
 		}
 	}
 

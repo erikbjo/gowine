@@ -38,7 +38,7 @@ func main() {
 
 	// Sort the products by discount
 	sort.Slice(filteredProducts, func(i, j int) bool {
-		return filteredProducts[i].Discount > filteredProducts[j].Discount
+		return filteredProducts[i].GetDiscount() > filteredProducts[j].GetDiscount()
 	})
 
 	whiteWines := strings.Builder{}
@@ -52,11 +52,11 @@ func main() {
 	for _, product := range filteredProducts {
 		switch product.Type {
 		case "Hvitvin":
-			whiteWines.WriteString("| " + product.GetVivinoMarkdownUrl() + " | " + product.GetVinmonopoletMarkdownUrl() + " | " + strconv.Itoa(product.VinmonopoletPrice) + " | " + strconv.Itoa(product.ApertifPrice) + " | " + strconv.Itoa(product.Difference) + " | " + strconv.Itoa(product.Discount) + " | " + strconv.Itoa(product.ApertifScore) + " | " + product.Country + " |\n")
+			whiteWines.WriteString("| " + product.GetVivinoMarkdownUrl() + " | " + product.GetVinmonopoletMarkdownUrl() + " | " + strconv.Itoa(product.VinmonopoletPrice) + " | " + strconv.Itoa(product.ApertifPrice) + " | " + strconv.Itoa(product.GetPriceDelta()) + " | " + strconv.Itoa(product.GetDiscount()) + " | " + strconv.Itoa(product.ApertifScore) + " | " + product.Country + " |\n")
 		case "Rødvin":
-			redWines.WriteString("| " + product.GetVivinoMarkdownUrl() + " | " + product.GetVinmonopoletMarkdownUrl() + " | " + strconv.Itoa(product.VinmonopoletPrice) + " | " + strconv.Itoa(product.ApertifPrice) + " | " + strconv.Itoa(product.Difference) + " | " + strconv.Itoa(product.Discount) + " | " + strconv.Itoa(product.ApertifScore) + " | " + product.Country + " |\n")
+			redWines.WriteString("| " + product.GetVivinoMarkdownUrl() + " | " + product.GetVinmonopoletMarkdownUrl() + " | " + strconv.Itoa(product.VinmonopoletPrice) + " | " + strconv.Itoa(product.ApertifPrice) + " | " + strconv.Itoa(product.GetPriceDelta()) + " | " + strconv.Itoa(product.GetDiscount()) + " | " + strconv.Itoa(product.ApertifScore) + " | " + product.Country + " |\n")
 		default:
-			otherProducts.WriteString("| " + product.GetVivinoMarkdownUrl() + " | " + product.GetVinmonopoletMarkdownUrl() + " | " + strconv.Itoa(product.VinmonopoletPrice) + " | " + strconv.Itoa(product.ApertifPrice) + " | " + strconv.Itoa(product.Difference) + " | " + strconv.Itoa(product.Discount) + " | " + strconv.Itoa(product.ApertifScore) + " | " + product.Type + " |\n")
+			otherProducts.WriteString("| " + product.GetVivinoMarkdownUrl() + " | " + product.GetVinmonopoletMarkdownUrl() + " | " + strconv.Itoa(product.VinmonopoletPrice) + " | " + strconv.Itoa(product.ApertifPrice) + " | " + strconv.Itoa(product.GetPriceDelta()) + " | " + strconv.Itoa(product.GetDiscount()) + " | " + strconv.Itoa(product.ApertifScore) + " | " + product.Type + " |\n")
 		}
 	}
 

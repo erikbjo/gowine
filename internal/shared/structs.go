@@ -19,8 +19,6 @@ type Product struct {
 	Country           string  `json:"country"`
 	Grape             string  `json:"grape"`
 	Alcohol           float64 `json:"alcohol"`
-	Difference        int     `json:"difference"`
-	Discount          int     `json:"discount"`
 	VivinoScore       string  `json:"vivino_score"`
 	VivinoUrl         string  `json:"vivino_url"`
 }
@@ -43,4 +41,12 @@ func (p *Product) GetVivinoUrl() string {
 
 func (p *Product) GetVivinoMarkdownUrl() string {
 	return "[" + p.Basic.ProductShortName + "](" + p.GetVivinoUrl() + ")"
+}
+
+func (p *Product) GetPriceDelta() int {
+	return p.ApertifPrice - p.VinmonopoletPrice
+}
+
+func (p *Product) GetDiscount() int {
+	return 100 - (p.ApertifPrice * 100 / p.VinmonopoletPrice)
 }
