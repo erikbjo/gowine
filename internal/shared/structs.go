@@ -40,3 +40,7 @@ func (p *Product) GetApertifUrl() string {
 func (p *Product) GetVivinoUrl() string {
 	return "https://www.vivino.com/search/wines?q=" + url.QueryEscape(p.Basic.ProductShortName)
 }
+
+func (p *Product) GetVivinoMarkdownUrl() string {
+	return "[" + p.Basic.ProductShortName + "](" + p.GetVivinoUrl() + ")"
+}

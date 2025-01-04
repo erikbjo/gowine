@@ -45,18 +45,18 @@ func main() {
 	redWines := strings.Builder{}
 	otherProducts := strings.Builder{}
 
-	whiteWines.WriteString("## Hvite viner\n\n| Navn | ID | Gammel pris | Ny pris | Delta | Rabatt % | Score | Land |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n")
-	redWines.WriteString("## Røde viner\n\n| Navn | ID | Gammel pris | Ny pris | Delta | Rabatt % | Score | Land |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n")
-	otherProducts.WriteString("## Andre produkter\n\n| Navn | ID | Gammel pris | Ny pris | Delta | Rabatt % | Score | Type |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n")
+	whiteWines.WriteString("## Hvite viner\n\n| Navn (Vivino link) | ID | Gammel pris | Ny pris | Delta | Rabatt % | Score | Land |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n")
+	redWines.WriteString("## Røde viner\n\n| Navn (Vivino link) | ID | Gammel pris | Ny pris | Delta | Rabatt % | Score | Land |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n")
+	otherProducts.WriteString("## Andre produkter\n\n| Navn (Vivino link) | ID | Gammel pris | Ny pris | Delta | Rabatt % | Score | Type |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n")
 
 	for _, product := range filteredProducts {
 		switch product.Type {
 		case "Hvitvin":
-			whiteWines.WriteString("| " + product.Basic.ProductShortName + " | " + product.GetVinmonopoletMarkdownUrl() + " | " + strconv.Itoa(product.VinmonopoletPrice) + " | " + strconv.Itoa(product.ApertifPrice) + " | " + strconv.Itoa(product.Difference) + " | " + strconv.Itoa(product.Discount) + " | " + strconv.Itoa(product.ApertifScore) + " | " + product.Country + " |\n")
+			whiteWines.WriteString("| " + product.GetVivinoMarkdownUrl() + " | " + product.GetVinmonopoletMarkdownUrl() + " | " + strconv.Itoa(product.VinmonopoletPrice) + " | " + strconv.Itoa(product.ApertifPrice) + " | " + strconv.Itoa(product.Difference) + " | " + strconv.Itoa(product.Discount) + " | " + strconv.Itoa(product.ApertifScore) + " | " + product.Country + " |\n")
 		case "Rødvin":
-			redWines.WriteString("| " + product.Basic.ProductShortName + " | " + product.GetVinmonopoletMarkdownUrl() + " | " + strconv.Itoa(product.VinmonopoletPrice) + " | " + strconv.Itoa(product.ApertifPrice) + " | " + strconv.Itoa(product.Difference) + " | " + strconv.Itoa(product.Discount) + " | " + strconv.Itoa(product.ApertifScore) + " | " + product.Country + " |\n")
+			redWines.WriteString("| " + product.GetVivinoMarkdownUrl() + " | " + product.GetVinmonopoletMarkdownUrl() + " | " + strconv.Itoa(product.VinmonopoletPrice) + " | " + strconv.Itoa(product.ApertifPrice) + " | " + strconv.Itoa(product.Difference) + " | " + strconv.Itoa(product.Discount) + " | " + strconv.Itoa(product.ApertifScore) + " | " + product.Country + " |\n")
 		default:
-			otherProducts.WriteString("| " + product.Basic.ProductShortName + " | " + product.GetVinmonopoletMarkdownUrl() + " | " + strconv.Itoa(product.VinmonopoletPrice) + " | " + strconv.Itoa(product.ApertifPrice) + " | " + strconv.Itoa(product.Difference) + " | " + strconv.Itoa(product.Discount) + " | " + strconv.Itoa(product.ApertifScore) + " | " + product.Type + " |\n")
+			otherProducts.WriteString("| " + product.GetVivinoMarkdownUrl() + " | " + product.GetVinmonopoletMarkdownUrl() + " | " + strconv.Itoa(product.VinmonopoletPrice) + " | " + strconv.Itoa(product.ApertifPrice) + " | " + strconv.Itoa(product.Difference) + " | " + strconv.Itoa(product.Discount) + " | " + strconv.Itoa(product.ApertifScore) + " | " + product.Type + " |\n")
 		}
 	}
 
