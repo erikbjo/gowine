@@ -41,7 +41,7 @@ func GetWines() []shared.Product {
 	r.Header.Add("Cache-Control", "no-cache")
 	r.Header.Add("Ocp-Apim-Subscription-Key", apiKey)
 
-	r.URL.RawQuery = "start=" + START //+ "&maxResults=100000"
+	//r.URL.RawQuery = "start=" + START //+ "&maxResults=100000"
 	//r.URL.RawQuery = "maxResults=10000"
 
 	res, err2 := client.Do(r)

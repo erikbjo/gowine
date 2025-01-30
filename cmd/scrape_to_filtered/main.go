@@ -23,11 +23,11 @@ func main() {
 	}
 
 	// Filter for products which has a lower apertif price than vinmonopolet price
-	// Price needs to be 400 NOK or less, and discount needs to be 20% or more
+	// Price needs to be x00 NOK or less, and discount needs to be 20% or more
 	// This is the concept of gowine
 	var gowineProducts []*shared.Product
 	for _, product := range scrapedProducts {
-		if product.ApertifPrice <= 400 && product.GetDiscount() >= 20 {
+		if product.ApertifPrice <= 800 && product.GetDiscount() >= 20 {
 			gowineProducts = append(gowineProducts, product)
 		}
 	}
