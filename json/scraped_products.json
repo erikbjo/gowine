@@ -1,6 +1,46 @@
 [
   {
     "basic": {
+      "productId": "305",
+      "productShortName": "Gaveeske 4 Ølflasker Ved"
+    },
+    "lastChanged": {
+      "date": "2021-06-29",
+      "time": "06:31:38"
+    },
+    "volume": 0,
+    "vinmonopolet_price": 25,
+    "apertif_price": 299,
+    "apertif_score": 88,
+    "type": "Gaveartikler og tilbehør - Gaveesker",
+    "country": "",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "317",
+      "productShortName": "Gaveeske Jul Tradisjon 3 flasker"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:57:41"
+    },
+    "volume": 0,
+    "vinmonopolet_price": 39,
+    "apertif_price": 2079,
+    "apertif_score": 0,
+    "type": "Gaveartikler og tilbehør - Gaveesker",
+    "country": "",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
       "productId": "364",
       "productShortName": "Pulltex-opptrekker, assorterte farger"
     },
@@ -41,46 +81,6 @@
   },
   {
     "basic": {
-      "productId": "317",
-      "productShortName": "Gaveeske Jul Tradisjon 3 flasker"
-    },
-    "lastChanged": {
-      "date": "2021-03-15",
-      "time": "22:57:41"
-    },
-    "volume": 0,
-    "vinmonopolet_price": 39,
-    "apertif_price": 2079,
-    "apertif_score": 0,
-    "type": "Gaveartikler og tilbehør - Gaveesker",
-    "country": "",
-    "grape": "",
-    "alcohol": 0,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "305",
-      "productShortName": "Gaveeske 4 Ølflasker Ved"
-    },
-    "lastChanged": {
-      "date": "2021-06-29",
-      "time": "06:31:38"
-    },
-    "volume": 0,
-    "vinmonopolet_price": 25,
-    "apertif_price": 299,
-    "apertif_score": 88,
-    "type": "Gaveartikler og tilbehør - Gaveesker",
-    "country": "",
-    "grape": "",
-    "alcohol": 0,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
       "productId": "410",
       "productShortName": "Gavepose 1 flaske Beige m/sort mønster"
     },
@@ -92,26 +92,6 @@
     "vinmonopolet_price": 35,
     "apertif_price": 159,
     "apertif_score": 0,
-    "type": "Gaveartikler og tilbehør - Gaveposer",
-    "country": "",
-    "grape": "",
-    "alcohol": 0,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "416",
-      "productShortName": "Gavepose til 1 flaske-Maritimt design"
-    },
-    "lastChanged": {
-      "date": "2021-03-15",
-      "time": "22:57:41"
-    },
-    "volume": 0,
-    "vinmonopolet_price": 35,
-    "apertif_price": 273,
-    "apertif_score": 86,
     "type": "Gaveartikler og tilbehør - Gaveposer",
     "country": "",
     "grape": "",
@@ -141,6 +121,26 @@
   },
   {
     "basic": {
+      "productId": "416",
+      "productShortName": "Gavepose til 1 flaske-Maritimt design"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:57:41"
+    },
+    "volume": 0,
+    "vinmonopolet_price": 35,
+    "apertif_price": 273,
+    "apertif_score": 86,
+    "type": "Gaveartikler og tilbehør - Gaveposer",
+    "country": "",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
       "productId": "435",
       "productShortName": "Hilsningskort-Mai-Bottleneck"
     },
@@ -161,26 +161,6 @@
   },
   {
     "basic": {
-      "productId": "529",
-      "productShortName": "Gavepose Magnum-Julekuler"
-    },
-    "lastChanged": {
-      "date": "2022-10-25",
-      "time": "09:46:36"
-    },
-    "volume": 0,
-    "vinmonopolet_price": 37,
-    "apertif_price": 4100,
-    "apertif_score": 0,
-    "type": "Gaveartikler og tilbehør - Gaveposer",
-    "country": "",
-    "grape": "",
-    "alcohol": 0,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
       "productId": "518",
       "productShortName": "Gavepose 1/2 flaske-Grønn helårskolleks"
     },
@@ -191,6 +171,26 @@
     "volume": 0,
     "vinmonopolet_price": 33,
     "apertif_price": 220,
+    "apertif_score": 0,
+    "type": "Gaveartikler og tilbehør - Gaveposer",
+    "country": "",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "529",
+      "productShortName": "Gavepose Magnum-Julekuler"
+    },
+    "lastChanged": {
+      "date": "2022-10-25",
+      "time": "09:46:36"
+    },
+    "volume": 0,
+    "vinmonopolet_price": 37,
+    "apertif_price": 4100,
     "apertif_score": 0,
     "type": "Gaveartikler og tilbehør - Gaveposer",
     "country": "",
@@ -296,26 +296,6 @@
     "country": "Frankrike",
     "grape": "",
     "alcohol": 12.5,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "7707601",
-      "productShortName": "Bianco di Ampeleia"
-    },
-    "lastChanged": {
-      "date": "2021-03-15",
-      "time": "22:58:33"
-    },
-    "volume": 75,
-    "vinmonopolet_price": 329,
-    "apertif_price": 319,
-    "apertif_score": 86,
-    "type": "Hvitvin",
-    "country": "Italia",
-    "grape": "",
-    "alcohol": 10.5,
     "vivino_score": "",
     "vivino_url": ""
   },
@@ -521,26 +501,6 @@
   },
   {
     "basic": {
-      "productId": "11469505",
-      "productShortName": "Henriot Brut Millésime"
-    },
-    "lastChanged": {
-      "date": "2025-02-07",
-      "time": "11:39:03"
-    },
-    "volume": 150,
-    "vinmonopolet_price": 2200,
-    "apertif_price": 2390,
-    "apertif_score": 0,
-    "type": "Musserende vin - Champagne, brut",
-    "country": "Frankrike",
-    "grape": "",
-    "alcohol": 12,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
       "productId": "11661501",
       "productShortName": "Langmann Schilchersekt"
     },
@@ -601,26 +561,6 @@
   },
   {
     "basic": {
-      "productId": "12797701",
-      "productShortName": "Oriol Artigas El Rumbero"
-    },
-    "lastChanged": {
-      "date": "2021-03-15",
-      "time": "23:00:03"
-    },
-    "volume": 75,
-    "vinmonopolet_price": 262,
-    "apertif_price": 199,
-    "apertif_score": 0,
-    "type": "Rødvin",
-    "country": "Spania",
-    "grape": "",
-    "alcohol": 11.5,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
       "productId": "12797601",
       "productShortName": "Oriol Artigas El Rall"
     },
@@ -631,6 +571,26 @@
     "volume": 75,
     "vinmonopolet_price": 244,
     "apertif_price": 189,
+    "apertif_score": 0,
+    "type": "Rødvin",
+    "country": "Spania",
+    "grape": "",
+    "alcohol": 11.5,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "12797701",
+      "productShortName": "Oriol Artigas El Rumbero"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "23:00:03"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 262,
+    "apertif_price": 199,
     "apertif_score": 0,
     "type": "Rødvin",
     "country": "Spania",
@@ -841,26 +801,6 @@
   },
   {
     "basic": {
-      "productId": "14194901",
-      "productShortName": "Geoff Hardy K1 Chardonnay"
-    },
-    "lastChanged": {
-      "date": "2022-08-30",
-      "time": "11:20:12"
-    },
-    "volume": 75,
-    "vinmonopolet_price": 199,
-    "apertif_price": 179,
-    "apertif_score": 84,
-    "type": "Hvitvin",
-    "country": "Australia",
-    "grape": "",
-    "alcohol": 13,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
       "productId": "14195001",
       "productShortName": "Geoff Hardy K1 Pinot Noir"
     },
@@ -873,6 +813,26 @@
     "apertif_price": 179,
     "apertif_score": 85,
     "type": "Rødvin",
+    "country": "Australia",
+    "grape": "",
+    "alcohol": 13,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "14194901",
+      "productShortName": "Geoff Hardy K1 Chardonnay"
+    },
+    "lastChanged": {
+      "date": "2022-08-30",
+      "time": "11:20:12"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 199,
+    "apertif_price": 179,
+    "apertif_score": 84,
+    "type": "Hvitvin",
     "country": "Australia",
     "grape": "",
     "alcohol": 13,
@@ -921,21 +881,21 @@
   },
   {
     "basic": {
-      "productId": "14490901",
-      "productShortName": "Langmann Himmelreich Sauvignon Blanc"
+      "productId": "14490601",
+      "productShortName": "Langmann Stainz Sauvignon Blanc"
     },
     "lastChanged": {
       "date": "2022-06-23",
       "time": "13:55:52"
     },
     "volume": 75,
-    "vinmonopolet_price": 454,
-    "apertif_price": 273,
-    "apertif_score": 91,
+    "vinmonopolet_price": 259,
+    "apertif_price": 147,
+    "apertif_score": 87,
     "type": "Hvitvin",
     "country": "Østerrike",
     "grape": "",
-    "alcohol": 14,
+    "alcohol": 12.5,
     "vivino_score": "",
     "vivino_url": ""
   },
@@ -953,46 +913,6 @@
     "apertif_price": 186,
     "apertif_score": 89,
     "type": "Rosévin",
-    "country": "Østerrike",
-    "grape": "",
-    "alcohol": 12.5,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "14490701",
-      "productShortName": "Langmann Schilcher Langegg"
-    },
-    "lastChanged": {
-      "date": "2022-05-03",
-      "time": "14:50:07"
-    },
-    "volume": 75,
-    "vinmonopolet_price": 229,
-    "apertif_price": 126,
-    "apertif_score": 86,
-    "type": "Rosévin",
-    "country": "Østerrike",
-    "grape": "",
-    "alcohol": 12.5,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "14490601",
-      "productShortName": "Langmann Stainz Sauvignon Blanc"
-    },
-    "lastChanged": {
-      "date": "2022-06-23",
-      "time": "13:55:52"
-    },
-    "volume": 75,
-    "vinmonopolet_price": 259,
-    "apertif_price": 147,
-    "apertif_score": 87,
-    "type": "Hvitvin",
     "country": "Østerrike",
     "grape": "",
     "alcohol": 12.5,
@@ -1021,6 +941,26 @@
   },
   {
     "basic": {
+      "productId": "14490701",
+      "productShortName": "Langmann Schilcher Langegg"
+    },
+    "lastChanged": {
+      "date": "2022-05-03",
+      "time": "14:50:07"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 229,
+    "apertif_price": 126,
+    "apertif_score": 86,
+    "type": "Rosévin",
+    "country": "Østerrike",
+    "grape": "",
+    "alcohol": 12.5,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
       "productId": "14491001",
       "productShortName": "Langmann Greisdorf Sauvignon Blanc"
     },
@@ -1036,6 +976,26 @@
     "country": "Østerrike",
     "grape": "",
     "alcohol": 13.5,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "14490901",
+      "productShortName": "Langmann Himmelreich Sauvignon Blanc"
+    },
+    "lastChanged": {
+      "date": "2022-06-23",
+      "time": "13:55:52"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 454,
+    "apertif_price": 273,
+    "apertif_score": 91,
+    "type": "Hvitvin",
+    "country": "Østerrike",
+    "grape": "",
+    "alcohol": 14,
     "vivino_score": "",
     "vivino_url": ""
   },
@@ -1161,26 +1121,6 @@
   },
   {
     "basic": {
-      "productId": "14934701",
-      "productShortName": "Crossover Shivers Golden Ale"
-    },
-    "lastChanged": {
-      "date": "2025-01-22",
-      "time": "12:08:53"
-    },
-    "volume": 75,
-    "vinmonopolet_price": 199,
-    "apertif_price": 149,
-    "apertif_score": 86,
-    "type": "Øl - Surøl",
-    "country": "England",
-    "grape": "",
-    "alcohol": 7.1,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
       "productId": "15110501",
       "productShortName": "Listel Pet Nat"
     },
@@ -1221,26 +1161,6 @@
   },
   {
     "basic": {
-      "productId": "15415601",
-      "productShortName": "Tres Carabelas La Santa María"
-    },
-    "lastChanged": {
-      "date": "2023-01-23",
-      "time": "07:56:10"
-    },
-    "volume": 75,
-    "vinmonopolet_price": 148,
-    "apertif_price": 129,
-    "apertif_score": 0,
-    "type": "Hvitvin",
-    "country": "Spania",
-    "grape": "",
-    "alcohol": 12,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
       "productId": "15415801",
       "productShortName": "Tres Carabelas La Pinta"
     },
@@ -1256,6 +1176,26 @@
     "country": "Spania",
     "grape": "",
     "alcohol": 12.5,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15415601",
+      "productShortName": "Tres Carabelas La Santa María"
+    },
+    "lastChanged": {
+      "date": "2023-01-23",
+      "time": "07:56:10"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 148,
+    "apertif_price": 129,
+    "apertif_score": 0,
+    "type": "Hvitvin",
+    "country": "Spania",
+    "grape": "",
+    "alcohol": 12,
     "vivino_score": "",
     "vivino_url": ""
   },
@@ -1341,26 +1281,6 @@
   },
   {
     "basic": {
-      "productId": "15840901",
-      "productShortName": "Parr Bottle Baby"
-    },
-    "lastChanged": {
-      "date": "2024-01-09",
-      "time": "08:20:32"
-    },
-    "volume": 75,
-    "vinmonopolet_price": 329,
-    "apertif_price": 250,
-    "apertif_score": 0,
-    "type": "Fruktvin",
-    "country": "USA",
-    "grape": "",
-    "alcohol": 10,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
       "productId": "15841001",
       "productShortName": "Phelan Farm The Scythian Wine Co. Red"
     },
@@ -1376,6 +1296,26 @@
     "country": "USA",
     "grape": "",
     "alcohol": 13,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15840901",
+      "productShortName": "Parr Bottle Baby"
+    },
+    "lastChanged": {
+      "date": "2024-01-09",
+      "time": "08:20:32"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 329,
+    "apertif_price": 250,
+    "apertif_score": 0,
+    "type": "Fruktvin",
+    "country": "USA",
+    "grape": "",
+    "alcohol": 10,
     "vivino_score": "",
     "vivino_url": ""
   },
@@ -1541,7 +1481,7 @@
   },
   {
     "basic": {
-      "productId": "16920001",
+      "productId": "16920201",
       "productShortName": "G. Mascarello Barolo Monprivato"
     },
     "lastChanged": {
@@ -1549,7 +1489,7 @@
       "time": "12:11:36"
     },
     "volume": 75,
-    "vinmonopolet_price": 2190,
+    "vinmonopolet_price": 2290,
     "apertif_price": 1490,
     "apertif_score": 0,
     "type": "Rødvin",
@@ -1561,7 +1501,7 @@
   },
   {
     "basic": {
-      "productId": "16920201",
+      "productId": "16920001",
       "productShortName": "G. Mascarello Barolo Monprivato"
     },
     "lastChanged": {
@@ -1569,7 +1509,7 @@
       "time": "12:11:36"
     },
     "volume": 75,
-    "vinmonopolet_price": 2290,
+    "vinmonopolet_price": 2190,
     "apertif_price": 1490,
     "apertif_score": 0,
     "type": "Rødvin",
@@ -1641,26 +1581,6 @@
   },
   {
     "basic": {
-      "productId": "17425601",
-      "productShortName": "G. Mascarello Barolo Monprivato"
-    },
-    "lastChanged": {
-      "date": "2024-06-13",
-      "time": "06:13:20"
-    },
-    "volume": 75,
-    "vinmonopolet_price": 2390,
-    "apertif_price": 1890,
-    "apertif_score": 96,
-    "type": "Rødvin",
-    "country": "Italia",
-    "grape": "",
-    "alcohol": 14.5,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
       "productId": "17425701",
       "productShortName": "G. Mascarello Barolo Villero"
     },
@@ -1676,6 +1596,26 @@
     "country": "Italia",
     "grape": "",
     "alcohol": 14,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "17425601",
+      "productShortName": "G. Mascarello Barolo Monprivato"
+    },
+    "lastChanged": {
+      "date": "2024-06-13",
+      "time": "06:13:20"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 2390,
+    "apertif_price": 1890,
+    "apertif_score": 96,
+    "type": "Rødvin",
+    "country": "Italia",
+    "grape": "",
+    "alcohol": 14.5,
     "vivino_score": "",
     "vivino_url": ""
   },
@@ -1701,26 +1641,6 @@
   },
   {
     "basic": {
-      "productId": "18882001",
-      "productShortName": "Langmann Ried Hochgrail Riesling"
-    },
-    "lastChanged": {
-      "date": "2025-01-07",
-      "time": "08:28:37"
-    },
-    "volume": 75,
-    "vinmonopolet_price": 319,
-    "apertif_price": 217,
-    "apertif_score": 89,
-    "type": "Hvitvin",
-    "country": "Østerrike",
-    "grape": "",
-    "alcohol": 13.5,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
       "productId": "18881901",
       "productShortName": "Langmann Hochgrail Sonnenhang Schilcher"
     },
@@ -1736,6 +1656,26 @@
     "country": "Østerrike",
     "grape": "",
     "alcohol": 13,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "18882001",
+      "productShortName": "Langmann Ried Hochgrail Riesling"
+    },
+    "lastChanged": {
+      "date": "2025-01-07",
+      "time": "08:28:37"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 319,
+    "apertif_price": 217,
+    "apertif_score": 89,
+    "type": "Hvitvin",
+    "country": "Østerrike",
+    "grape": "",
+    "alcohol": 13.5,
     "vivino_score": "",
     "vivino_url": ""
   },
