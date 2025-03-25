@@ -1,66 +1,6 @@
 [
   {
     "basic": {
-      "productId": "305",
-      "productShortName": "Gaveeske 4 Ølflasker Ved"
-    },
-    "lastChanged": {
-      "date": "2021-06-29",
-      "time": "06:31:38"
-    },
-    "volume": 0,
-    "vinmonopolet_price": 25,
-    "apertif_price": 299,
-    "apertif_score": 88,
-    "type": "Gaveartikler og tilbehør - Gaveesker",
-    "country": "",
-    "grape": "",
-    "alcohol": 0,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "317",
-      "productShortName": "Gaveeske Jul Tradisjon 3 flasker"
-    },
-    "lastChanged": {
-      "date": "2021-03-15",
-      "time": "22:57:41"
-    },
-    "volume": 0,
-    "vinmonopolet_price": 39,
-    "apertif_price": 2079,
-    "apertif_score": 0,
-    "type": "Gaveartikler og tilbehør - Gaveesker",
-    "country": "",
-    "grape": "",
-    "alcohol": 0,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "364",
-      "productShortName": "Pulltex-opptrekker, assorterte farger"
-    },
-    "lastChanged": {
-      "date": "2021-06-29",
-      "time": "06:32:01"
-    },
-    "volume": 0,
-    "vinmonopolet_price": 99,
-    "apertif_price": 273,
-    "apertif_score": 0,
-    "type": "Gaveartikler og tilbehør - Tilbehør",
-    "country": "",
-    "grape": "",
-    "alcohol": 0,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
       "productId": "340",
       "productShortName": "Hilsningskort-lite - Blid sol"
     },
@@ -81,168 +21,228 @@
   },
   {
     "basic": {
-      "productId": "410",
-      "productShortName": "Gavepose 1 flaske Beige m/sort mønster"
-    },
-    "lastChanged": {
-      "date": "2021-06-04",
-      "time": "06:27:52"
-    },
-    "volume": 0,
-    "vinmonopolet_price": 35,
-    "apertif_price": 159,
-    "apertif_score": 0,
-    "type": "Gaveartikler og tilbehør - Gaveposer",
-    "country": "",
-    "grape": "",
-    "alcohol": 0,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "426",
-      "productShortName": "Stort kort-Gratulerer med hvite blomster"
-    },
-    "lastChanged": {
-      "date": "2021-03-15",
-      "time": "22:57:41"
-    },
-    "volume": 0,
-    "vinmonopolet_price": 25,
-    "apertif_price": 280,
-    "apertif_score": 0,
-    "type": "Gaveartikler og tilbehør - Hilsningskort",
-    "country": "",
-    "grape": "",
-    "alcohol": 0,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "416",
-      "productShortName": "Gavepose til 1 flaske-Maritimt design"
-    },
-    "lastChanged": {
-      "date": "2021-03-15",
-      "time": "22:57:41"
-    },
-    "volume": 0,
-    "vinmonopolet_price": 35,
-    "apertif_price": 273,
-    "apertif_score": 86,
-    "type": "Gaveartikler og tilbehør - Gaveposer",
-    "country": "",
-    "grape": "",
-    "alcohol": 0,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "435",
-      "productShortName": "Hilsningskort-Mai-Bottleneck"
-    },
-    "lastChanged": {
-      "date": "2021-03-15",
-      "time": "22:57:41"
-    },
-    "volume": 0,
-    "vinmonopolet_price": 25,
-    "apertif_price": 1475,
-    "apertif_score": 89,
-    "type": "Gaveartikler og tilbehør - Hilsningskort",
-    "country": "",
-    "grape": "",
-    "alcohol": 0,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "518",
-      "productShortName": "Gavepose 1/2 flaske-Grønn helårskolleks"
-    },
-    "lastChanged": {
-      "date": "2022-08-10",
-      "time": "10:30:46"
-    },
-    "volume": 0,
-    "vinmonopolet_price": 33,
-    "apertif_price": 220,
-    "apertif_score": 0,
-    "type": "Gaveartikler og tilbehør - Gaveposer",
-    "country": "",
-    "grape": "",
-    "alcohol": 0,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "529",
-      "productShortName": "Gavepose Magnum-Julekuler"
-    },
-    "lastChanged": {
-      "date": "2022-10-25",
-      "time": "09:46:36"
-    },
-    "volume": 0,
-    "vinmonopolet_price": 37,
-    "apertif_price": 4100,
-    "apertif_score": 0,
-    "type": "Gaveartikler og tilbehør - Gaveposer",
-    "country": "",
-    "grape": "",
-    "alcohol": 0,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "580",
-      "productShortName": "Gavepose 1 flaske-Trær"
-    },
-    "lastChanged": {
-      "date": "2024-05-06",
-      "time": "08:40:50"
-    },
-    "volume": 0,
-    "vinmonopolet_price": 35,
-    "apertif_price": 232,
-    "apertif_score": 0,
-    "type": "Gaveartikler og tilbehør - Gaveposer",
-    "country": "",
-    "grape": "",
-    "alcohol": 0,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "457001",
-      "productShortName": "Dominio de la Vega Brut Reserva Especial"
+      "productId": "704101",
+      "productShortName": "Marqués de Vitoria Crianza"
     },
     "lastChanged": {
       "date": "2021-03-15",
       "time": "22:57:42"
     },
     "volume": 75,
-    "vinmonopolet_price": 219,
-    "apertif_price": 169,
-    "apertif_score": 84,
-    "type": "Musserende vin - Musserende vin",
+    "vinmonopolet_price": 169,
+    "apertif_price": 149,
+    "apertif_score": 88,
+    "type": "Rødvin",
     "country": "Spania",
     "grape": "",
-    "alcohol": 12.5,
+    "alcohol": 0,
     "vivino_score": "",
     "vivino_url": ""
   },
   {
     "basic": {
-      "productId": "3514801",
-      "productShortName": "Alta Alella Bruant Cava Brut Nature"
+      "productId": "946001",
+      "productShortName": "Yealands Single Block S1 Sauvignon Blanc"
+    },
+    "lastChanged": {
+      "date": "2021-04-16",
+      "time": "06:19:05"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 229,
+    "apertif_price": 174,
+    "apertif_score": 87,
+    "type": "Hvitvin",
+    "country": "New Zealand",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "947901",
+      "productShortName": "Ochota The Green Room Grenache Syrah"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:57:42"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 359,
+    "apertif_price": 299,
+    "apertif_score": 89,
+    "type": "Rødvin",
+    "country": "Australia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "984601",
+      "productShortName": "Ochota Barrels A Forest Pinot Noir"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:57:42"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 439,
+    "apertif_price": 349,
+    "apertif_score": 90,
+    "type": "Rødvin",
+    "country": "Australia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "1277206",
+      "productShortName": "Robertson Chenin Blanc"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:57:42"
+    },
+    "volume": 300,
+    "vinmonopolet_price": 429,
+    "apertif_price": 347,
+    "apertif_score": 74,
+    "type": "Hvitvin",
+    "country": "Sør-Afrika",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "1289801",
+      "productShortName": "Mosse Le Rouchefer"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:57:42"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 549,
+    "apertif_price": 399,
+    "apertif_score": 92,
+    "type": "Hvitvin",
+    "country": "Frankrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "1450301",
+      "productShortName": "Ch. de la Cour Grand Cru"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:57:42"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 319,
+    "apertif_price": 272,
+    "apertif_score": 86,
+    "type": "Rødvin",
+    "country": "Frankrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "1958801",
+      "productShortName": "Intellego Elementis"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:57:42"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 329,
+    "apertif_price": 229,
+    "apertif_score": 87,
+    "type": "Hvitvin",
+    "country": "Sør-Afrika",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "2829001",
+      "productShortName": "Intellego Kedungu"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:02"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 249,
+    "apertif_price": 179,
+    "apertif_score": 88,
+    "type": "Rødvin",
+    "country": "Sør-Afrika",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "3407101",
+      "productShortName": "Ochota Barrels The price of silence"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:02"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 434,
+    "apertif_price": 349,
+    "apertif_score": 89,
+    "type": "Rødvin",
+    "country": "Australia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "3593601",
+      "productShortName": "Lucy M. Noir de Florette"
+    },
+    "lastChanged": {
+      "date": "2022-06-23",
+      "time": "13:55:52"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 299,
+    "apertif_price": 229,
+    "apertif_score": 89,
+    "type": "Rødvin",
+    "country": "Australia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "3593701",
+      "productShortName": "Lucy M. Wildman Blanc"
     },
     "lastChanged": {
       "date": "2021-03-15",
@@ -250,99 +250,599 @@
     },
     "volume": 75,
     "vinmonopolet_price": 299,
-    "apertif_price": 219,
+    "apertif_price": 229,
     "apertif_score": 87,
-    "type": "Musserende vin - Musserende vin",
-    "country": "Spania",
+    "type": "Hvitvin",
+    "country": "Australia",
     "grape": "",
-    "alcohol": 12,
+    "alcohol": 0,
     "vivino_score": "",
     "vivino_url": ""
   },
   {
     "basic": {
-      "productId": "7311701",
-      "productShortName": "Aroa Larossa"
+      "productId": "3595401",
+      "productShortName": "Reyneke Reserve red"
     },
     "lastChanged": {
       "date": "2021-03-15",
-      "time": "22:58:33"
+      "time": "22:58:02"
     },
     "volume": 75,
-    "vinmonopolet_price": 206,
-    "apertif_price": 124,
+    "vinmonopolet_price": 749,
+    "apertif_price": 587,
+    "apertif_score": 88,
+    "type": "Rødvin",
+    "country": "Sør-Afrika",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "3693501",
+      "productShortName": "Momento Tinta Barocca"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:02"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 399,
+    "apertif_price": 299,
+    "apertif_score": 89,
+    "type": "Rødvin",
+    "country": "Sør-Afrika",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "3694401",
+      "productShortName": "Mother Rock White"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:02"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 299,
+    "apertif_price": 249,
+    "apertif_score": 89,
+    "type": "Hvitvin",
+    "country": "Sør-Afrika",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "4390901",
+      "productShortName": "Marqués de Griñon Syrah"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:02"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 435,
+    "apertif_price": 289,
+    "apertif_score": 89,
+    "type": "Rødvin",
+    "country": "Spania",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "4390701",
+      "productShortName": "Marqués de Griñon Petit Verdot"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:02"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 435,
+    "apertif_price": 289,
+    "apertif_score": 0,
+    "type": "Rødvin",
+    "country": "Spania",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "4449101",
+      "productShortName": "Jacob's Creek Sparkling Rosé"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:02"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 114,
+    "apertif_price": 109,
     "apertif_score": 84,
-    "type": "Rosévin",
-    "country": "Spania",
+    "type": "Musserende vin - Musserende vin, rosé",
+    "country": "Australia",
     "grape": "",
-    "alcohol": 14.5,
+    "alcohol": 0,
     "vivino_score": "",
     "vivino_url": ""
   },
   {
     "basic": {
-      "productId": "7604301",
-      "productShortName": "Love by Léoube"
+      "productId": "5197301",
+      "productShortName": "Valli Unite Barbera Gaitù"
     },
     "lastChanged": {
       "date": "2021-03-15",
-      "time": "22:58:33"
+      "time": "22:58:02"
     },
     "volume": 75,
-    "vinmonopolet_price": 198,
-    "apertif_price": 149,
-    "apertif_score": 85,
-    "type": "Rosévin",
+    "vinmonopolet_price": 244,
+    "apertif_price": 179,
+    "apertif_score": 88,
+    "type": "Rødvin",
+    "country": "Italia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "5197401",
+      "productShortName": "Valli Unite Dolcetto Diogene"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:02"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 246,
+    "apertif_price": 179,
+    "apertif_score": 87,
+    "type": "Rødvin",
+    "country": "Italia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "5518401",
+      "productShortName": "Bruno Paillard Première Cuvée Extra Brut"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:02"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 599,
+    "apertif_price": 587,
+    "apertif_score": 93,
+    "type": "Musserende vin - Champagne extra brut",
     "country": "Frankrike",
     "grape": "",
-    "alcohol": 12.5,
+    "alcohol": 0,
     "vivino_score": "",
     "vivino_url": ""
   },
   {
     "basic": {
-      "productId": "7909301",
-      "productShortName": "Heisser Hirsch Glühwein Weiss"
+      "productId": "6803101",
+      "productShortName": "Intellego The Pink Moustache"
     },
     "lastChanged": {
-      "date": "2021-03-15",
-      "time": "22:58:33"
+      "date": "2021-10-30",
+      "time": "06:23:51"
     },
     "volume": 75,
-    "vinmonopolet_price": 149,
-    "apertif_price": 89,
-    "apertif_score": 79,
-    "type": "Aromatisert vin",
-    "country": "Tyskland",
+    "vinmonopolet_price": 219,
+    "apertif_price": 169,
+    "apertif_score": 87,
+    "type": "Rødvin",
+    "country": "Sør-Afrika",
     "grape": "",
-    "alcohol": 10,
+    "alcohol": 0,
     "vivino_score": "",
     "vivino_url": ""
   },
   {
     "basic": {
-      "productId": "8202001",
-      "productShortName": "Dom. St. Cyr La Galoche Blanc"
+      "productId": "6803201",
+      "productShortName": "Roagna Derthona Montemarzino"
     },
     "lastChanged": {
       "date": "2021-03-15",
       "time": "22:58:33"
     },
     "volume": 75,
-    "vinmonopolet_price": 199,
-    "apertif_price": 150,
-    "apertif_score": 85,
+    "vinmonopolet_price": 949,
+    "apertif_price": 799,
+    "apertif_score": 94,
+    "type": "Hvitvin",
+    "country": "Italia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "6802901",
+      "productShortName": "Roagna Solea Langhe"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 899,
+    "apertif_price": 699,
+    "apertif_score": 91,
+    "type": "Hvitvin",
+    "country": "Italia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "6875801",
+      "productShortName": "Lucy M. Vino Rosso"
+    },
+    "lastChanged": {
+      "date": "2022-06-23",
+      "time": "13:55:52"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 279,
+    "apertif_price": 229,
+    "apertif_score": 89,
+    "type": "Rødvin",
+    "country": "Australia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "6919701",
+      "productShortName": "Ki No Bi Kyoto Dry Gin"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 70,
+    "vinmonopolet_price": 719,
+    "apertif_price": 597,
+    "apertif_score": 86,
+    "type": "Brennevin - Gin",
+    "country": "Japan",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "7161301",
+      "productShortName": "Craven Cinsaut"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 319,
+    "apertif_price": 229,
+    "apertif_score": 88,
+    "type": "Rødvin",
+    "country": "Sør-Afrika",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "7339901",
+      "productShortName": "Grand Bateau Blanc"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 229,
+    "apertif_price": 226,
+    "apertif_score": 88,
     "type": "Hvitvin",
     "country": "Frankrike",
     "grape": "",
-    "alcohol": 12.5,
+    "alcohol": 0,
     "vivino_score": "",
     "vivino_url": ""
   },
   {
     "basic": {
-      "productId": "8290001",
-      "productShortName": "Langmann Schilcato"
+      "productId": "7665801",
+      "productShortName": "Folonari B.S.T. Cab Sauv Merlot"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 224,
+    "apertif_price": 199,
+    "apertif_score": 0,
+    "type": "Rødvin",
+    "country": "Italia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "7783101",
+      "productShortName": "Gratien \u0026 Meyer Crémant de Loire Brut"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 209,
+    "apertif_price": 199,
+    "apertif_score": 76,
+    "type": "Musserende vin - Musserende vin",
+    "country": "Frankrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "7818901",
+      "productShortName": "Jauma Blewitt Springs Chenin"
+    },
+    "lastChanged": {
+      "date": "2023-03-27",
+      "time": "13:36:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 319,
+    "apertif_price": 219,
+    "apertif_score": 89,
+    "type": "Hvitvin",
+    "country": "Australia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "7818701",
+      "productShortName": "Jauma Peek a boo Pet Nat"
+    },
+    "lastChanged": {
+      "date": "2021-11-05",
+      "time": "05:31:24"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 329,
+    "apertif_price": 219,
+    "apertif_score": 87,
+    "type": "Perlende vin - Perlende vin, rosé",
+    "country": "Australia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "8125701",
+      "productShortName": "Scions of Sinai Nomadis."
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 279,
+    "apertif_price": 219,
+    "apertif_score": 89,
+    "type": "Rødvin",
+    "country": "Sør-Afrika",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "8152901",
+      "productShortName": "Marc Kreydenweiss Perrières"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 299,
+    "apertif_price": 119,
+    "apertif_score": 88,
+    "type": "Rødvin",
+    "country": "Frankrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "8304001",
+      "productShortName": "Mother Rock Holocene"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 339,
+    "apertif_price": 229,
+    "apertif_score": 88,
+    "type": "Rødvin",
+    "country": "Sør-Afrika",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "8329201",
+      "productShortName": "Jauma Danby Grenache"
+    },
+    "lastChanged": {
+      "date": "2021-11-05",
+      "time": "05:31:24"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 319,
+    "apertif_price": 219,
+    "apertif_score": 86,
+    "type": "Rødvin",
+    "country": "Australia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "9018001",
+      "productShortName": "Boekenhoutskloof Syrah"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 679,
+    "apertif_price": 488,
+    "apertif_score": 80,
+    "type": "Rødvin",
+    "country": "Sør-Afrika",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "9645801",
+      "productShortName": "Vouette \u0026 Sorbee Blanc d'Argile"
+    },
+    "lastChanged": {
+      "date": "2021-04-16",
+      "time": "06:20:20"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 1099,
+    "apertif_price": 949,
+    "apertif_score": 94,
+    "type": "Musserende vin - Champagne extra brut",
+    "country": "Frankrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "9657101",
+      "productShortName": "A. Bichot Crémant Bourgogne Brut Réserve"
+    },
+    "lastChanged": {
+      "date": "2025-01-28",
+      "time": "11:38:58"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 259,
+    "apertif_price": 248,
+    "apertif_score": 85,
+    "type": "Musserende vin - Musserende vin",
+    "country": "Frankrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "9752201",
+      "productShortName": "Valli Unite Rosatea"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 245,
+    "apertif_price": 149,
+    "apertif_score": 87,
+    "type": "Rosévin",
+    "country": "Italia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "10036401",
+      "productShortName": "Nieva York Pét-Nat"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 299,
+    "apertif_price": 229,
+    "apertif_score": 88,
+    "type": "Perlende vin - Perlende vin, hvit",
+    "country": "Spania",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "10036001",
+      "productShortName": "Dom. Les Enfants Sauvages Enfant Sauvage"
     },
     "lastChanged": {
       "date": "2021-03-15",
@@ -350,139 +850,279 @@
     },
     "volume": 75,
     "vinmonopolet_price": 189,
-    "apertif_price": 169,
-    "apertif_score": 86,
-    "type": "Perlende vin - Perlende vin, rosé",
-    "country": "Østerrike",
+    "apertif_price": 142,
+    "apertif_score": 88,
+    "type": "Rødvin",
+    "country": "Frankrike",
     "grape": "",
-    "alcohol": 7.5,
+    "alcohol": 0,
     "vivino_score": "",
     "vivino_url": ""
   },
   {
     "basic": {
-      "productId": "10346001",
-      "productShortName": "Schmitges vom Roten Schiefer Rsl Kab"
+      "productId": "10156601",
+      "productShortName": "Ca N'Estruc BI Xarel lo II"
     },
     "lastChanged": {
-      "date": "2023-02-07",
-      "time": "09:11:26"
+      "date": "2024-05-29",
+      "time": "11:28:11"
     },
     "volume": 75,
-    "vinmonopolet_price": 204,
-    "apertif_price": 169,
-    "apertif_score": 85,
+    "vinmonopolet_price": 269,
+    "apertif_price": 139,
+    "apertif_score": 90,
     "type": "Hvitvin",
-    "country": "Tyskland",
+    "country": "Spania",
     "grape": "",
-    "alcohol": 8.5,
+    "alcohol": 0,
     "vivino_score": "",
     "vivino_url": ""
   },
   {
     "basic": {
-      "productId": "10359801",
-      "productShortName": "Adega Algueira Pizarra"
+      "productId": "10259801",
+      "productShortName": "Castillo de Zalin Monastrell"
     },
     "lastChanged": {
       "date": "2021-03-15",
       "time": "22:58:33"
     },
     "volume": 75,
-    "vinmonopolet_price": 511,
-    "apertif_price": 386,
-    "apertif_score": 91,
+    "vinmonopolet_price": 169,
+    "apertif_price": 139,
+    "apertif_score": 82,
     "type": "Rødvin",
     "country": "Spania",
     "grape": "",
-    "alcohol": 13.5,
+    "alcohol": 0,
     "vivino_score": "",
     "vivino_url": ""
   },
   {
     "basic": {
-      "productId": "10809301",
-      "productShortName": "Langmann Schilcher PetNat"
+      "productId": "10280401",
+      "productShortName": "Rennersistas Waiting For Tom Weiss"
     },
     "lastChanged": {
       "date": "2021-03-15",
       "time": "22:58:33"
     },
     "volume": 75,
-    "vinmonopolet_price": 284,
-    "apertif_price": 154,
-    "apertif_score": 85,
-    "type": "Perlende vin - Perlende vin, rosé",
+    "vinmonopolet_price": 259,
+    "apertif_price": 209,
+    "apertif_score": 88,
+    "type": "Hvitvin",
     "country": "Østerrike",
     "grape": "",
-    "alcohol": 11.5,
+    "alcohol": 0,
     "vivino_score": "",
     "vivino_url": ""
   },
   {
     "basic": {
-      "productId": "10846901",
-      "productShortName": "Ca' Nova Aurora Novaresi Nebbiolo"
-    },
-    "lastChanged": {
-      "date": "2021-04-16",
-      "time": "06:20:46"
-    },
-    "volume": 75,
-    "vinmonopolet_price": 179,
-    "apertif_price": 159,
-    "apertif_score": 86,
-    "type": "Rosévin",
-    "country": "Italia",
-    "grape": "",
-    "alcohol": 12.5,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "10890501",
-      "productShortName": "Langmann Schilcher Klassik"
+      "productId": "10291501",
+      "productShortName": "Envinate Benje Tinto"
     },
     "lastChanged": {
       "date": "2021-03-15",
       "time": "22:58:33"
     },
     "volume": 75,
-    "vinmonopolet_price": 179,
-    "apertif_price": 156,
-    "apertif_score": 84,
-    "type": "Rosévin",
-    "country": "Østerrike",
-    "grape": "",
-    "alcohol": 11.5,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "11101801",
-      "productShortName": "Masia Salat Brut Rosé"
-    },
-    "lastChanged": {
-      "date": "2021-03-15",
-      "time": "22:58:33"
-    },
-    "volume": 75,
-    "vinmonopolet_price": 159,
-    "apertif_price": 120,
-    "apertif_score": 0,
-    "type": "Musserende vin - Musserende vin, rosé",
+    "vinmonopolet_price": 289,
+    "apertif_price": 199,
+    "apertif_score": 88,
+    "type": "Rødvin",
     "country": "Spania",
     "grape": "",
-    "alcohol": 11.5,
+    "alcohol": 0,
     "vivino_score": "",
     "vivino_url": ""
   },
   {
     "basic": {
-      "productId": "11161701",
-      "productShortName": "Pietramore Trebbiano Pet Nat"
+      "productId": "10329401",
+      "productShortName": "Leth St. Laurent Reserve"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 254,
+    "apertif_price": 199,
+    "apertif_score": 84,
+    "type": "Rødvin",
+    "country": "Østerrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "10462401",
+      "productShortName": "Nikka Coffey Gin"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 70,
+    "vinmonopolet_price": 799,
+    "apertif_price": 629,
+    "apertif_score": 89,
+    "type": "Brennevin - Gin",
+    "country": "Japan",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "10499601",
+      "productShortName": "Lourens Skuinskap Steen"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 529,
+    "apertif_price": 379,
+    "apertif_score": 90,
+    "type": "Hvitvin",
+    "country": "Sør-Afrika",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "10518901",
+      "productShortName": "Patrick Sullivan Jumpin Juice Sunset"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 269,
+    "apertif_price": 219,
+    "apertif_score": 87,
+    "type": "Rødvin",
+    "country": "Australia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "10572101",
+      "productShortName": "Casa de la Seda"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 249,
+    "apertif_price": 200,
+    "apertif_score": 79,
+    "type": "Rødvin",
+    "country": "Spania",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "10632501",
+      "productShortName": "Valli Unite Terragno"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 307,
+    "apertif_price": 199,
+    "apertif_score": 88,
+    "type": "Hvitvin",
+    "country": "Italia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "10637701",
+      "productShortName": "Momento Grenache Gris"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 349,
+    "apertif_price": 249,
+    "apertif_score": 89,
+    "type": "Hvitvin",
+    "country": "Sør-Afrika",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "10709101",
+      "productShortName": "Lucy M. Piccadilly Valley Chardonnay"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 329,
+    "apertif_price": 249,
+    "apertif_score": 90,
+    "type": "Hvitvin",
+    "country": "Australia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "10785701",
+      "productShortName": "Rall Old Vine Cinsault Pet Nat"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 319,
+    "apertif_price": 249,
+    "apertif_score": 87,
+    "type": "Perlende vin - Perlende vin, hvit",
+    "country": "Sør-Afrika",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "10831601",
+      "productShortName": "Julien de Savignac Lisa"
     },
     "lastChanged": {
       "date": "2021-03-15",
@@ -490,19 +1130,259 @@
     },
     "volume": 75,
     "vinmonopolet_price": 239,
-    "apertif_price": 179,
-    "apertif_score": 84,
-    "type": "Perlende vin - Perlende vin, hvit",
-    "country": "Italia",
+    "apertif_price": 159,
+    "apertif_score": 79,
+    "type": "Hvitvin",
+    "country": "Frankrike",
     "grape": "",
-    "alcohol": 13.5,
+    "alcohol": 0,
     "vivino_score": "",
     "vivino_url": ""
   },
   {
     "basic": {
-      "productId": "11661501",
-      "productShortName": "Langmann Schilchersekt"
+      "productId": "10888901",
+      "productShortName": "Evening Land La Source Chardonnay"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 829,
+    "apertif_price": 650,
+    "apertif_score": 93,
+    "type": "Hvitvin",
+    "country": "USA",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "10906801",
+      "productShortName": "Envinate Migan Tinto"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 349,
+    "apertif_price": 279,
+    "apertif_score": 89,
+    "type": "Rødvin",
+    "country": "Spania",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "10966201",
+      "productShortName": "Ismael Gozalo Afinador de Estrellas"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 349,
+    "apertif_price": 239,
+    "apertif_score": 90,
+    "type": "Perlende vin - Perlende vin, rosé",
+    "country": "Spania",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "11035001",
+      "productShortName": "P. Sullivan Baw Baw Shire Chardonnay"
+    },
+    "lastChanged": {
+      "date": "2024-10-11",
+      "time": "14:02:17"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 599,
+    "apertif_price": 429,
+    "apertif_score": 90,
+    "type": "Hvitvin",
+    "country": "Australia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "11071601",
+      "productShortName": "Overhex Mensa Red"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 209,
+    "apertif_price": 149,
+    "apertif_score": 86,
+    "type": "Rødvin",
+    "country": "Sør-Afrika",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "11101501",
+      "productShortName": "Parajes del Valle Monastrell"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 199,
+    "apertif_price": 180,
+    "apertif_score": 86,
+    "type": "Rødvin",
+    "country": "Spania",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "11144601",
+      "productShortName": "Rupert \u0026 Rothschild Baroness Nadine"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 378,
+    "apertif_price": 292,
+    "apertif_score": 89,
+    "type": "Hvitvin",
+    "country": "Sør-Afrika",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "11164701",
+      "productShortName": "Rupert \u0026 Rothschild Baron Edmond"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 549,
+    "apertif_price": 469,
+    "apertif_score": 87,
+    "type": "Rødvin",
+    "country": "Sør-Afrika",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "11223701",
+      "productShortName": "La Salada La Fusta"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 339,
+    "apertif_price": 229,
+    "apertif_score": 89,
+    "type": "Hvitvin",
+    "country": "Spania",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "11223801",
+      "productShortName": "Còsmic Vinyaters Encarinyades"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 419,
+    "apertif_price": 299,
+    "apertif_score": 91,
+    "type": "Hvitvin",
+    "country": "Spania",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "11305301",
+      "productShortName": "Marchand Bourgogne Pinot Noir"
+    },
+    "lastChanged": {
+      "date": "2024-10-11",
+      "time": "14:02:17"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 400,
+    "apertif_price": 292,
+    "apertif_score": 0,
+    "type": "Rødvin",
+    "country": "Frankrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "11306601",
+      "productShortName": "Marchand Le Parc de Faye"
+    },
+    "lastChanged": {
+      "date": "2024-10-11",
+      "time": "14:02:17"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 479,
+    "apertif_price": 390,
+    "apertif_score": 0,
+    "type": "Rødvin",
+    "country": "Frankrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "11362201",
+      "productShortName": "Intellego Halagasha"
     },
     "lastChanged": {
       "date": "2021-03-15",
@@ -510,1192 +1390,4512 @@
     },
     "volume": 75,
     "vinmonopolet_price": 249,
-    "apertif_price": 154,
-    "apertif_score": 86,
-    "type": "Musserende vin - Musserende vin, rosé",
-    "country": "Østerrike",
-    "grape": "",
-    "alcohol": 12,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "12136201",
-      "productShortName": "G. Mascarello Barolo Monprivato"
-    },
-    "lastChanged": {
-      "date": "2021-03-15",
-      "time": "22:58:33"
-    },
-    "volume": 75,
-    "vinmonopolet_price": 2390,
-    "apertif_price": 1490,
-    "apertif_score": 94,
-    "type": "Rødvin",
-    "country": "Italia",
-    "grape": "",
-    "alcohol": 14.5,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "12339601",
-      "productShortName": "Fusser Herrgottsacker Spätburgunder"
-    },
-    "lastChanged": {
-      "date": "2021-03-15",
-      "time": "22:58:33"
-    },
-    "volume": 75,
-    "vinmonopolet_price": 449,
-    "apertif_price": 300,
+    "apertif_price": 179,
     "apertif_score": 89,
     "type": "Rødvin",
+    "country": "Sør-Afrika",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "11362301",
+      "productShortName": "Intellego The Story of Harry"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 219,
+    "apertif_price": 159,
+    "apertif_score": 85,
+    "type": "Hvitvin",
+    "country": "Sør-Afrika",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "11363001",
+      "productShortName": "Shalva Gvaramadze Tsarapi"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 276,
+    "apertif_price": 199,
+    "apertif_score": 89,
+    "type": "Hvitvin",
+    "country": "Georgia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "11405601",
+      "productShortName": "Marqués de Griñón Graciano"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 435,
+    "apertif_price": 289,
+    "apertif_score": 87,
+    "type": "Rødvin",
+    "country": "Spania",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "11484101",
+      "productShortName": "Joh. Bapt. Schäfer Dorsheim Rsl Trocken"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 289,
+    "apertif_price": 230,
+    "apertif_score": 89,
+    "type": "Hvitvin",
     "country": "Tyskland",
     "grape": "",
-    "alcohol": 12.5,
+    "alcohol": 0,
     "vivino_score": "",
     "vivino_url": ""
   },
   {
     "basic": {
-      "productId": "12797601",
-      "productShortName": "Oriol Artigas El Rall"
+      "productId": "11507901",
+      "productShortName": "Gomariz The Flower and the Bee Sóuson"
     },
     "lastChanged": {
       "date": "2021-03-15",
-      "time": "23:00:03"
+      "time": "22:58:33"
     },
     "volume": 75,
-    "vinmonopolet_price": 244,
-    "apertif_price": 189,
+    "vinmonopolet_price": 237,
+    "apertif_price": 198,
+    "apertif_score": 86,
+    "type": "Rødvin",
+    "country": "Spania",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "11520301",
+      "productShortName": "Schäfer Rümmelsheim Riesling Trocken"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 289,
+    "apertif_price": 230,
+    "apertif_score": 89,
+    "type": "Hvitvin",
+    "country": "Tyskland",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "11569901",
+      "productShortName": "Castillo de Gredos"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 100,
+    "vinmonopolet_price": 154,
+    "apertif_price": 131,
     "apertif_score": 0,
     "type": "Rødvin",
     "country": "Spania",
     "grape": "",
-    "alcohol": 11.5,
+    "alcohol": 0,
     "vivino_score": "",
     "vivino_url": ""
   },
   {
     "basic": {
-      "productId": "12797701",
-      "productShortName": "Oriol Artigas El Rumbero"
+      "productId": "11598801",
+      "productShortName": "P. Sullivan Bull Swamp Chardonnay"
+    },
+    "lastChanged": {
+      "date": "2024-10-11",
+      "time": "14:02:17"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 749,
+    "apertif_price": 499,
+    "apertif_score": 92,
+    "type": "Hvitvin",
+    "country": "Australia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "11650901",
+      "productShortName": "Intellego The sleeping co-pilot"
     },
     "lastChanged": {
       "date": "2021-03-15",
-      "time": "23:00:03"
+      "time": "22:58:33"
     },
     "volume": 75,
-    "vinmonopolet_price": 262,
-    "apertif_price": 199,
+    "vinmonopolet_price": 319,
+    "apertif_price": 229,
     "apertif_score": 0,
-    "type": "Rødvin",
-    "country": "Spania",
+    "type": "Hvitvin",
+    "country": "Sør-Afrika",
     "grape": "",
-    "alcohol": 11.5,
+    "alcohol": 0,
     "vivino_score": "",
     "vivino_url": ""
   },
   {
     "basic": {
-      "productId": "13221302",
-      "productShortName": "O.P. Anderson Dist. Blood Orange Gin"
+      "productId": "11673901",
+      "productShortName": "Craven Chardonnay"
     },
     "lastChanged": {
-      "date": "2021-05-26",
-      "time": "06:28:59"
+      "date": "2021-03-15",
+      "time": "22:58:33"
     },
-    "volume": 50,
-    "vinmonopolet_price": 334,
+    "volume": 75,
+    "vinmonopolet_price": 339,
+    "apertif_price": 249,
+    "apertif_score": 90,
+    "type": "Hvitvin",
+    "country": "Sør-Afrika",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "11692401",
+      "productShortName": "Abbazia Stella Blanc de Blancs"
+    },
+    "lastChanged": {
+      "date": "2025-03-04",
+      "time": "12:32:16"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 139,
+    "apertif_price": 129,
+    "apertif_score": 0,
+    "type": "Musserende vin - Musserende vin",
+    "country": "Italia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "11747001",
+      "productShortName": "Balfour Luke's Pinot Noir"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 400,
+    "apertif_price": 399,
+    "apertif_score": 88,
+    "type": "Rødvin",
+    "country": "England",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "11808501",
+      "productShortName": "Marc Delienne Abbaye Road"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 349,
     "apertif_price": 299,
-    "apertif_score": 84,
-    "type": "Brennevin - Gin",
-    "country": "Sverige",
-    "grape": "",
-    "alcohol": 40,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "13273106",
-      "productShortName": "Pascerette des Vignes Mâcon Rouge"
-    },
-    "lastChanged": {
-      "date": "2024-05-02",
-      "time": "10:45:47"
-    },
-    "volume": 300,
-    "vinmonopolet_price": 698,
-    "apertif_price": 599,
-    "apertif_score": 84,
+    "apertif_score": 88,
     "type": "Rødvin",
     "country": "Frankrike",
     "grape": "",
-    "alcohol": 12.5,
+    "alcohol": 0,
     "vivino_score": "",
     "vivino_url": ""
   },
   {
     "basic": {
-      "productId": "13611302",
-      "productShortName": "Wolfrest Gin"
+      "productId": "11808601",
+      "productShortName": "Marc Delienne Greta Carbo"
     },
     "lastChanged": {
-      "date": "2021-10-30",
-      "time": "06:24:15"
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 349,
+    "apertif_price": 279,
+    "apertif_score": 89,
+    "type": "Rødvin",
+    "country": "Frankrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "11891001",
+      "productShortName": "Scions of Sinai Heldervallei Cinsaut"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 399,
+    "apertif_price": 299,
+    "apertif_score": 89,
+    "type": "Rødvin",
+    "country": "Sør-Afrika",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "11900101",
+      "productShortName": "M. Barrena Gratulerer Cava Brut Nature"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 189,
+    "apertif_price": 149,
+    "apertif_score": 85,
+    "type": "Musserende vin - Musserende vin",
+    "country": "Spania",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "11914501",
+      "productShortName": "Nicolas Feuillatte Terroir Premier Cru"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 609,
+    "apertif_price": 292,
+    "apertif_score": 88,
+    "type": "Musserende vin - Champagne extra brut",
+    "country": "Frankrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "11936601",
+      "productShortName": "La Salada Roig Boig"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 289,
+    "apertif_price": 199,
+    "apertif_score": 0,
+    "type": "Rosévin",
+    "country": "Spania",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "11935901",
+      "productShortName": "Lucy M. Tête d'ouef Sauvignon Blanc"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 299,
+    "apertif_price": 229,
+    "apertif_score": 0,
+    "type": "Hvitvin",
+    "country": "Australia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "11936101",
+      "productShortName": "Lucy M. Gamay"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 299,
+    "apertif_price": 229,
+    "apertif_score": 0,
+    "type": "Rødvin",
+    "country": "Australia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "11936501",
+      "productShortName": "La Salada Sota els Ametllers"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 439,
+    "apertif_price": 349,
+    "apertif_score": 0,
+    "type": "Hvitvin",
+    "country": "Spania",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "12005901",
+      "productShortName": "Clos Lentiscus Perill Blanc Amfora"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 357,
+    "apertif_price": 249,
+    "apertif_score": 88,
+    "type": "Hvitvin",
+    "country": "Spania",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "12006001",
+      "productShortName": "Clos Lentiscus Perill Negre Carinyen"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 357,
+    "apertif_price": 249,
+    "apertif_score": 86,
+    "type": "Rødvin",
+    "country": "Spania",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "12012901",
+      "productShortName": "Dom. les Enfants Sauvages Sitting Bulles"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 189,
+    "apertif_price": 180,
+    "apertif_score": 84,
+    "type": "Musserende vin - Musserende vin",
+    "country": "Frankrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "12176401",
+      "productShortName": "Antonio Madeira Vinhas Velhas Tinto"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 399,
+    "apertif_price": 329,
+    "apertif_score": 88,
+    "type": "Rødvin",
+    "country": "Portugal",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "12343404",
+      "productShortName": "Badenhorst The Curator Cape White Blend"
+    },
+    "lastChanged": {
+      "date": "2021-04-16",
+      "time": "06:21:33"
+    },
+    "volume": 25,
+    "vinmonopolet_price": 74,
+    "apertif_price": 49,
+    "apertif_score": 84,
+    "type": "Hvitvin",
+    "country": "Sør-Afrika",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "12369002",
+      "productShortName": "Harahorn Pink Gin"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "22:58:33"
     },
     "volume": 50,
-    "vinmonopolet_price": 599,
-    "apertif_price": 449,
-    "apertif_score": 0,
+    "vinmonopolet_price": 399,
+    "apertif_price": 386,
+    "apertif_score": 88,
     "type": "Brennevin - Gin",
-    "country": "Italia",
+    "country": "Norge",
     "grape": "",
-    "alcohol": 43,
+    "alcohol": 0,
     "vivino_score": "",
     "vivino_url": ""
   },
   {
     "basic": {
-      "productId": "13729601",
-      "productShortName": "Calcarius Ca 40.08 Frecciabomb Orange Fi"
+      "productId": "12632802",
+      "productShortName": "Quevedo Vintage"
     },
     "lastChanged": {
-      "date": "2021-10-06",
-      "time": "06:22:45"
+      "date": "2024-10-17",
+      "time": "06:58:28"
+    },
+    "volume": 375,
+    "vinmonopolet_price": 249,
+    "apertif_price": 198,
+    "apertif_score": 0,
+    "type": "Sterkvin - Portvin",
+    "country": "Portugal",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "12689601",
+      "productShortName": "Marques de Grinon Clasico"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "23:00:02"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 154,
+    "apertif_price": 109,
+    "apertif_score": 81,
+    "type": "Rødvin",
+    "country": "Spania",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "12715001",
+      "productShortName": "Store Naa 57/2 Brudeferd"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "23:00:03"
     },
     "volume": 75,
     "vinmonopolet_price": 199,
-    "apertif_price": 169,
-    "apertif_score": 0,
-    "type": "Perlende vin - Perlende vin, hvit",
-    "country": "Italia",
+    "apertif_price": 187,
+    "apertif_score": 87,
+    "type": "Sider",
+    "country": "Norge",
     "grape": "",
-    "alcohol": 10,
+    "alcohol": 0,
     "vivino_score": "",
     "vivino_url": ""
   },
   {
     "basic": {
-      "productId": "14061101",
-      "productShortName": "Organic Spirits Nordic Gin"
+      "productId": "12743701",
+      "productShortName": "Weing. Rainer Wess Gemischter Satz"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "23:00:03"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 288,
+    "apertif_price": 179,
+    "apertif_score": 84,
+    "type": "Hvitvin",
+    "country": "Østerrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "12743501",
+      "productShortName": "R. Wess Kremstal Grüner Veltliner"
+    },
+    "lastChanged": {
+      "date": "2021-06-02",
+      "time": "06:31:13"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 263,
+    "apertif_price": 159,
+    "apertif_score": 83,
+    "type": "Hvitvin",
+    "country": "Østerrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "12793702",
+      "productShortName": "Quevedo Vintage"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "23:00:03"
+    },
+    "volume": 375,
+    "vinmonopolet_price": 359,
+    "apertif_price": 292,
+    "apertif_score": 0,
+    "type": "Sterkvin - Portvin",
+    "country": "Portugal",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "12798401",
+      "productShortName": "Nittnaus Zorra Rosé"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "23:00:03"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 119,
+    "apertif_price": 99,
+    "apertif_score": 87,
+    "type": "Rosévin",
+    "country": "Østerrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "12799301",
+      "productShortName": "Jameson Cold Brew"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "23:00:03"
+    },
+    "volume": 70,
+    "vinmonopolet_price": 339,
+    "apertif_price": 329,
+    "apertif_score": 0,
+    "type": "Brennevin - Brennevin, annet - Brennevin, annet",
+    "country": "Irland",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "12814306",
+      "productShortName": "Geil Pinot Noir"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "23:00:03"
+    },
+    "volume": 300,
+    "vinmonopolet_price": 569,
+    "apertif_price": 567,
+    "apertif_score": 83,
+    "type": "Rødvin",
+    "country": "Tyskland",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "12821901",
+      "productShortName": "Alfons Ziegler Spätburgunder"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "23:00:03"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 234,
+    "apertif_price": 199,
+    "apertif_score": 0,
+    "type": "Rødvin",
+    "country": "Tyskland",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "12948201",
+      "productShortName": "Dom. Tariquet Chenin Chardonnay"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "23:00:06"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 199,
+    "apertif_price": 119,
+    "apertif_score": 83,
+    "type": "Hvitvin",
+    "country": "Frankrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "12962001",
+      "productShortName": "Microbio Isse Vinador Sonador"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "23:00:06"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 399,
+    "apertif_price": 289,
+    "apertif_score": 93,
+    "type": "Hvitvin",
+    "country": "Spania",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "12979601",
+      "productShortName": "Alois Kiefer Chardonnay vom Kalkstein"
+    },
+    "lastChanged": {
+      "date": "2021-03-15",
+      "time": "23:00:06"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 244,
+    "apertif_price": 200,
+    "apertif_score": 80,
+    "type": "Hvitvin",
+    "country": "Tyskland",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "13048401",
+      "productShortName": "Cellario E'Orange!"
+    },
+    "lastChanged": {
+      "date": "2021-04-27",
+      "time": "06:20:18"
+    },
+    "volume": 100,
+    "vinmonopolet_price": 229,
+    "apertif_price": 200,
+    "apertif_score": 0,
+    "type": "Hvitvin",
+    "country": "Italia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "13204401",
+      "productShortName": "Busi-Jacobsohn Cuvée Brut"
+    },
+    "lastChanged": {
+      "date": "2023-04-17",
+      "time": "14:55:57"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 625,
+    "apertif_price": 419,
+    "apertif_score": 86,
+    "type": "Musserende vin - Musserende vin",
+    "country": "England",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "13320105",
+      "productShortName": "Vincent Caillé Je t'aime mais j'ai soif"
+    },
+    "lastChanged": {
+      "date": "2021-06-22",
+      "time": "06:32:47"
+    },
+    "volume": 150,
+    "vinmonopolet_price": 479,
+    "apertif_price": 350,
+    "apertif_score": 0,
+    "type": "Hvitvin",
+    "country": "Frankrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "13323901",
+      "productShortName": "Mosse Bisou"
+    },
+    "lastChanged": {
+      "date": "2021-06-02",
+      "time": "06:31:35"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 279,
+    "apertif_price": 199,
+    "apertif_score": 0,
+    "type": "Rødvin",
+    "country": "Frankrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "13438902",
+      "productShortName": "OHD Ryggsekk Akevitt"
+    },
+    "lastChanged": {
+      "date": "2021-08-26",
+      "time": "06:34:50"
+    },
+    "volume": 35,
+    "vinmonopolet_price": 259,
+    "apertif_price": 249,
+    "apertif_score": 85,
+    "type": "Brennevin - Akevitt - Akevitt, brun",
+    "country": "Norge",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "13466401",
+      "productShortName": "Barista Black"
+    },
+    "lastChanged": {
+      "date": "2021-07-17",
+      "time": "06:27:15"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 234,
+    "apertif_price": 200,
+    "apertif_score": 76,
+    "type": "Rødvin",
+    "country": "Sør-Afrika",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "13483901",
+      "productShortName": "Dom. d'Edouard Côtes d'Auxerre"
+    },
+    "lastChanged": {
+      "date": "2021-08-26",
+      "time": "06:34:50"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 329,
+    "apertif_price": 250,
+    "apertif_score": 88,
+    "type": "Hvitvin",
+    "country": "Frankrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "13485001",
+      "productShortName": "Montirius Le Clos Vacqueyras Rouge"
+    },
+    "lastChanged": {
+      "date": "2021-08-26",
+      "time": "06:34:50"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 399,
+    "apertif_price": 351,
+    "apertif_score": 91,
+    "type": "Rødvin",
+    "country": "Frankrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "13705001",
+      "productShortName": "Ruiz Jiménez Osoti Joven"
+    },
+    "lastChanged": {
+      "date": "2021-10-30",
+      "time": "06:25:16"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 219,
+    "apertif_price": 169,
+    "apertif_score": 86,
+    "type": "Rødvin",
+    "country": "Spania",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "13814801",
+      "productShortName": "Matassa blanc"
+    },
+    "lastChanged": {
+      "date": "2021-10-22",
+      "time": "06:26:50"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 459,
+    "apertif_price": 379,
+    "apertif_score": 0,
+    "type": "Hvitvin",
+    "country": "Frankrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "13852901",
+      "productShortName": "Ochota Barrels Surfer Rosa"
+    },
+    "lastChanged": {
+      "date": "2021-10-30",
+      "time": "06:24:24"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 349,
+    "apertif_price": 249,
+    "apertif_score": 89,
+    "type": "Rosévin",
+    "country": "Australia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "13867701",
+      "productShortName": "Jauma Thousand Fires"
+    },
+    "lastChanged": {
+      "date": "2021-11-05",
+      "time": "05:31:24"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 329,
+    "apertif_price": 219,
+    "apertif_score": 0,
+    "type": "Hvitvin",
+    "country": "Australia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "13867801",
+      "productShortName": "Jauma Why try so hard"
+    },
+    "lastChanged": {
+      "date": "2021-11-05",
+      "time": "05:31:24"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 319,
+    "apertif_price": 219,
+    "apertif_score": 0,
+    "type": "Rosévin",
+    "country": "Australia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "13874601",
+      "productShortName": "Clos Lentiscus Croac Croac Pink"
+    },
+    "lastChanged": {
+      "date": "2021-11-10",
+      "time": "05:31:25"
+    },
+    "volume": 100,
+    "vinmonopolet_price": 377,
+    "apertif_price": 251,
+    "apertif_score": 85,
+    "type": "Rosévin",
+    "country": "Spania",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "13874701",
+      "productShortName": "Clos Lentiscus Cric Cric"
+    },
+    "lastChanged": {
+      "date": "2021-11-10",
+      "time": "05:31:25"
+    },
+    "volume": 100,
+    "vinmonopolet_price": 377,
+    "apertif_price": 251,
+    "apertif_score": 87,
+    "type": "Hvitvin",
+    "country": "Spania",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "13960001",
+      "productShortName": "Reverdito Butti Barbera d'Alba"
+    },
+    "lastChanged": {
+      "date": "2022-01-04",
+      "time": "05:31:24"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 269,
+    "apertif_price": 149,
+    "apertif_score": 87,
+    "type": "Rødvin",
+    "country": "Italia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "13965501",
+      "productShortName": "Reyneke Cabernet Sauvignon"
+    },
+    "lastChanged": {
+      "date": "2022-01-04",
+      "time": "05:31:24"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 979,
+    "apertif_price": 685,
+    "apertif_score": 90,
+    "type": "Rødvin",
+    "country": "Sør-Afrika",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "13965701",
+      "productShortName": "Robertson Constitution Road Shiraz"
+    },
+    "lastChanged": {
+      "date": "2021-12-09",
+      "time": "05:31:46"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 434,
+    "apertif_price": 341,
+    "apertif_score": 88,
+    "type": "Rødvin",
+    "country": "Sør-Afrika",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "14060101",
+      "productShortName": "Fontanafredda Gavi di Gavi"
     },
     "lastChanged": {
       "date": "2022-01-12",
       "time": "05:31:41"
     },
-    "volume": 70,
-    "vinmonopolet_price": 532,
-    "apertif_price": 459,
-    "apertif_score": 0,
-    "type": "Brennevin - Gin",
-    "country": "Danmark",
+    "volume": 75,
+    "vinmonopolet_price": 219,
+    "apertif_price": 204,
+    "apertif_score": 86,
+    "type": "Hvitvin",
+    "country": "Italia",
     "grape": "",
-    "alcohol": 40,
+    "alcohol": 0,
     "vivino_score": "",
     "vivino_url": ""
   },
   {
     "basic": {
-      "productId": "14066901",
-      "productShortName": "Organic Spirits Nordic Vodka"
+      "productId": "14064301",
+      "productShortName": "Microbio Circustancial"
     },
     "lastChanged": {
-      "date": "2022-01-15",
-      "time": "05:31:47"
+      "date": "2022-01-14",
+      "time": "05:31:42"
     },
-    "volume": 70,
-    "vinmonopolet_price": 496,
-    "apertif_price": 459,
-    "apertif_score": 0,
-    "type": "Brennevin - Vodka - Vodka",
-    "country": "Danmark",
+    "volume": 75,
+    "vinmonopolet_price": 449,
+    "apertif_price": 329,
+    "apertif_score": 93,
+    "type": "Hvitvin",
+    "country": "Spania",
     "grape": "",
-    "alcohol": 40,
+    "alcohol": 0,
     "vivino_score": "",
     "vivino_url": ""
   },
   {
     "basic": {
-      "productId": "14067101",
-      "productShortName": "Organic Spirits Nordic Whiskey"
+      "productId": "14063901",
+      "productShortName": "Cape Rock Carignan"
     },
     "lastChanged": {
-      "date": "2022-01-15",
-      "time": "05:31:47"
+      "date": "2022-01-14",
+      "time": "05:31:42"
     },
-    "volume": 70,
-    "vinmonopolet_price": 637,
-    "apertif_price": 599,
-    "apertif_score": 0,
-    "type": "Brennevin - Whisky - Whisky, malt",
-    "country": "Danmark",
+    "volume": 75,
+    "vinmonopolet_price": 209,
+    "apertif_price": 159,
+    "apertif_score": 87,
+    "type": "Rødvin",
+    "country": "Sør-Afrika",
     "grape": "",
-    "alcohol": 43,
+    "alcohol": 0,
     "vivino_score": "",
     "vivino_url": ""
   },
   {
     "basic": {
-      "productId": "14085301",
-      "productShortName": "Stephan Côte-Rôtie Coteaux de Bassenon"
+      "productId": "14080301",
+      "productShortName": "Lourens Proefkonyn Chenin Blanc"
     },
     "lastChanged": {
       "date": "2022-02-24",
       "time": "17:46:04"
     },
     "volume": 75,
-    "vinmonopolet_price": 1299,
-    "apertif_price": 900,
-    "apertif_score": 0,
-    "type": "Rødvin",
-    "country": "Frankrike",
-    "grape": "",
-    "alcohol": 13,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "14165601",
-      "productShortName": "#bio Terre Siciliane Chardonnay"
-    },
-    "lastChanged": {
-      "date": "2022-02-24",
-      "time": "17:46:04"
-    },
-    "volume": 75,
-    "vinmonopolet_price": 176,
-    "apertif_price": 129,
-    "apertif_score": 78,
-    "type": "Hvitvin",
-    "country": "Italia",
-    "grape": "",
-    "alcohol": 12.5,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "14188901",
-      "productShortName": "Coquard Brouilly Les Granits Roses"
-    },
-    "lastChanged": {
-      "date": "2022-02-07",
-      "time": "19:46:40"
-    },
-    "volume": 75,
-    "vinmonopolet_price": 273,
-    "apertif_price": 173,
-    "apertif_score": 87,
-    "type": "Rødvin",
-    "country": "Frankrike",
-    "grape": "",
-    "alcohol": 13.5,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "14195001",
-      "productShortName": "Geoff Hardy K1 Pinot Noir"
-    },
-    "lastChanged": {
-      "date": "2022-08-30",
-      "time": "11:20:12"
-    },
-    "volume": 75,
-    "vinmonopolet_price": 199,
-    "apertif_price": 179,
-    "apertif_score": 85,
-    "type": "Rødvin",
-    "country": "Australia",
-    "grape": "",
-    "alcohol": 13,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "14194901",
-      "productShortName": "Geoff Hardy K1 Chardonnay"
-    },
-    "lastChanged": {
-      "date": "2022-08-30",
-      "time": "11:20:12"
-    },
-    "volume": 75,
-    "vinmonopolet_price": 199,
-    "apertif_price": 179,
-    "apertif_score": 84,
-    "type": "Hvitvin",
-    "country": "Australia",
-    "grape": "",
-    "alcohol": 13,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "14364701",
-      "productShortName": "Leonardo Erazo Las Curvas"
-    },
-    "lastChanged": {
-      "date": "2022-04-26",
-      "time": "15:35:35"
-    },
-    "volume": 75,
-    "vinmonopolet_price": 339,
-    "apertif_price": 250,
-    "apertif_score": 89,
-    "type": "Rødvin",
-    "country": "Chile",
-    "grape": "",
-    "alcohol": 13.5,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "14377201",
-      "productShortName": "Bel Air Beaujolais-Villages"
-    },
-    "lastChanged": {
-      "date": "2022-04-26",
-      "time": "15:35:35"
-    },
-    "volume": 75,
-    "vinmonopolet_price": 139,
-    "apertif_price": 119,
-    "apertif_score": 0,
-    "type": "Rødvin",
-    "country": "Frankrike",
-    "grape": "",
-    "alcohol": 12,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "14490601",
-      "productShortName": "Langmann Stainz Sauvignon Blanc"
-    },
-    "lastChanged": {
-      "date": "2022-06-23",
-      "time": "13:55:52"
-    },
-    "volume": 75,
-    "vinmonopolet_price": 259,
-    "apertif_price": 147,
-    "apertif_score": 87,
-    "type": "Hvitvin",
-    "country": "Østerrike",
-    "grape": "",
-    "alcohol": 12.5,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "14490501",
-      "productShortName": "Langmann Schilcher Edla"
-    },
-    "lastChanged": {
-      "date": "2022-05-03",
-      "time": "14:50:07"
-    },
-    "volume": 75,
-    "vinmonopolet_price": 369,
-    "apertif_price": 186,
-    "apertif_score": 89,
-    "type": "Rosévin",
-    "country": "Østerrike",
-    "grape": "",
-    "alcohol": 12.5,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "14490801",
-      "productShortName": "Langmann Schilcher Hochgrail"
-    },
-    "lastChanged": {
-      "date": "2022-05-03",
-      "time": "14:50:07"
-    },
-    "volume": 75,
-    "vinmonopolet_price": 269,
-    "apertif_price": 178,
-    "apertif_score": 89,
-    "type": "Rosévin",
-    "country": "Østerrike",
-    "grape": "",
-    "alcohol": 13,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "14490701",
-      "productShortName": "Langmann Schilcher Langegg"
-    },
-    "lastChanged": {
-      "date": "2022-05-03",
-      "time": "14:50:07"
-    },
-    "volume": 75,
-    "vinmonopolet_price": 229,
-    "apertif_price": 126,
+    "vinmonopolet_price": 289,
+    "apertif_price": 229,
     "apertif_score": 86,
-    "type": "Rosévin",
-    "country": "Østerrike",
+    "type": "Perlende vin - Perlende vin, hvit",
+    "country": "Sør-Afrika",
     "grape": "",
-    "alcohol": 12.5,
+    "alcohol": 0,
     "vivino_score": "",
     "vivino_url": ""
   },
   {
     "basic": {
-      "productId": "14491001",
-      "productShortName": "Langmann Greisdorf Sauvignon Blanc"
+      "productId": "14083901",
+      "productShortName": "Mylonas Naked Truth Savatiano"
     },
     "lastChanged": {
-      "date": "2022-06-23",
-      "time": "13:55:52"
+      "date": "2025-02-18",
+      "time": "12:08:13"
     },
     "volume": 75,
-    "vinmonopolet_price": 329,
-    "apertif_price": 198,
-    "apertif_score": 89,
-    "type": "Hvitvin",
-    "country": "Østerrike",
-    "grape": "",
-    "alcohol": 13.5,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "14490901",
-      "productShortName": "Langmann Himmelreich Sauvignon Blanc"
-    },
-    "lastChanged": {
-      "date": "2022-06-23",
-      "time": "13:55:52"
-    },
-    "volume": 75,
-    "vinmonopolet_price": 454,
-    "apertif_price": 273,
-    "apertif_score": 91,
-    "type": "Hvitvin",
-    "country": "Østerrike",
-    "grape": "",
-    "alcohol": 14,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "14508702",
-      "productShortName": "Brekeriet Natur"
-    },
-    "lastChanged": {
-      "date": "2022-05-12",
-      "time": "16:20:32"
-    },
-    "volume": 33,
-    "vinmonopolet_price": 69,
-    "apertif_price": 48,
+    "vinmonopolet_price": 214,
+    "apertif_price": 219,
     "apertif_score": 87,
-    "type": "Øl - Surøl",
-    "country": "Sverige",
-    "grape": "",
-    "alcohol": 5.6,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "14567501",
-      "productShortName": "Latour Nuits-Saint-Georges Les Damodes"
-    },
-    "lastChanged": {
-      "date": "2022-06-16",
-      "time": "13:00:18"
-    },
-    "volume": 75,
-    "vinmonopolet_price": 999,
-    "apertif_price": 909,
-    "apertif_score": 89,
-    "type": "Rødvin",
-    "country": "Frankrike",
-    "grape": "",
-    "alcohol": 13.5,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "14579901",
-      "productShortName": "O.P. Anderson Old Tom Gin"
-    },
-    "lastChanged": {
-      "date": "2022-07-22",
-      "time": "11:21:22"
-    },
-    "volume": 70,
-    "vinmonopolet_price": 444,
-    "apertif_price": 401,
-    "apertif_score": 86,
-    "type": "Brennevin - Gin",
-    "country": "Sverige",
-    "grape": "",
-    "alcohol": 43,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "14646101",
-      "productShortName": "Virna Borgogno Langhe Nebbiolo Il"
-    },
-    "lastChanged": {
-      "date": "2022-07-12",
-      "time": "13:05:45"
-    },
-    "volume": 75,
-    "vinmonopolet_price": 299,
-    "apertif_price": 279,
-    "apertif_score": 86,
-    "type": "Rødvin",
-    "country": "Italia",
-    "grape": "",
-    "alcohol": 14,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "14652101",
-      "productShortName": "Virna Borgogno StoFuori Timorasso"
-    },
-    "lastChanged": {
-      "date": "2022-08-02",
-      "time": "08:51:32"
-    },
-    "volume": 75,
-    "vinmonopolet_price": 269,
-    "apertif_price": 249,
-    "apertif_score": 0,
-    "type": "Hvitvin",
-    "country": "Italia",
-    "grape": "",
-    "alcohol": 12.5,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "14901301",
-      "productShortName": "Carlow Counting Days Irish Whiskey"
-    },
-    "lastChanged": {
-      "date": "2022-09-18",
-      "time": "10:46:08"
-    },
-    "volume": 70,
-    "vinmonopolet_price": 489,
-    "apertif_price": 429,
-    "apertif_score": 0,
-    "type": "Brennevin - Whisky - Whisky, annen",
-    "country": "Irland",
-    "grape": "",
-    "alcohol": 43,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "15110501",
-      "productShortName": "Listel Pet Nat"
-    },
-    "lastChanged": {
-      "date": "2022-11-07",
-      "time": "11:56:39"
-    },
-    "volume": 75,
-    "vinmonopolet_price": 119,
-    "apertif_price": 99,
-    "apertif_score": 78,
-    "type": "Perlende vin - Perlende vin, rosé",
-    "country": "Frankrike",
-    "grape": "",
-    "alcohol": 9.5,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "15386901",
-      "productShortName": "Bougrier Vouvray V Sec"
-    },
-    "lastChanged": {
-      "date": "2023-01-16",
-      "time": "10:36:09"
-    },
-    "volume": 75,
-    "vinmonopolet_price": 229,
-    "apertif_price": 129,
-    "apertif_score": 0,
-    "type": "Hvitvin",
-    "country": "Frankrike",
-    "grape": "",
-    "alcohol": 12,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "15415801",
-      "productShortName": "Tres Carabelas La Pinta"
-    },
-    "lastChanged": {
-      "date": "2023-01-23",
-      "time": "07:56:10"
-    },
-    "volume": 75,
-    "vinmonopolet_price": 148,
-    "apertif_price": 129,
-    "apertif_score": 0,
-    "type": "Rødvin",
-    "country": "Spania",
-    "grape": "",
-    "alcohol": 12.5,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "15415601",
-      "productShortName": "Tres Carabelas La Santa María"
-    },
-    "lastChanged": {
-      "date": "2023-01-23",
-      "time": "07:56:10"
-    },
-    "volume": 75,
-    "vinmonopolet_price": 148,
-    "apertif_price": 129,
-    "apertif_score": 0,
-    "type": "Hvitvin",
-    "country": "Spania",
-    "grape": "",
-    "alcohol": 12,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "15561101",
-      "productShortName": "Castelvecchio Carso Terrano"
-    },
-    "lastChanged": {
-      "date": "2023-03-02",
-      "time": "09:00:39"
-    },
-    "volume": 75,
-    "vinmonopolet_price": 229,
-    "apertif_price": 180,
-    "apertif_score": 87,
-    "type": "Rødvin",
-    "country": "Italia",
-    "grape": "",
-    "alcohol": 12.5,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "15679501",
-      "productShortName": "Garalis Terra Ambera Deep Skin"
-    },
-    "lastChanged": {
-      "date": "2023-04-17",
-      "time": "10:56:49"
-    },
-    "volume": 75,
-    "vinmonopolet_price": 309,
-    "apertif_price": 199,
-    "apertif_score": 90,
     "type": "Hvitvin",
     "country": "Hellas",
     "grape": "",
-    "alcohol": 12,
+    "alcohol": 0,
     "vivino_score": "",
     "vivino_url": ""
   },
   {
     "basic": {
-      "productId": "15728301",
-      "productShortName": "Stolpman L'Avion"
+      "productId": "14132301",
+      "productShortName": "Avondale Qvevri Red"
+    },
+    "lastChanged": {
+      "date": "2022-02-04",
+      "time": "13:45:59"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 299,
+    "apertif_price": 244,
+    "apertif_score": 0,
+    "type": "Rødvin",
+    "country": "Sør-Afrika",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "14159501",
+      "productShortName": "Montresor Lugana"
+    },
+    "lastChanged": {
+      "date": "2023-07-07",
+      "time": "10:25:09"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 189,
+    "apertif_price": 149,
+    "apertif_score": 82,
+    "type": "Hvitvin",
+    "country": "Italia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "14214201",
+      "productShortName": "Chassenay d'Arce Cuvée Première"
+    },
+    "lastChanged": {
+      "date": "2022-02-17",
+      "time": "15:45:57"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 339,
+    "apertif_price": 341,
+    "apertif_score": 87,
+    "type": "Musserende vin - Champagne, brut",
+    "country": "Frankrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "14304101",
+      "productShortName": "Zeroine L18GaGa"
+    },
+    "lastChanged": {
+      "date": "2022-03-11",
+      "time": "13:46:14"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 399,
+    "apertif_price": 299,
+    "apertif_score": 0,
+    "type": "Rødvin",
+    "country": "Frankrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "14310101",
+      "productShortName": "Lucy M. l'enorme Merlot"
+    },
+    "lastChanged": {
+      "date": "2022-04-26",
+      "time": "15:35:35"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 279,
+    "apertif_price": 229,
+    "apertif_score": 0,
+    "type": "Rødvin",
+    "country": "Australia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "14358101",
+      "productShortName": "Cast. d'Age Fragments Rosat"
+    },
+    "lastChanged": {
+      "date": "2022-04-26",
+      "time": "15:35:35"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 209,
+    "apertif_price": 119,
+    "apertif_score": 0,
+    "type": "Rosévin",
+    "country": "Spania",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "14399501",
+      "productShortName": "Rocca Podere Cataldo Negroamaro Rosato"
+    },
+    "lastChanged": {
+      "date": "2022-04-05",
+      "time": "09:46:35"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 199,
+    "apertif_price": 149,
+    "apertif_score": 0,
+    "type": "Rosévin",
+    "country": "Italia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "14399701",
+      "productShortName": "Rocca Podere don Cataldo Vermentino"
+    },
+    "lastChanged": {
+      "date": "2022-04-05",
+      "time": "09:46:35"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 199,
+    "apertif_price": 149,
+    "apertif_score": 0,
+    "type": "Hvitvin",
+    "country": "Italia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "14404501",
+      "productShortName": "Casc. Corte Dogliani San Luigi"
+    },
+    "lastChanged": {
+      "date": "2022-08-31",
+      "time": "13:20:53"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 289,
+    "apertif_price": 179,
+    "apertif_score": 89,
+    "type": "Rødvin",
+    "country": "Italia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "14409101",
+      "productShortName": "Albino Armani Rosé"
+    },
+    "lastChanged": {
+      "date": "2022-04-05",
+      "time": "17:46:13"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 179,
+    "apertif_price": 175,
+    "apertif_score": 0,
+    "type": "Rosévin",
+    "country": "Italia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "14474201",
+      "productShortName": "Brand Bros Pet Nat Rosé"
+    },
+    "lastChanged": {
+      "date": "2022-04-28",
+      "time": "12:30:07"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 229,
+    "apertif_price": 189,
+    "apertif_score": 84,
+    "type": "Perlende vin - Perlende vin, rosé",
+    "country": "Tyskland",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "14475401",
+      "productShortName": "Conceito Legitimo"
+    },
+    "lastChanged": {
+      "date": "2022-04-28",
+      "time": "13:00:07"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 279,
+    "apertif_price": 179,
+    "apertif_score": 88,
+    "type": "Rødvin",
+    "country": "Portugal",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "14475301",
+      "productShortName": "Conceito Bastardo"
+    },
+    "lastChanged": {
+      "date": "2022-04-28",
+      "time": "13:00:07"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 389,
+    "apertif_price": 199,
+    "apertif_score": 89,
+    "type": "Rødvin",
+    "country": "Portugal",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "14489601",
+      "productShortName": "Diwald Zweigelt Rosé"
+    },
+    "lastChanged": {
+      "date": "2022-05-03",
+      "time": "12:50:40"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 199,
+    "apertif_price": 149,
+    "apertif_score": 84,
+    "type": "Rosévin",
+    "country": "Østerrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "14491201",
+      "productShortName": "Castell d'Age Solstice"
+    },
+    "lastChanged": {
+      "date": "2022-05-03",
+      "time": "15:01:12"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 275,
+    "apertif_price": 149,
+    "apertif_score": 0,
+    "type": "Hvitvin",
+    "country": "Spania",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "14498701",
+      "productShortName": "Hispano-Suizas Finca Casa Julia Albariño"
+    },
+    "lastChanged": {
+      "date": "2024-08-05",
+      "time": "09:12:09"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 399,
+    "apertif_price": 200,
+    "apertif_score": 88,
+    "type": "Hvitvin",
+    "country": "Spania",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "14574101",
+      "productShortName": "Vauvise Sancerre Demoiselle Rouge"
+    },
+    "lastChanged": {
+      "date": "2022-06-20",
+      "time": "09:35:47"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 369,
+    "apertif_price": 279,
+    "apertif_score": 85,
+    "type": "Rødvin",
+    "country": "Frankrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "14575801",
+      "productShortName": "Vauvise Sancerre Demoiselle Blanc"
+    },
+    "lastChanged": {
+      "date": "2022-06-20",
+      "time": "10:50:54"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 359,
+    "apertif_price": 259,
+    "apertif_score": 86,
+    "type": "Hvitvin",
+    "country": "Frankrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "14633402",
+      "productShortName": "Radikon Pignoli"
+    },
+    "lastChanged": {
+      "date": "2022-07-07",
+      "time": "12:06:09"
+    },
+    "volume": 50,
+    "vinmonopolet_price": 629,
+    "apertif_price": 499,
+    "apertif_score": 0,
+    "type": "Rødvin",
+    "country": "Italia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "14644601",
+      "productShortName": "Ainda Palhete"
+    },
+    "lastChanged": {
+      "date": "2022-07-12",
+      "time": "11:01:14"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 299,
+    "apertif_price": 249,
+    "apertif_score": 89,
+    "type": "Rødvin",
+    "country": "Portugal",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "14644801",
+      "productShortName": "Tiques Sumoll Ancestral"
+    },
+    "lastChanged": {
+      "date": "2022-08-31",
+      "time": "13:25:53"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 299,
+    "apertif_price": 249,
+    "apertif_score": 0,
+    "type": "Perlende vin - Perlende vin, rosé",
+    "country": "Spania",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "14643401",
+      "productShortName": "Ochota Barrels Slint Chardonnay"
+    },
+    "lastChanged": {
+      "date": "2022-07-11",
+      "time": "13:26:13"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 509,
+    "apertif_price": 399,
+    "apertif_score": 0,
+    "type": "Hvitvin",
+    "country": "Australia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "14652701",
+      "productShortName": "Urbane Totningers Kviit"
+    },
+    "lastChanged": {
+      "date": "2022-07-13",
+      "time": "14:00:48"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 179,
+    "apertif_price": 149,
+    "apertif_score": 0,
+    "type": "Hvitvin",
+    "country": "Italia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "14652801",
+      "productShortName": "Urbane Totningers Røvv"
+    },
+    "lastChanged": {
+      "date": "2022-07-13",
+      "time": "14:06:15"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 179,
+    "apertif_price": 149,
+    "apertif_score": 0,
+    "type": "Rødvin",
+    "country": "Italia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "14656801",
+      "productShortName": "Le Petit Bâtard Carignan B Grenache G"
+    },
+    "lastChanged": {
+      "date": "2022-08-31",
+      "time": "13:20:53"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 159,
+    "apertif_price": 149,
+    "apertif_score": 88,
+    "type": "Hvitvin",
+    "country": "Frankrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "14656701",
+      "productShortName": "Le Petit Bâtard Carignan Marsanne Rouge"
+    },
+    "lastChanged": {
+      "date": "2022-08-31",
+      "time": "13:20:53"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 159,
+    "apertif_price": 149,
+    "apertif_score": 86,
+    "type": "Rødvin",
+    "country": "Frankrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "14684201",
+      "productShortName": "Cap Maritime Chardonnay"
+    },
+    "lastChanged": {
+      "date": "2022-07-25",
+      "time": "14:20:03"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 499,
+    "apertif_price": 369,
+    "apertif_score": 88,
+    "type": "Hvitvin",
+    "country": "Sør-Afrika",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "14684801",
+      "productShortName": "Microbio Brutal!!!"
+    },
+    "lastChanged": {
+      "date": "2024-05-02",
+      "time": "10:50:48"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 399,
+    "apertif_price": 279,
+    "apertif_score": 0,
+    "type": "Rødvin",
+    "country": "Spania",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "14708401",
+      "productShortName": "Lentsch Cabernet Franc Reserve"
+    },
+    "lastChanged": {
+      "date": "2022-07-28",
+      "time": "12:50:14"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 309,
+    "apertif_price": 260,
+    "apertif_score": 0,
+    "type": "Rødvin",
+    "country": "Østerrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "14708801",
+      "productShortName": "Lentsch Blauer Zweigelt Reserve"
+    },
+    "lastChanged": {
+      "date": "2022-07-28",
+      "time": "12:55:35"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 289,
+    "apertif_price": 229,
+    "apertif_score": 86,
+    "type": "Rødvin",
+    "country": "Østerrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "14708501",
+      "productShortName": "Lentsch St. Laurent Reserve"
+    },
+    "lastChanged": {
+      "date": "2022-07-28",
+      "time": "12:50:14"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 289,
+    "apertif_price": 229,
+    "apertif_score": 84,
+    "type": "Rødvin",
+    "country": "Østerrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "14708701",
+      "productShortName": "Lentsch Blaufränkish Ried Lüss"
+    },
+    "lastChanged": {
+      "date": "2022-08-31",
+      "time": "13:20:53"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 349,
+    "apertif_price": 289,
+    "apertif_score": 0,
+    "type": "Rødvin",
+    "country": "Østerrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "14722801",
+      "productShortName": "Cazottes Marcotte"
+    },
+    "lastChanged": {
+      "date": "2022-07-29",
+      "time": "11:01:30"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 149,
+    "apertif_price": 129,
+    "apertif_score": 87,
+    "type": "Rødvin",
+    "country": "Frankrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "14725501",
+      "productShortName": "Shannon's Salted Caramel"
+    },
+    "lastChanged": {
+      "date": "2022-07-29",
+      "time": "13:25:55"
+    },
+    "volume": 70,
+    "vinmonopolet_price": 209,
+    "apertif_price": 259,
+    "apertif_score": 0,
+    "type": "Brennevin - Likør - Likør, krem",
+    "country": "Nord Irland",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "14741801",
+      "productShortName": "Lavradores de Feitoria Três Bagos"
+    },
+    "lastChanged": {
+      "date": "2022-08-31",
+      "time": "13:20:53"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 199,
+    "apertif_price": 149,
+    "apertif_score": 87,
+    "type": "Hvitvin",
+    "country": "Portugal",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "14778601",
+      "productShortName": "Cossetti Crivelletto Nizza"
+    },
+    "lastChanged": {
+      "date": "2022-08-16",
+      "time": "08:50:00"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 303,
+    "apertif_price": 263,
+    "apertif_score": 87,
+    "type": "Rødvin",
+    "country": "Italia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "14856201",
+      "productShortName": "De Martino Cabernet Sauvignon"
+    },
+    "lastChanged": {
+      "date": "2022-09-12",
+      "time": "14:25:48"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 224,
+    "apertif_price": 129,
+    "apertif_score": 85,
+    "type": "Rødvin",
+    "country": "Chile",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "14916506",
+      "productShortName": "Cast. de Liria Bobal Shiraz"
+    },
+    "lastChanged": {
+      "date": "2025-03-03",
+      "time": "14:27:33"
+    },
+    "volume": 300,
+    "vinmonopolet_price": 439,
+    "apertif_price": 416,
+    "apertif_score": 0,
+    "type": "Rødvin",
+    "country": "Spania",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "14949701",
+      "productShortName": "Pax Alta Monte Gamay Noir"
+    },
+    "lastChanged": {
+      "date": "2023-01-02",
+      "time": "16:11:55"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 429,
+    "apertif_price": 320,
+    "apertif_score": 86,
+    "type": "Rødvin",
+    "country": "USA",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "14983207",
+      "productShortName": "Fontodi Vigna del Sorbo"
+    },
+    "lastChanged": {
+      "date": "2022-10-03",
+      "time": "11:06:23"
+    },
+    "volume": 300,
+    "vinmonopolet_price": 3469,
+    "apertif_price": 2950,
+    "apertif_score": 0,
+    "type": "Rødvin",
+    "country": "Italia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15077401",
+      "productShortName": "Pépin Orange"
+    },
+    "lastChanged": {
+      "date": "2022-10-31",
+      "time": "09:21:32"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 304,
+    "apertif_price": 289,
+    "apertif_score": 87,
+    "type": "Hvitvin",
+    "country": "Frankrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15134801",
+      "productShortName": "Weigand Skin"
+    },
+    "lastChanged": {
+      "date": "2022-12-22",
+      "time": "11:51:17"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 369,
+    "apertif_price": 179,
+    "apertif_score": 87,
+    "type": "Hvitvin",
+    "country": "Tyskland",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15152801",
+      "productShortName": "Folicello Gocce Rosse"
+    },
+    "lastChanged": {
+      "date": "2022-11-14",
+      "time": "15:56:22"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 169,
+    "apertif_price": 139,
+    "apertif_score": 86,
+    "type": "Rødvin",
+    "country": "Italia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15153101",
+      "productShortName": "Folicello Gocce Bianche"
+    },
+    "lastChanged": {
+      "date": "2022-11-14",
+      "time": "15:56:22"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 159,
+    "apertif_price": 129,
+    "apertif_score": 85,
+    "type": "Hvitvin",
+    "country": "Italia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15283701",
+      "productShortName": "Alan de Val Godello"
+    },
+    "lastChanged": {
+      "date": "2022-12-23",
+      "time": "08:26:15"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 279,
+    "apertif_price": 199,
+    "apertif_score": 0,
+    "type": "Hvitvin",
+    "country": "Spania",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15285501",
+      "productShortName": "Baigorri Finca La Quintanilla"
+    },
+    "lastChanged": {
+      "date": "2022-12-23",
+      "time": "09:26:17"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 497,
+    "apertif_price": 272,
+    "apertif_score": 86,
+    "type": "Rødvin",
+    "country": "Spania",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15309301",
+      "productShortName": "Weigand Amphora Pinot Noir"
+    },
+    "lastChanged": {
+      "date": "2022-12-28",
+      "time": "16:11:53"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 399,
+    "apertif_price": 189,
+    "apertif_score": 0,
+    "type": "Rødvin",
+    "country": "Tyskland",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15309501",
+      "productShortName": "Weigand Pet Nat"
+    },
+    "lastChanged": {
+      "date": "2022-12-28",
+      "time": "16:11:53"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 298,
+    "apertif_price": 150,
+    "apertif_score": 88,
+    "type": "Perlende vin - Perlende vin, hvit",
+    "country": "Tyskland",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15321701",
+      "productShortName": "Novak Alb de Onitcani"
+    },
+    "lastChanged": {
+      "date": "2023-01-02",
+      "time": "13:56:19"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 249,
+    "apertif_price": 149,
+    "apertif_score": 86,
+    "type": "Hvitvin",
+    "country": "Republikken Moldova",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15321501",
+      "productShortName": "Novak Feteasca Neagra"
+    },
+    "lastChanged": {
+      "date": "2023-01-02",
+      "time": "13:56:19"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 394,
+    "apertif_price": 239,
+    "apertif_score": 87,
+    "type": "Rødvin",
+    "country": "Republikken Moldova",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15321601",
+      "productShortName": "Novak Rara Neagra"
+    },
+    "lastChanged": {
+      "date": "2023-01-02",
+      "time": "13:56:19"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 254,
+    "apertif_price": 160,
+    "apertif_score": 83,
+    "type": "Rødvin",
+    "country": "Republikken Moldova",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15340601",
+      "productShortName": "Weigand Rosé"
+    },
+    "lastChanged": {
+      "date": "2023-01-04",
+      "time": "13:02:00"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 298,
+    "apertif_price": 150,
+    "apertif_score": 88,
+    "type": "Rosévin",
+    "country": "Tyskland",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15340701",
+      "productShortName": "Collective Z Kalkoven"
+    },
+    "lastChanged": {
+      "date": "2023-01-04",
+      "time": "13:02:00"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 399,
+    "apertif_price": 199,
+    "apertif_score": 91,
+    "type": "Hvitvin",
+    "country": "Tyskland",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15341001",
+      "productShortName": "Collective Z Village Village Rouge"
+    },
+    "lastChanged": {
+      "date": "2023-01-04",
+      "time": "13:02:00"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 419,
+    "apertif_price": 199,
+    "apertif_score": 0,
+    "type": "Rødvin",
+    "country": "Tyskland",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15345301",
+      "productShortName": "Brocard Belle Margote Bourgogne"
+    },
+    "lastChanged": {
+      "date": "2023-01-04",
+      "time": "15:36:24"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 251,
+    "apertif_price": 129,
+    "apertif_score": 86,
+    "type": "Hvitvin",
+    "country": "Frankrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15346401",
+      "productShortName": "Bettini Reale Valtellina Sassella"
+    },
+    "lastChanged": {
+      "date": "2023-02-17",
+      "time": "15:26:35"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 399,
+    "apertif_price": 340,
+    "apertif_score": 90,
+    "type": "Rødvin",
+    "country": "Italia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15352401",
+      "productShortName": "Dom. de Nozay Dolium"
+    },
+    "lastChanged": {
+      "date": "2023-02-17",
+      "time": "15:26:35"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 369,
+    "apertif_price": 292,
+    "apertif_score": 91,
+    "type": "Hvitvin",
+    "country": "Frankrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15358501",
+      "productShortName": "Coppi Don Antonio Primitivo"
+    },
+    "lastChanged": {
+      "date": "2023-01-06",
+      "time": "14:15:55"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 249,
+    "apertif_price": 229,
+    "apertif_score": 0,
+    "type": "Rødvin",
+    "country": "Italia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15366701",
+      "productShortName": "Nell-Breuning Dominikanerberg Kabinett"
+    },
+    "lastChanged": {
+      "date": "2023-03-17",
+      "time": "10:46:38"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 169,
+    "apertif_price": 159,
+    "apertif_score": 90,
+    "type": "Hvitvin",
+    "country": "Tyskland",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15366801",
+      "productShortName": "Nell-Breuning Schiefer Riesling Trocken"
+    },
+    "lastChanged": {
+      "date": "2023-02-17",
+      "time": "15:26:35"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 169,
+    "apertif_price": 159,
+    "apertif_score": 89,
+    "type": "Hvitvin",
+    "country": "Tyskland",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15376701",
+      "productShortName": "Bettini Valtellina Superiore Sassella"
+    },
+    "lastChanged": {
+      "date": "2023-02-17",
+      "time": "15:26:35"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 289,
+    "apertif_price": 244,
+    "apertif_score": 89,
+    "type": "Rødvin",
+    "country": "Italia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15425701",
+      "productShortName": "El Bobal de Estenas"
+    },
+    "lastChanged": {
+      "date": "2023-01-30",
+      "time": "14:01:19"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 209,
+    "apertif_price": 169,
+    "apertif_score": 0,
+    "type": "Rødvin",
+    "country": "Spania",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15425601",
+      "productShortName": "La Tardana de Estenas"
+    },
+    "lastChanged": {
+      "date": "2023-01-30",
+      "time": "14:01:19"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 209,
+    "apertif_price": 169,
+    "apertif_score": 0,
+    "type": "Hvitvin",
+    "country": "Spania",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15427601",
+      "productShortName": "Pete's Pure Sparkling Moscato"
+    },
+    "lastChanged": {
+      "date": "2023-02-06",
+      "time": "09:05:19"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 99,
+    "apertif_price": 79,
+    "apertif_score": 80,
+    "type": "Perlende vin - Perlende vin, hvit",
+    "country": "Australia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15445601",
+      "productShortName": "Jauma Somewhere on Another Hill"
+    },
+    "lastChanged": {
+      "date": "2023-02-14",
+      "time": "14:06:34"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 319,
+    "apertif_price": 219,
+    "apertif_score": 86,
+    "type": "Hvitvin",
+    "country": "Australia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15450805",
+      "productShortName": "Ch. Ollieux Romanis Cuvée Classique Rosé"
+    },
+    "lastChanged": {
+      "date": "2023-02-15",
+      "time": "13:46:32"
+    },
+    "volume": 150,
+    "vinmonopolet_price": 559,
+    "apertif_price": 390,
+    "apertif_score": 88,
+    "type": "Rosévin",
+    "country": "Frankrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15456501",
+      "productShortName": "Microbio Red Capsule Brutal"
+    },
+    "lastChanged": {
+      "date": "2023-02-17",
+      "time": "10:51:19"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 359,
+    "apertif_price": 249,
+    "apertif_score": 88,
+    "type": "Rødvin",
+    "country": "Spania",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15485101",
+      "productShortName": "Beyond The Glass Ruby Rosé"
+    },
+    "lastChanged": {
+      "date": "2024-05-02",
+      "time": "10:41:53"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 229,
+    "apertif_price": 178,
+    "apertif_score": 87,
+    "type": "Rosévin",
+    "country": "Australia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15487101",
+      "productShortName": "Beyond The Glass Kappa Montepulciano"
+    },
+    "lastChanged": {
+      "date": "2023-02-22",
+      "time": "14:21:24"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 288,
+    "apertif_price": 177,
+    "apertif_score": 86,
+    "type": "Rødvin",
+    "country": "Australia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15537201",
+      "productShortName": "Michel Rutat Lignum Blanc de Blancs"
+    },
+    "lastChanged": {
+      "date": "2023-02-28",
+      "time": "13:55:38"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 599,
+    "apertif_price": 498,
+    "apertif_score": 88,
+    "type": "Musserende vin - Champagne extra brut",
+    "country": "Frankrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15600501",
+      "productShortName": "Wimmer-Czerny Pur rosé Pet-Nat"
+    },
+    "lastChanged": {
+      "date": "2023-07-17",
+      "time": "09:46:54"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 343,
+    "apertif_price": 296,
+    "apertif_score": 87,
+    "type": "Perlende vin - Perlende vin, rosé",
+    "country": "Østerrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15607105",
+      "productShortName": "Ch. Val d'Arenc Bandol Rosé"
+    },
+    "lastChanged": {
+      "date": "2023-03-13",
+      "time": "09:01:35"
+    },
+    "volume": 150,
+    "vinmonopolet_price": 399,
+    "apertif_price": 296,
+    "apertif_score": 85,
+    "type": "Rosévin",
+    "country": "Frankrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15616302",
+      "productShortName": "Disko Agent India Pale Ale"
+    },
+    "lastChanged": {
+      "date": "2023-03-16",
+      "time": "10:30:31"
+    },
+    "volume": 44,
+    "vinmonopolet_price": 79,
+    "apertif_price": 77,
+    "apertif_score": 0,
+    "type": "Øl - India pale ale",
+    "country": "Norge",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15645901",
+      "productShortName": "Weing. Rings Rosé"
     },
     "lastChanged": {
       "date": "2023-06-21",
       "time": "10:51:33"
     },
     "volume": 75,
-    "vinmonopolet_price": 499,
-    "apertif_price": 400,
+    "vinmonopolet_price": 224,
+    "apertif_price": 180,
+    "apertif_score": 88,
+    "type": "Rosévin",
+    "country": "Tyskland",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15648201",
+      "productShortName": "Patrick Sullivan Woori Yallock"
+    },
+    "lastChanged": {
+      "date": "2023-03-24",
+      "time": "13:53:44"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 649,
+    "apertif_price": 499,
+    "apertif_score": 0,
+    "type": "Hvitvin",
+    "country": "Australia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15657501",
+      "productShortName": "Kylie Minogue Cõtes de Provence Rosé"
+    },
+    "lastChanged": {
+      "date": "2023-04-03",
+      "time": "14:36:15"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 279,
+    "apertif_price": 149,
+    "apertif_score": 0,
+    "type": "Rosévin",
+    "country": "Frankrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15663001",
+      "productShortName": "Stroebel Le Vin tranquille Pinot Meunier"
+    },
+    "lastChanged": {
+      "date": "2023-06-21",
+      "time": "10:51:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 1161,
+    "apertif_price": 799,
+    "apertif_score": 89,
+    "type": "Hvitvin",
+    "country": "Frankrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15674701",
+      "productShortName": "Stroebel Héraclite Chardonnay"
+    },
+    "lastChanged": {
+      "date": "2023-06-21",
+      "time": "10:46:34"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 1161,
+    "apertif_price": 799,
+    "apertif_score": 92,
+    "type": "Musserende vin - Champagne, annen",
+    "country": "Frankrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15674601",
+      "productShortName": "Stroebel Héraclit Pinot Noir Brut Nature"
+    },
+    "lastChanged": {
+      "date": "2023-06-21",
+      "time": "10:46:34"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 1158,
+    "apertif_price": 799,
+    "apertif_score": 0,
+    "type": "Musserende vin - Champagne, annen",
+    "country": "Frankrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15675101",
+      "productShortName": "Stroebel Triptyque Brut Nature"
+    },
+    "lastChanged": {
+      "date": "2023-06-21",
+      "time": "10:46:34"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 875,
+    "apertif_price": 599,
+    "apertif_score": 0,
+    "type": "Musserende vin - Champagne, annen",
+    "country": "Frankrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15711701",
+      "productShortName": "Les Hauts de Janeil Syrah \u0026 Grenache"
+    },
+    "lastChanged": {
+      "date": "2023-04-25",
+      "time": "09:50:02"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 129,
+    "apertif_price": 109,
+    "apertif_score": 84,
+    "type": "Rødvin",
+    "country": "Frankrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15728401",
+      "productShortName": "Stolpman Combe Chenin Blanc Cuvée August"
+    },
+    "lastChanged": {
+      "date": "2023-06-21",
+      "time": "10:51:33"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 450,
+    "apertif_price": 350,
     "apertif_score": 0,
     "type": "Hvitvin",
     "country": "USA",
     "grape": "",
-    "alcohol": 13,
+    "alcohol": 0,
     "vivino_score": "",
     "vivino_url": ""
   },
   {
     "basic": {
-      "productId": "15827801",
-      "productShortName": "Jaffelin Bourgogne Passe-tout-grains"
+      "productId": "15731201",
+      "productShortName": "GlowGlow Cider Fruchtperlwein"
     },
     "lastChanged": {
-      "date": "2023-06-05",
-      "time": "14:11:03"
+      "date": "2023-04-27",
+      "time": "13:45:59"
     },
     "volume": 75,
-    "vinmonopolet_price": 199,
-    "apertif_price": 150,
+    "vinmonopolet_price": 119,
+    "apertif_price": 89,
+    "apertif_score": 84,
+    "type": "Sider",
+    "country": "Tyskland",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15789901",
+      "productShortName": "Rennersistas Pin-Oh! Noir"
+    },
+    "lastChanged": {
+      "date": "2023-05-16",
+      "time": "08:06:16"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 399,
+    "apertif_price": 279,
+    "apertif_score": 88,
+    "type": "Rødvin",
+    "country": "Østerrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15790001",
+      "productShortName": "Rennersistas Gewürz"
+    },
+    "lastChanged": {
+      "date": "2023-05-16",
+      "time": "08:06:16"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 339,
+    "apertif_price": 249,
     "apertif_score": 0,
-    "type": "Rødvin",
-    "country": "Frankrike",
+    "type": "Hvitvin",
+    "country": "Østerrike",
     "grape": "",
-    "alcohol": 12.5,
+    "alcohol": 0,
     "vivino_score": "",
     "vivino_url": ""
   },
   {
     "basic": {
-      "productId": "15841001",
-      "productShortName": "Phelan Farm The Scythian Wine Co. Red"
+      "productId": "15829301",
+      "productShortName": "Innocent Bystander Naturally Field Blend"
     },
     "lastChanged": {
-      "date": "2023-10-17",
-      "time": "12:21:34"
-    },
-    "volume": 75,
-    "vinmonopolet_price": 459,
-    "apertif_price": 399,
-    "apertif_score": 90,
-    "type": "Rødvin",
-    "country": "USA",
-    "grape": "",
-    "alcohol": 13,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "15840901",
-      "productShortName": "Parr Bottle Baby"
-    },
-    "lastChanged": {
-      "date": "2024-01-09",
-      "time": "08:20:32"
-    },
-    "volume": 75,
-    "vinmonopolet_price": 329,
-    "apertif_price": 250,
-    "apertif_score": 0,
-    "type": "Fruktvin",
-    "country": "USA",
-    "grape": "",
-    "alcohol": 10,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "15889101",
-      "productShortName": "G. Mascarello Barolo Villero"
-    },
-    "lastChanged": {
-      "date": "2023-06-20",
-      "time": "13:41:31"
-    },
-    "volume": 75,
-    "vinmonopolet_price": 1469,
-    "apertif_price": 990,
-    "apertif_score": 92,
-    "type": "Rødvin",
-    "country": "Italia",
-    "grape": "",
-    "alcohol": 14.5,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "16278101",
-      "productShortName": "Colares Chitas"
-    },
-    "lastChanged": {
-      "date": "2023-07-11",
-      "time": "13:21:36"
-    },
-    "volume": 75,
-    "vinmonopolet_price": 820,
-    "apertif_price": 599,
-    "apertif_score": 91,
-    "type": "Rødvin",
-    "country": "Portugal",
-    "grape": "",
-    "alcohol": 12,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "16303301",
-      "productShortName": "Mertz Eckelsheimer Kirchberg Trocken"
-    },
-    "lastChanged": {
-      "date": "2023-08-17",
-      "time": "10:31:21"
+      "date": "2023-06-06",
+      "time": "08:21:07"
     },
     "volume": 75,
     "vinmonopolet_price": 269,
-    "apertif_price": 200,
+    "apertif_price": 169,
+    "apertif_score": 87,
+    "type": "Hvitvin",
+    "country": "Australia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15840801",
+      "productShortName": "Phelan Farm Pet-Nat"
+    },
+    "lastChanged": {
+      "date": "2023-10-17",
+      "time": "12:11:44"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 400,
+    "apertif_price": 300,
+    "apertif_score": 89,
+    "type": "Perlende vin - Perlende vin, hvit",
+    "country": "USA",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15947001",
+      "productShortName": "Keltis Zan White"
+    },
+    "lastChanged": {
+      "date": "2023-07-03",
+      "time": "23:51:43"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 299,
+    "apertif_price": 139,
+    "apertif_score": 0,
+    "type": "Hvitvin",
+    "country": "Slovenia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "15946801",
+      "productShortName": "Keltis Zan Red"
+    },
+    "lastChanged": {
+      "date": "2023-07-03",
+      "time": "23:45:48"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 299,
+    "apertif_price": 139,
+    "apertif_score": 0,
+    "type": "Rødvin",
+    "country": "Slovenia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "16284501",
+      "productShortName": "Andi Weigand Silvaner"
+    },
+    "lastChanged": {
+      "date": "2023-07-13",
+      "time": "15:31:52"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 258,
+    "apertif_price": 150,
     "apertif_score": 0,
     "type": "Hvitvin",
     "country": "Tyskland",
     "grape": "",
-    "alcohol": 13,
+    "alcohol": 0,
     "vivino_score": "",
     "vivino_url": ""
   },
   {
     "basic": {
-      "productId": "16303801",
-      "productShortName": "Mertz Spätburgunder Eckelsheim Trocken"
+      "productId": "16284601",
+      "productShortName": "Andi Weigand Müller-Thurgau"
     },
     "lastChanged": {
-      "date": "2023-07-18",
-      "time": "08:35:56"
+      "date": "2023-07-13",
+      "time": "15:31:52"
     },
     "volume": 75,
-    "vinmonopolet_price": 249,
-    "apertif_price": 200,
-    "apertif_score": 0,
-    "type": "Rødvin",
-    "country": "Tyskland",
-    "grape": "",
-    "alcohol": 13.5,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "16385901",
-      "productShortName": "Saint Clair Hawke's Bay Cabernet Merlot"
-    },
-    "lastChanged": {
-      "date": "2023-08-28",
-      "time": "12:51:31"
-    },
-    "volume": 75,
-    "vinmonopolet_price": 222,
-    "apertif_price": 130,
-    "apertif_score": 86,
-    "type": "Rødvin",
-    "country": "New Zealand",
-    "grape": "",
-    "alcohol": 13.5,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "16391601",
-      "productShortName": "Porta Bohemica Charpin"
-    },
-    "lastChanged": {
-      "date": "2023-08-29",
-      "time": "09:46:31"
-    },
-    "volume": 75,
-    "vinmonopolet_price": 354,
-    "apertif_price": 239,
+    "vinmonopolet_price": 258,
+    "apertif_price": 150,
     "apertif_score": 0,
     "type": "Hvitvin",
-    "country": "Tsjekkia",
+    "country": "Tyskland",
     "grape": "",
-    "alcohol": 13,
+    "alcohol": 0,
     "vivino_score": "",
     "vivino_url": ""
   },
   {
     "basic": {
-      "productId": "16396601",
-      "productShortName": "A. Heitz Pommard 1er Cru Arvelets"
+      "productId": "16313801",
+      "productShortName": "Valdisole Nemesis"
     },
     "lastChanged": {
-      "date": "2024-01-09",
-      "time": "08:15:56"
+      "date": "2023-07-19",
+      "time": "13:40:56"
     },
     "volume": 75,
-    "vinmonopolet_price": 1099,
-    "apertif_price": 850,
-    "apertif_score": 90,
-    "type": "Rødvin",
-    "country": "Frankrike",
-    "grape": "",
-    "alcohol": 13,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "16753201",
-      "productShortName": "A. Heitz Murgers des Dents de Chien"
-    },
-    "lastChanged": {
-      "date": "2024-01-09",
-      "time": "08:15:56"
-    },
-    "volume": 75,
-    "vinmonopolet_price": 749,
-    "apertif_price": 650,
-    "apertif_score": 0,
-    "type": "Rødvin",
-    "country": "Frankrike",
-    "grape": "",
-    "alcohol": 13.5,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "16920201",
-      "productShortName": "G. Mascarello Barolo Monprivato"
-    },
-    "lastChanged": {
-      "date": "2024-01-12",
-      "time": "12:11:36"
-    },
-    "volume": 75,
-    "vinmonopolet_price": 2290,
-    "apertif_price": 1490,
-    "apertif_score": 0,
-    "type": "Rødvin",
-    "country": "Italia",
-    "grape": "",
-    "alcohol": 14.5,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "16920001",
-      "productShortName": "G. Mascarello Barolo Monprivato"
-    },
-    "lastChanged": {
-      "date": "2024-01-12",
-      "time": "12:11:36"
-    },
-    "volume": 75,
-    "vinmonopolet_price": 2190,
-    "apertif_price": 1490,
-    "apertif_score": 0,
-    "type": "Rødvin",
-    "country": "Italia",
-    "grape": "",
-    "alcohol": 14.5,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "16947401",
-      "productShortName": "Podere Ortica 184"
-    },
-    "lastChanged": {
-      "date": "2024-01-19",
-      "time": "16:11:07"
-    },
-    "volume": 75,
-    "vinmonopolet_price": 277,
+    "vinmonopolet_price": 498,
     "apertif_price": 199,
     "apertif_score": 0,
     "type": "Hvitvin",
     "country": "Italia",
     "grape": "",
-    "alcohol": 10,
+    "alcohol": 0,
     "vivino_score": "",
     "vivino_url": ""
   },
   {
     "basic": {
-      "productId": "16983301",
-      "productShortName": "Balfour Nannette's Rosé"
+      "productId": "16313001",
+      "productShortName": "Clos Lentiscus Kikiriki Black"
     },
     "lastChanged": {
-      "date": "2024-01-26",
-      "time": "13:21:16"
+      "date": "2023-07-19",
+      "time": "13:10:57"
     },
-    "volume": 75,
-    "vinmonopolet_price": 198,
-    "apertif_price": 159,
-    "apertif_score": 88,
-    "type": "Rosévin",
-    "country": "England",
-    "grape": "",
-    "alcohol": 12,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "17305401",
-      "productShortName": "Recchione Hautes Côtes de Nuits"
-    },
-    "lastChanged": {
-      "date": "2024-04-26",
-      "time": "13:11:45"
-    },
-    "volume": 75,
-    "vinmonopolet_price": 539,
-    "apertif_price": 369,
-    "apertif_score": 87,
+    "volume": 100,
+    "vinmonopolet_price": 346,
+    "apertif_price": 251,
+    "apertif_score": 0,
     "type": "Rødvin",
+    "country": "Spania",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "16330801",
+      "productShortName": "Mosse Combo"
+    },
+    "lastChanged": {
+      "date": "2023-07-21",
+      "time": "12:40:57"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 349,
+    "apertif_price": 249,
+    "apertif_score": 0,
+    "type": "Hvitvin",
     "country": "Frankrike",
     "grape": "",
-    "alcohol": 12.5,
+    "alcohol": 0,
     "vivino_score": "",
     "vivino_url": ""
   },
   {
     "basic": {
-      "productId": "17425701",
-      "productShortName": "G. Mascarello Barolo Villero"
+      "productId": "16424902",
+      "productShortName": "Brew York 48 Hour Road Trip"
     },
     "lastChanged": {
-      "date": "2024-06-13",
-      "time": "06:13:20"
+      "date": "2023-09-12",
+      "time": "08:30:17"
     },
-    "volume": 75,
-    "vinmonopolet_price": 1690,
-    "apertif_price": 1090,
-    "apertif_score": 94,
+    "volume": 33,
+    "vinmonopolet_price": 119,
+    "apertif_price": 83,
+    "apertif_score": 90,
+    "type": "Øl - Porter \u0026 stout",
+    "country": "England",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "16428907",
+      "productShortName": "Fontodi Vigna del Sorbo"
+    },
+    "lastChanged": {
+      "date": "2023-09-01",
+      "time": "14:21:35"
+    },
+    "volume": 300,
+    "vinmonopolet_price": 3569,
+    "apertif_price": 2950,
+    "apertif_score": 95,
     "type": "Rødvin",
     "country": "Italia",
     "grape": "",
-    "alcohol": 14,
+    "alcohol": 0,
     "vivino_score": "",
     "vivino_url": ""
   },
   {
     "basic": {
-      "productId": "17425601",
-      "productShortName": "G. Mascarello Barolo Monprivato"
+      "productId": "16455701",
+      "productShortName": "Escudero Logos Chardonnay"
     },
     "lastChanged": {
-      "date": "2024-06-13",
-      "time": "06:13:20"
+      "date": "2023-09-08",
+      "time": "09:56:42"
     },
     "volume": 75,
-    "vinmonopolet_price": 2390,
-    "apertif_price": 1890,
-    "apertif_score": 96,
+    "vinmonopolet_price": 174,
+    "apertif_price": 149,
+    "apertif_score": 0,
+    "type": "Hvitvin",
+    "country": "Spania",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "16480501",
+      "productShortName": "Arruda Lote 44 Reserva Tinto"
+    },
+    "lastChanged": {
+      "date": "2023-09-13",
+      "time": "13:56:15"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 249,
+    "apertif_price": 229,
+    "apertif_score": 0,
+    "type": "Rødvin",
+    "country": "Portugal",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "16518101",
+      "productShortName": "Mastroberardino Stílema Taurasi Riserva"
+    },
+    "lastChanged": {
+      "date": "2023-09-19",
+      "time": "10:56:19"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 989,
+    "apertif_price": 784,
+    "apertif_score": 0,
     "type": "Rødvin",
     "country": "Italia",
     "grape": "",
-    "alcohol": 14.5,
+    "alcohol": 0,
     "vivino_score": "",
     "vivino_url": ""
   },
   {
     "basic": {
-      "productId": "17425901",
-      "productShortName": "G. Mascarello Barolo Perno"
+      "productId": "16635305",
+      "productShortName": "St. Feuillien Grand Cru 150 Years"
     },
     "lastChanged": {
-      "date": "2024-06-13",
-      "time": "06:13:20"
+      "date": "2023-10-24",
+      "time": "10:31:45"
     },
-    "volume": 75,
-    "vinmonopolet_price": 1690,
-    "apertif_price": 1090,
-    "apertif_score": 93,
-    "type": "Rødvin",
-    "country": "Italia",
-    "grape": "",
-    "alcohol": 15,
-    "vivino_score": "",
-    "vivino_url": ""
-  },
-  {
-    "basic": {
-      "productId": "18881901",
-      "productShortName": "Langmann Hochgrail Sonnenhang Schilcher"
-    },
-    "lastChanged": {
-      "date": "2025-01-07",
-      "time": "08:28:37"
-    },
-    "volume": 75,
+    "volume": 150,
     "vinmonopolet_price": 429,
-    "apertif_price": 280,
-    "apertif_score": 89,
-    "type": "Rosévin",
-    "country": "Østerrike",
+    "apertif_price": 299,
+    "apertif_score": 0,
+    "type": "Øl - Lys ale",
+    "country": "Belgia",
     "grape": "",
-    "alcohol": 13,
+    "alcohol": 0,
     "vivino_score": "",
     "vivino_url": ""
   },
   {
     "basic": {
-      "productId": "18882001",
-      "productShortName": "Langmann Ried Hochgrail Riesling"
+      "productId": "16665501",
+      "productShortName": "Selection Massale Central Otago Pinot No"
     },
     "lastChanged": {
-      "date": "2025-01-07",
-      "time": "08:28:37"
+      "date": "2024-04-23",
+      "time": "23:29:52"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 289,
+    "apertif_price": 219,
+    "apertif_score": 88,
+    "type": "Rødvin",
+    "country": "New Zealand",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "16669001",
+      "productShortName": "Sijnn White"
+    },
+    "lastChanged": {
+      "date": "2023-11-03",
+      "time": "09:25:03"
     },
     "volume": 75,
     "vinmonopolet_price": 319,
-    "apertif_price": 217,
-    "apertif_score": 89,
+    "apertif_price": 299,
+    "apertif_score": 88,
     "type": "Hvitvin",
-    "country": "Østerrike",
+    "country": "Sør-Afrika",
     "grape": "",
-    "alcohol": 13.5,
+    "alcohol": 0,
     "vivino_score": "",
     "vivino_url": ""
   },
   {
     "basic": {
-      "productId": "18965501",
-      "productShortName": "Langmann Stainz Grosse Reserve"
+      "productId": "16671206",
+      "productShortName": "Clay Creek Pinot Noir"
     },
     "lastChanged": {
-      "date": "2024-11-20",
-      "time": "13:03:23"
+      "date": "2023-11-03",
+      "time": "12:11:06"
+    },
+    "volume": 200,
+    "vinmonopolet_price": 349,
+    "apertif_price": 298,
+    "apertif_score": 76,
+    "type": "Rødvin",
+    "country": "USA",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "16699306",
+      "productShortName": "Pietro di Campo Barbera"
+    },
+    "lastChanged": {
+      "date": "2023-11-10",
+      "time": "09:30:02"
+    },
+    "volume": 150,
+    "vinmonopolet_price": 259,
+    "apertif_price": 199,
+    "apertif_score": 0,
+    "type": "Rødvin",
+    "country": "Italia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "16835401",
+      "productShortName": "Lentiscus Blanc de Noirs Brut Nature"
+    },
+    "lastChanged": {
+      "date": "2024-03-05",
+      "time": "13:36:04"
     },
     "volume": 75,
-    "vinmonopolet_price": 484,
+    "vinmonopolet_price": 339,
     "apertif_price": 249,
-    "apertif_score": 88,
+    "apertif_score": 0,
     "type": "Musserende vin - Musserende vin",
+    "country": "Spania",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "16885101",
+      "productShortName": "Conceito Bastardo"
+    },
+    "lastChanged": {
+      "date": "2024-01-02",
+      "time": "15:05:13"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 369,
+    "apertif_price": 199,
+    "apertif_score": 89,
+    "type": "Rødvin",
+    "country": "Portugal",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "16946001",
+      "productShortName": "Brød og Sirkus"
+    },
+    "lastChanged": {
+      "date": "2024-03-07",
+      "time": "11:05:03"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 134,
+    "apertif_price": 99,
+    "apertif_score": 0,
+    "type": "Rødvin",
+    "country": "Italia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "17092401",
+      "productShortName": "Kleine Zalze Brut"
+    },
+    "lastChanged": {
+      "date": "2024-05-02",
+      "time": "10:45:47"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 149,
+    "apertif_price": 129,
+    "apertif_score": 83,
+    "type": "Musserende vin - Musserende vin",
+    "country": "Sør-Afrika",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "17104001",
+      "productShortName": "Il Farneto Giandon Rosato"
+    },
+    "lastChanged": {
+      "date": "2024-02-29",
+      "time": "12:47:00"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 199,
+    "apertif_price": 149,
+    "apertif_score": 84,
+    "type": "Rosévin",
+    "country": "Italia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "17117801",
+      "productShortName": "Le Fameux Rosé du Dom. des Tourelles"
+    },
+    "lastChanged": {
+      "date": "2024-06-21",
+      "time": "10:54:25"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 159,
+    "apertif_price": 129,
+    "apertif_score": 87,
+    "type": "Rosévin",
+    "country": "Libanon",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "17122801",
+      "productShortName": "Weing. Wess Kremstal Riesling"
+    },
+    "lastChanged": {
+      "date": "2024-03-05",
+      "time": "14:06:03"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 283,
+    "apertif_price": 180,
+    "apertif_score": 85,
+    "type": "Hvitvin",
     "country": "Østerrike",
     "grape": "",
-    "alcohol": 12.5,
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "17123101",
+      "productShortName": "Weing. Wess Zweigelt St.Laurent"
+    },
+    "lastChanged": {
+      "date": "2024-03-05",
+      "time": "14:06:03"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 342,
+    "apertif_price": 219,
+    "apertif_score": 84,
+    "type": "Rødvin",
+    "country": "Østerrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "17225601",
+      "productShortName": "Zerione MaGewRie"
+    },
+    "lastChanged": {
+      "date": "2024-03-27",
+      "time": "12:06:22"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 599,
+    "apertif_price": 399,
+    "apertif_score": 91,
+    "type": "Hvitvin",
+    "country": "Frankrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "17276301",
+      "productShortName": "The Wolftrap White"
+    },
+    "lastChanged": {
+      "date": "2024-04-17",
+      "time": "16:17:38"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 179,
+    "apertif_price": 149,
+    "apertif_score": 82,
+    "type": "Hvitvin",
+    "country": "Sør-Afrika",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "17280501",
+      "productShortName": "Clos Lentiscus Night Potion"
+    },
+    "lastChanged": {
+      "date": "2024-04-19",
+      "time": "07:17:38"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 371,
+    "apertif_price": 249,
+    "apertif_score": 0,
+    "type": "Hvitvin",
+    "country": "Spania",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "17280801",
+      "productShortName": "Clos Lentiscus Perill de Perills"
+    },
+    "lastChanged": {
+      "date": "2024-04-19",
+      "time": "07:17:38"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 345,
+    "apertif_price": 249,
+    "apertif_score": 0,
+    "type": "Hvitvin",
+    "country": "Spania",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "17314301",
+      "productShortName": "Rennersistas Zweigelt"
+    },
+    "lastChanged": {
+      "date": "2024-04-30",
+      "time": "13:41:49"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 269,
+    "apertif_price": 179,
+    "apertif_score": 86,
+    "type": "Rødvin",
+    "country": "Østerrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "17319201",
+      "productShortName": "Josef Fischer Wachau GV Steinfeder"
+    },
+    "lastChanged": {
+      "date": "2024-05-23",
+      "time": "09:53:02"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 189,
+    "apertif_price": 149,
+    "apertif_score": 84,
+    "type": "Hvitvin",
+    "country": "Østerrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "17325401",
+      "productShortName": "Bisio Devis Benda de Veci Barbera"
+    },
+    "lastChanged": {
+      "date": "2024-05-06",
+      "time": "13:21:53"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 249,
+    "apertif_price": 149,
+    "apertif_score": 86,
+    "type": "Rødvin",
+    "country": "Italia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "17373201",
+      "productShortName": "Lourens Howard John Red Blend"
+    },
+    "lastChanged": {
+      "date": "2024-05-23",
+      "time": "14:28:02"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 339,
+    "apertif_price": 249,
+    "apertif_score": 89,
+    "type": "Rødvin",
+    "country": "Sør-Afrika",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "17408401",
+      "productShortName": "Walgate Cuvée M"
+    },
+    "lastChanged": {
+      "date": "2024-08-16",
+      "time": "09:58:36"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 519,
+    "apertif_price": 349,
+    "apertif_score": 0,
+    "type": "Hvitvin",
+    "country": "England",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "17408501",
+      "productShortName": "Walgate Pinot Meunier"
+    },
+    "lastChanged": {
+      "date": "2024-06-06",
+      "time": "07:03:17"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 479,
+    "apertif_price": 319,
+    "apertif_score": 87,
+    "type": "Rødvin",
+    "country": "England",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "17417901",
+      "productShortName": "Lelie van Saron Chardonnay"
+    },
+    "lastChanged": {
+      "date": "2024-06-11",
+      "time": "07:58:20"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 379,
+    "apertif_price": 249,
+    "apertif_score": 90,
+    "type": "Hvitvin",
+    "country": "Sør-Afrika",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "17418001",
+      "productShortName": "Lelie van Saron Syrah"
+    },
+    "lastChanged": {
+      "date": "2024-06-11",
+      "time": "07:58:20"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 399,
+    "apertif_price": 249,
+    "apertif_score": 90,
+    "type": "Rødvin",
+    "country": "Sør-Afrika",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "17462402",
+      "productShortName": "Disko Brewing Plenty NEIPA"
+    },
+    "lastChanged": {
+      "date": "2024-08-15",
+      "time": "08:27:14"
+    },
+    "volume": 44,
+    "vinmonopolet_price": 84,
+    "apertif_price": 82,
+    "apertif_score": 0,
+    "type": "Øl - India pale ale",
+    "country": "Norge",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "17470901",
+      "productShortName": "White Velvet Elcano"
+    },
+    "lastChanged": {
+      "date": "2024-08-08",
+      "time": "08:23:27"
+    },
+    "volume": 70,
+    "vinmonopolet_price": 599,
+    "apertif_price": 479,
+    "apertif_score": 0,
+    "type": "Brennevin - Gin",
+    "country": "Spania",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "17488202",
+      "productShortName": "Uiltje Epic Tsunami Surf Session"
+    },
+    "lastChanged": {
+      "date": "2024-08-16",
+      "time": "09:58:36"
+    },
+    "volume": 44,
+    "vinmonopolet_price": 89,
+    "apertif_price": 79,
+    "apertif_score": 0,
+    "type": "Øl - India pale ale",
+    "country": "Nederland",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "17559601",
+      "productShortName": "Bouissel Pinot St. Georges"
+    },
+    "lastChanged": {
+      "date": "2024-10-01",
+      "time": "10:38:23"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 252,
+    "apertif_price": 219,
+    "apertif_score": 86,
+    "type": "Rødvin",
+    "country": "Frankrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "17657301",
+      "productShortName": "Mariposa Florbela Reserva"
+    },
+    "lastChanged": {
+      "date": "2024-07-12",
+      "time": "06:54:05"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 159,
+    "apertif_price": 119,
+    "apertif_score": 84,
+    "type": "Rødvin",
+    "country": "Portugal",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "17994701",
+      "productShortName": "Marchand Charmes-Chambertin Grand Cru"
+    },
+    "lastChanged": {
+      "date": "2024-08-16",
+      "time": "09:48:35"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 3800,
+    "apertif_price": 3225,
+    "apertif_score": 92,
+    "type": "Rødvin",
+    "country": "Frankrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "17994601",
+      "productShortName": "Marchand Bourgogne Chardonnay"
+    },
+    "lastChanged": {
+      "date": "2024-07-18",
+      "time": "12:34:10"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 371,
+    "apertif_price": 272,
+    "apertif_score": 87,
+    "type": "Hvitvin",
+    "country": "Frankrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "17994801",
+      "productShortName": "Marchand Corton Perrières Grand Cru"
+    },
+    "lastChanged": {
+      "date": "2024-08-16",
+      "time": "09:48:35"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 2689,
+    "apertif_price": 1929,
+    "apertif_score": 89,
+    "type": "Rødvin",
+    "country": "Frankrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "18608702",
+      "productShortName": "Blackout Afterimage West Coast IPA"
+    },
+    "lastChanged": {
+      "date": "2024-09-24",
+      "time": "13:14:09"
+    },
+    "volume": 44,
+    "vinmonopolet_price": 107,
+    "apertif_price": 61,
+    "apertif_score": 0,
+    "type": "Øl - India pale ale",
+    "country": "Romania",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "18655901",
+      "productShortName": "Heiss Malinga Grüner Veltliner"
+    },
+    "lastChanged": {
+      "date": "2024-09-03",
+      "time": "11:28:44"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 319,
+    "apertif_price": 219,
+    "apertif_score": 87,
+    "type": "Hvitvin",
+    "country": "Østerrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "18656001",
+      "productShortName": "Heiss Malinga Riesling"
+    },
+    "lastChanged": {
+      "date": "2024-09-03",
+      "time": "11:28:44"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 349,
+    "apertif_price": 249,
+    "apertif_score": 88,
+    "type": "Hvitvin",
+    "country": "Østerrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "18672602",
+      "productShortName": "Badger Outland West Coast IPA"
+    },
+    "lastChanged": {
+      "date": "2024-09-10",
+      "time": "12:34:01"
+    },
+    "volume": 44,
+    "vinmonopolet_price": 69,
+    "apertif_price": 67,
+    "apertif_score": 0,
+    "type": "Øl - India pale ale",
+    "country": "England",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "18852302",
+      "productShortName": "Nepo Brewing Highway DDH Hazy IPA"
+    },
+    "lastChanged": {
+      "date": "2024-10-18",
+      "time": "11:53:30"
+    },
+    "volume": 50,
+    "vinmonopolet_price": 99,
+    "apertif_price": 62,
+    "apertif_score": 0,
+    "type": "Øl - India pale ale",
+    "country": "Polen",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "18850202",
+      "productShortName": "Metalhead X-Rated Nothings"
+    },
+    "lastChanged": {
+      "date": "2024-10-18",
+      "time": "08:03:31"
+    },
+    "volume": 44,
+    "vinmonopolet_price": 105,
+    "apertif_price": 61,
+    "apertif_score": 0,
+    "type": "Øl - India pale ale",
+    "country": "Bulgaria",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "18887502",
+      "productShortName": "St. Pierre Blonde Abbey Beer"
+    },
+    "lastChanged": {
+      "date": "2024-10-30",
+      "time": "14:43:30"
+    },
+    "volume": 50,
+    "vinmonopolet_price": 52,
+    "apertif_price": 50,
+    "apertif_score": 89,
+    "type": "Øl - Klosterstil",
+    "country": "Belgia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "18930702",
+      "productShortName": "La Goudale Blonde à l'Ancienne"
+    },
+    "lastChanged": {
+      "date": "2025-01-20",
+      "time": "11:58:37"
+    },
+    "volume": 50,
+    "vinmonopolet_price": 69,
+    "apertif_price": 67,
+    "apertif_score": 87,
+    "type": "Øl - Lys ale",
+    "country": "Frankrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "18949401",
+      "productShortName": "Anatolikos Pet Nat"
+    },
+    "lastChanged": {
+      "date": "2024-11-18",
+      "time": "13:58:47"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 249,
+    "apertif_price": 248,
+    "apertif_score": 87,
+    "type": "Perlende vin - Perlende vin, hvit",
+    "country": "Hellas",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "18980102",
+      "productShortName": "Víking Gylltur"
+    },
+    "lastChanged": {
+      "date": "2025-01-27",
+      "time": "13:38:25"
+    },
+    "volume": 50,
+    "vinmonopolet_price": 52,
+    "apertif_price": 50,
+    "apertif_score": 85,
+    "type": "Øl - Lys lager",
+    "country": "Island",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "18980202",
+      "productShortName": "Laitilan Kukko Pils"
+    },
+    "lastChanged": {
+      "date": "2024-11-25",
+      "time": "14:34:11"
+    },
+    "volume": 50,
+    "vinmonopolet_price": 47,
+    "apertif_price": 45,
+    "apertif_score": 84,
+    "type": "Øl - Lys lager",
+    "country": "Finland",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "19023302",
+      "productShortName": "Chimay Cinq Cent Trappist Triple Ale"
+    },
+    "lastChanged": {
+      "date": "2024-12-09",
+      "time": "11:18:28"
+    },
+    "volume": 33,
+    "vinmonopolet_price": 62,
+    "apertif_price": 60,
+    "apertif_score": 90,
+    "type": "Øl - Klosterstil",
+    "country": "Belgia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "19074502",
+      "productShortName": "Zywiec Premium Export Lager"
+    },
+    "lastChanged": {
+      "date": "2024-12-13",
+      "time": "09:53:26"
+    },
+    "volume": 50,
+    "vinmonopolet_price": 41,
+    "apertif_price": 39,
+    "apertif_score": 0,
+    "type": "Øl - Lys lager",
+    "country": "Polen",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "19099701",
+      "productShortName": "Perdeberg Vineyard Collection Pinotage"
+    },
+    "lastChanged": {
+      "date": "2024-12-18",
+      "time": "12:18:30"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 139,
+    "apertif_price": 136,
+    "apertif_score": 81,
+    "type": "Rødvin",
+    "country": "Sør-Afrika",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "19130704",
+      "productShortName": "Mama Bellini"
+    },
+    "lastChanged": {
+      "date": "2025-03-05",
+      "time": "13:37:35"
+    },
+    "volume": 25,
+    "vinmonopolet_price": 50,
+    "apertif_price": 48,
+    "apertif_score": 80,
+    "type": "Aromatisert vin",
+    "country": "Italia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "19128202",
+      "productShortName": "Mariestads Old Ox"
+    },
+    "lastChanged": {
+      "date": "2025-01-02",
+      "time": "13:33:36"
+    },
+    "volume": 50,
+    "vinmonopolet_price": 49,
+    "apertif_price": 47,
+    "apertif_score": 87,
+    "type": "Øl - Lys lager",
+    "country": "Sverige",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "19131002",
+      "productShortName": "Amundsen Razzle Dazzle Raspberry \u0026 Mango"
+    },
+    "lastChanged": {
+      "date": "2025-01-02",
+      "time": "14:48:37"
+    },
+    "volume": 44,
+    "vinmonopolet_price": 79,
+    "apertif_price": 77,
+    "apertif_score": 0,
+    "type": "Øl - Surøl",
+    "country": "Norge",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "19144801",
+      "productShortName": "Journeys End Wild Child Pinotage"
+    },
+    "lastChanged": {
+      "date": "2025-01-06",
+      "time": "10:33:41"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 136,
+    "apertif_price": 133,
+    "apertif_score": 78,
+    "type": "Rødvin",
+    "country": "Sør-Afrika",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "19142806",
+      "productShortName": ""
+    },
+    "lastChanged": {
+      "date": "2025-02-25",
+      "time": "19:32:28"
+    },
+    "volume": 150,
+    "vinmonopolet_price": 244,
+    "apertif_price": 245,
+    "apertif_score": 0,
+    "type": "Rosévin",
+    "country": "Australia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "19147901",
+      "productShortName": "Explorer London Dry Gin Ekologisk"
+    },
+    "lastChanged": {
+      "date": "2025-01-20",
+      "time": "12:43:39"
+    },
+    "volume": 70,
+    "vinmonopolet_price": 372,
+    "apertif_price": 369,
+    "apertif_score": 78,
+    "type": "Brennevin - Gin",
+    "country": "Finland",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "19148402",
+      "productShortName": "Klokk \u0026 Co Fripa"
+    },
+    "lastChanged": {
+      "date": "2025-01-06",
+      "time": "13:08:38"
+    },
+    "volume": 33,
+    "vinmonopolet_price": 25,
+    "apertif_price": 23,
+    "apertif_score": 82,
+    "type": "Alkoholfritt - Alkoholfritt øl",
+    "country": "Norge",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "19147802",
+      "productShortName": ""
+    },
+    "lastChanged": {
+      "date": "2025-02-25",
+      "time": "19:32:28"
+    },
+    "volume": 50,
+    "vinmonopolet_price": 91,
+    "apertif_price": 89,
+    "apertif_score": 78,
+    "type": "Øl - Lys ale",
+    "country": "Belgia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "19148501",
+      "productShortName": ""
+    },
+    "lastChanged": {
+      "date": "2025-02-25",
+      "time": "19:32:28"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 139,
+    "apertif_price": 136,
+    "apertif_score": 0,
+    "type": "Hvitvin",
+    "country": "Australia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "19150804",
+      "productShortName": "Lykkeliten Perlende Hvitvin"
+    },
+    "lastChanged": {
+      "date": "2025-01-07",
+      "time": "07:48:37"
+    },
+    "volume": 25,
+    "vinmonopolet_price": 59,
+    "apertif_price": 57,
+    "apertif_score": 0,
+    "type": "Perlende vin - Perlende vin, hvit",
+    "country": "Spania",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "19163402",
+      "productShortName": "RYGR Bard Vestkyst IPA"
+    },
+    "lastChanged": {
+      "date": "2025-02-07",
+      "time": "11:43:50"
+    },
+    "volume": 33,
+    "vinmonopolet_price": 65,
+    "apertif_price": 63,
+    "apertif_score": 0,
+    "type": "Øl - India pale ale",
+    "country": "Norge",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "19168301",
+      "productShortName": "Truls \u0026 Hellstrøm Toscana Rosso"
+    },
+    "lastChanged": {
+      "date": "2025-01-08",
+      "time": "13:38:41"
+    },
+    "volume": 75,
+    "vinmonopolet_price": 169,
+    "apertif_price": 166,
+    "apertif_score": 0,
+    "type": "Rødvin",
+    "country": "Italia",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "19170302",
+      "productShortName": "To Øl Orbital Movement"
+    },
+    "lastChanged": {
+      "date": "2025-01-08",
+      "time": "15:18:42"
+    },
+    "volume": 44,
+    "vinmonopolet_price": 91,
+    "apertif_price": 89,
+    "apertif_score": 0,
+    "type": "Øl - India pale ale",
+    "country": "Danmark",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "19177801",
+      "productShortName": "Les Vignes Sauvages Sauvignon Blanc"
+    },
+    "lastChanged": {
+      "date": "2025-01-10",
+      "time": "11:23:43"
+    },
+    "volume": 100,
+    "vinmonopolet_price": 153,
+    "apertif_price": 150,
+    "apertif_score": 80,
+    "type": "Hvitvin",
+    "country": "Frankrike",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "19179802",
+      "productShortName": "Schouskjelleren Kiss My Beard Brown Ale"
+    },
+    "lastChanged": {
+      "date": "2025-01-10",
+      "time": "14:13:45"
+    },
+    "volume": 33,
+    "vinmonopolet_price": 64,
+    "apertif_price": 62,
+    "apertif_score": 0,
+    "type": "Øl - Brown ale",
+    "country": "Norge",
+    "grape": "",
+    "alcohol": 0,
+    "vivino_score": "",
+    "vivino_url": ""
+  },
+  {
+    "basic": {
+      "productId": "19179902",
+      "productShortName": "Schouskjelleren Downtown Blonde"
+    },
+    "lastChanged": {
+      "date": "2025-01-10",
+      "time": "14:13:45"
+    },
+    "volume": 33,
+    "vinmonopolet_price": 64,
+    "apertif_price": 62,
+    "apertif_score": 0,
+    "type": "Øl - Lys ale",
+    "country": "Norge",
+    "grape": "",
+    "alcohol": 0,
     "vivino_score": "",
     "vivino_url": ""
   }
