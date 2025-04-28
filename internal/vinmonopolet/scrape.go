@@ -31,7 +31,7 @@ func ScrapeVinmonopolet(wine *shared.Product) {
 	// Sjekker om utgått, utgått hvis product-price-expired finnes
 	c.OnHTML(".product-price-expired", func(e *colly.HTMLElement) {
 		wine.VinmonopoletPrice = -1
-		log.Printf("Product %s is expired", wine.Basic.ProductId)
+		// log.Printf("Product %s is expired", wine.Basic.ProductId)
 	})
 
 	// Boolean flags to scrape only the first price and volume
