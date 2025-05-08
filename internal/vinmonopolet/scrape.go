@@ -2,7 +2,6 @@ package vinmonopolet
 
 import (
 	"fmt"
-	"github.com/gocolly/colly"
 	"gowine/internal/shared"
 	"log"
 	"net"
@@ -11,6 +10,8 @@ import (
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/gocolly/colly"
 )
 
 func ScrapeVinmonopolet(wine *shared.Product) {

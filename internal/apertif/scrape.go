@@ -1,7 +1,6 @@
 package apertif
 
 import (
-	"github.com/gocolly/colly"
 	"gowine/internal/shared"
 	"log"
 	"net"
@@ -9,6 +8,8 @@ import (
 	"regexp"
 	"strconv"
 	"time"
+
+	"github.com/gocolly/colly"
 )
 
 func ScrapeApertif(wine *shared.Product) {

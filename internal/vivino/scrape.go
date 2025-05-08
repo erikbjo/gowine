@@ -1,12 +1,13 @@
 package vivino
 
 import (
-	"github.com/gocolly/colly"
 	"gowine/internal/shared"
 	"log"
 	"net"
 	"net/http"
 	"time"
+
+	"github.com/gocolly/colly"
 )
 
 func ScrapeVivino(wine *shared.Product) {

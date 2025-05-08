@@ -2,14 +2,15 @@ package main
 
 import (
 	"encoding/json"
-	"github.com/joho/godotenv"
-	"github.com/schollz/progressbar/v3"
 	"gowine/internal/apertif"
 	"gowine/internal/shared"
 	"gowine/internal/vinmonopolet"
 	"log"
 	"os"
 	"sync"
+
+	"github.com/joho/godotenv"
+	"github.com/schollz/progressbar/v3"
 )
 
 func init() {
