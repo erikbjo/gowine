@@ -52,9 +52,5 @@ func ScrapeApertif(wine *shared.Product) {
 		log.Println("Retrying...")
 		time.Sleep(time.Second * 5)
 		ScrapeApertif(wine)
-	} else {
-		// log.Printf("Scraped Apertif for %s", wine.Basic.ProductId)
 	}
-
-	// time.Sleep(time.Millisecond * 2000)
 }

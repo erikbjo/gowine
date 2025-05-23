@@ -6,7 +6,6 @@ import (
 	"log"
 	"net/http"
 	"os"
-	"time"
 )
 
 const (
@@ -20,9 +19,7 @@ func init() {
 
 // GetWines returns all wines from Vinmonopolet
 func GetWines() []shared.Product {
-	client := &http.Client{
-		Timeout: 5 * time.Second,
-	}
+	client := &http.Client{}
 
 	defer client.CloseIdleConnections()
 

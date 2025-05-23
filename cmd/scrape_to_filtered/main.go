@@ -17,9 +17,12 @@ func main() {
 		decoder := json.NewDecoder(file)
 		err := decoder.Decode(&scrapedProducts)
 		if err != nil {
-			log.Fatalf("Failed to decode scraped products: %s", err)
+			log.Fatalf("Failed to decode scraped products: %s", err.Error())
 		}
-		file.Close()
+		err = file.Close()
+		if err != nil {
+			log.Printf("Failed to close file: %s", err.Error())
+		}
 	}
 
 	// Filter for products which has a lower apertif price than vinmonopolet price
@@ -35,14 +38,17 @@ func main() {
 	// Save gowine products to JSON
 	file, err = os.Create("json/gowine_products.json")
 	if err != nil {
-		log.Fatalf("Failed to create file: %s", err)
+		log.Fatalf("Failed to create file: %s", err.Error())
 	}
 
 	encoder := json.NewEncoder(file)
 	err = encoder.Encode(gowineProducts)
 	if err != nil {
-		log.Fatalf("Failed to encode gowine products: %s", err)
+		log.Fatalf("Failed to encode gowine products: %s", err.Error())
 	}
 
-	file.Close()
+	err = file.Close()
+	if err != nil {
+		log.Printf("Failed to close file: %s", err.Error())
+	}
 }

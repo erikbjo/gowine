@@ -7,6 +7,7 @@ import (
 	"gowine/internal/vinmonopolet"
 	"log"
 	"os"
+	"slices"
 	"sync"
 
 	"github.com/joho/godotenv"
@@ -39,9 +40,12 @@ func main() {
 		decoder := json.NewDecoder(file)
 		err := decoder.Decode(&expiredProducts)
 		if err != nil {
-			log.Fatalf("Failed to decode expired products: %s", err)
+			log.Fatalf("Failed to decode expired products: %s", err.Error())
 		}
-		file.Close()
+		err = file.Close()
+		if err != nil {
+			log.Printf("Failed to close file: %s", err.Error())
+		}
 	}
 
 	// Log expired products
@@ -51,7 +55,7 @@ func main() {
 		for _, product := range expiredProducts {
 			for i, p := range products {
 				if p.Basic.ProductId == product.Basic.ProductId {
-					products = append(products[:i], products[i+1:]...)
+					products = slices.Delete(products, i, i+1)
 					break
 				}
 			}
@@ -65,9 +69,12 @@ func main() {
 		decoder := json.NewDecoder(file)
 		err := decoder.Decode(&scrapedProducts)
 		if err != nil {
-			log.Fatalf("Failed to decode scraped products: %s", err)
+			log.Fatalf("Failed to decode scraped products: %s", err.Error())
 		}
-		file.Close()
+		err = file.Close()
+		if err != nil {
+			log.Printf("Failed to close file: %s", err.Error())
+		}
 	}
 
 	// Log scraped products
@@ -83,12 +90,12 @@ func main() {
 	semaphore := make(chan struct{}, 20)
 
 	for _, product := range products {
-		semaphore <- struct{}{} // Reserve a slot
+		semaphore <- struct{}{}
 		wg.Add(1)
 
 		go func(wine shared.Product) {
 			defer wg.Done()
-			defer func() { <-semaphore }() // Release the slot
+			defer func() { <-semaphore }()
 
 			// Scrape data from both sources
 			vinmonopolet.ScrapeVinmonopolet(&wine)

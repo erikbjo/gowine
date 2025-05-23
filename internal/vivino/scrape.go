@@ -40,5 +40,8 @@ func ScrapeVivino(wine *shared.Product) {
 
 	// Visit the page
 	url := wine.GetVivinoUrl()
-	c.Visit(url)
+	err := c.Visit(url)
+	if err != nil {
+		log.Printf("Error while executing colly: %s", err.Error())
+	}
 }
