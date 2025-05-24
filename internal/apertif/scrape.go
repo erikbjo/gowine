@@ -2,7 +2,6 @@ package apertif
 
 import (
 	"gowine/internal/shared"
-	"log"
 	"net"
 	"net/http"
 	"regexp"
@@ -12,13 +11,17 @@ import (
 	"github.com/gocolly/colly"
 )
 
-func ScrapeApertif(wine *shared.Product) {
+func ScrapeApertif(wine *shared.Product, retryNumber int) {
+	if retryNumber > 5 {
+		return
+	}
+
 	c := colly.NewCollector()
 
 	c.WithTransport(&http.Transport{
-		ResponseHeaderTimeout: 15 * time.Second,
+		ResponseHeaderTimeout: 30 * time.Second,
 		DialContext: (&net.Dialer{
-			Timeout: 15 * time.Second,
+			Timeout: 30 * time.Second,
 		}).DialContext,
 	})
 
@@ -48,9 +51,6 @@ func ScrapeApertif(wine *shared.Product) {
 	url := wine.GetApertifUrl()
 	err := c.Visit(url)
 	if err != nil {
-		// log.Println("Error while visiting Apertif: " + err.Error())
-		log.Println("Retrying...")
-		time.Sleep(time.Second * 5)
-		ScrapeApertif(wine)
+		ScrapeApertif(wine, retryNumber+1)
 	}
 }

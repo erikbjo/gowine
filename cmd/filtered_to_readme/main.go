@@ -3,12 +3,13 @@ package main
 import (
 	"encoding/json"
 	"gowine/internal/shared"
-	"log"
 	"os"
 	"sort"
 	"strconv"
 	"strings"
 )
+
+var logger = shared.CreateSugaredLogger()
 
 func main() {
 	// Take the filtered products from the scrape process and write them to the README
@@ -17,24 +18,34 @@ func main() {
 	// Load gowine products from JSON
 	file, err := os.Open("json/gowine_products.json")
 	if err != nil {
-		log.Fatalf("Failed to open file: %s", err.Error())
+		logger.Fatalf("Failed to open file: %s", err.Error())
 	}
-	defer file.Close()
+	defer func() {
+		err = file.Close()
+		if err != nil {
+			logger.Warnf("Failed to close gowine_products file: %s", err.Error())
+		}
+	}()
 
 	// Read the products
 	var filteredProducts []*shared.Product
 	decoder := json.NewDecoder(file)
 	err = decoder.Decode(&filteredProducts)
 	if err != nil {
-		log.Fatalf("Failed to decode gowine products: %s", err.Error())
+		logger.Fatalf("Failed to decode gowine products: %s", err.Error())
 	}
 
 	// Prepare the README
 	readme, err := os.Create("README.md")
 	if err != nil {
-		log.Fatalf("Failed to create README: %s", err.Error())
+		logger.Fatalf("Failed to create README: %s", err.Error())
 	}
-	defer readme.Close()
+	defer func() {
+		err = readme.Close()
+		if err != nil {
+			logger.Warnf("Failed to close readme file: %s", err.Error())
+		}
+	}()
 
 	// Sort the products by discount
 	sort.Slice(filteredProducts, func(i, j int) bool {

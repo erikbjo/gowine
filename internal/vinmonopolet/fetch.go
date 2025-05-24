@@ -2,8 +2,8 @@ package vinmonopolet
 
 import (
 	"encoding/json"
+	"fmt"
 	"gowine/internal/shared"
-	"log"
 	"net/http"
 	"os"
 )
@@ -13,26 +13,20 @@ const (
 	START  = "0"
 )
 
-func init() {
-	// This package is used to fetch wines from Vinmonopolet
-}
-
 // GetWines returns all wines from Vinmonopolet
-func GetWines() []shared.Product {
+func GetWines() ([]shared.Product, error) {
 	client := &http.Client{}
 
 	defer client.CloseIdleConnections()
 
-	r, err1 := http.NewRequest(http.MethodGet, apiUrl, nil)
-	if err1 != nil {
-		log.Println("Error in creating request:", err1.Error())
-		return nil
+	r, err := http.NewRequest(http.MethodGet, apiUrl, nil)
+	if err != nil {
+		return nil, fmt.Errorf("error creating vinmonopolet api request: %s", err.Error())
 	}
 
 	apiKey := os.Getenv("VINMONOPOLETAPIKEY")
 	if apiKey == "" {
-		log.Println("VINMONOPOLETAPIKEY is not set")
-		return nil
+		return nil, fmt.Errorf("VINMONOPOLETAPIKEY is net set")
 	}
 
 	r.Header.Add("Cache-Control", "no-cache")
@@ -41,21 +35,18 @@ func GetWines() []shared.Product {
 	//r.URL.RawQuery = "start=" + START //+ "&maxResults=100000"
 	//r.URL.RawQuery = "maxResults=10000"
 
-	res, err2 := client.Do(r)
-	if err2 != nil {
-		log.Println("Error in response:", err2.Error())
-		return nil
+	res, err := client.Do(r)
+	if err != nil {
+		return nil, fmt.Errorf("error doing vinmonopolet request: %s", err.Error())
 	}
-	log.Println(res.Body)
 
 	decoder := json.NewDecoder(res.Body)
 	var mp []shared.Product
 
-	err := decoder.Decode(&mp)
+	err = decoder.Decode(&mp)
 	if err != nil {
-		log.Println("Error during decoding: " + err.Error())
-		return nil
+		return nil, fmt.Errorf("error decoding vinmonopolet response: %s", err.Error())
 	}
 
-	return mp
+	return mp, nil
 }

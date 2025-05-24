@@ -3,9 +3,10 @@ package main
 import (
 	"encoding/json"
 	"gowine/internal/shared"
-	"log"
 	"os"
 )
+
+var logger = shared.CreateSugaredLogger()
 
 // Process scraped data
 func main() {
@@ -17,11 +18,11 @@ func main() {
 		decoder := json.NewDecoder(file)
 		err := decoder.Decode(&scrapedProducts)
 		if err != nil {
-			log.Fatalf("Failed to decode scraped products: %s", err.Error())
+			logger.Fatalf("Failed to decode scraped products: %s", err.Error())
 		}
 		err = file.Close()
 		if err != nil {
-			log.Printf("Failed to close file: %s", err.Error())
+			logger.Warnf("Failed to close file: %s", err.Error())
 		}
 	}
 
@@ -38,17 +39,17 @@ func main() {
 	// Save gowine products to JSON
 	file, err = os.Create("json/gowine_products.json")
 	if err != nil {
-		log.Fatalf("Failed to create file: %s", err.Error())
+		logger.Fatalf("Failed to create file: %s", err.Error())
 	}
 
 	encoder := json.NewEncoder(file)
 	err = encoder.Encode(gowineProducts)
 	if err != nil {
-		log.Fatalf("Failed to encode gowine products: %s", err.Error())
+		logger.Fatalf("Failed to encode gowine products: %s", err.Error())
 	}
 
 	err = file.Close()
 	if err != nil {
-		log.Printf("Failed to close file: %s", err.Error())
+		logger.Warnf("Failed to close file: %s", err.Error())
 	}
 }
