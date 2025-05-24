@@ -1,6 +1,9 @@
 package shared
 
-import "net/url"
+import (
+	"math"
+	"net/url"
+)
 
 type Product struct {
 	Basic struct {
@@ -49,4 +52,8 @@ func (p *Product) GetPriceDelta() int {
 
 func (p *Product) GetDiscount() int {
 	return 100 - (p.ApertifPrice * 100 / p.VinmonopoletPrice)
+}
+
+func (p *Product) GetAbsolutePercentDifference() int {
+	return int(math.Abs(float64(100 - (p.ApertifPrice * 100 / p.VinmonopoletPrice))))
 }
