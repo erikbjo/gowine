@@ -4,6 +4,8 @@ import (
 	"encoding/json"
 	"gowine/internal/shared"
 	"os"
+
+	"go.uber.org/zap"
 )
 
 var logger = shared.CreateSugaredLogger()
@@ -14,15 +16,18 @@ func main() {
 
 	// Load scraped products from JSON, if it exists
 	file, err := os.Open("json/scraped_products.json")
+	if err != nil {
+		logger.Fatal("Failed to open file", zap.String("file", file.Name()))
+	}
 	if err == nil {
 		decoder := json.NewDecoder(file)
 		err := decoder.Decode(&scrapedProducts)
 		if err != nil {
-			logger.Fatalf("Failed to decode scraped products: %s", err.Error())
+			logger.Fatal("Failed to decode scraped products", zap.Error(err))
 		}
 		err = file.Close()
 		if err != nil {
-			logger.Warnf("Failed to close file: %s", err.Error())
+			logger.Warn("Failed to close file", zap.Error(err))
 		}
 	}
 
@@ -39,17 +44,17 @@ func main() {
 	// Save gowine products to JSON
 	file, err = os.Create("json/gowine_products.json")
 	if err != nil {
-		logger.Fatalf("Failed to create file: %s", err.Error())
+		logger.Fatal("Failed to create file", zap.Error(err))
 	}
 
 	encoder := json.NewEncoder(file)
 	err = encoder.Encode(gowineProducts)
 	if err != nil {
-		logger.Fatalf("Failed to encode gowine products: %s", err.Error())
+		logger.Error("Failed to encode gowine products", zap.Error(err))
 	}
 
 	err = file.Close()
 	if err != nil {
-		logger.Warnf("Failed to close file: %s", err.Error())
+		logger.Warn("Failed to close file", zap.Error(err))
 	}
 }

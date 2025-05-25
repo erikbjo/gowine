@@ -7,6 +7,8 @@ import (
 	"sort"
 	"strconv"
 	"strings"
+
+	"go.uber.org/zap"
 )
 
 var logger = shared.CreateSugaredLogger()
@@ -18,12 +20,12 @@ func main() {
 	// Load gowine products from JSON
 	file, err := os.Open("json/gowine_products.json")
 	if err != nil {
-		logger.Fatalf("Failed to open file: %s", err.Error())
+		logger.Fatal("Failed to open file", zap.Error(err))
 	}
 	defer func() {
 		err = file.Close()
 		if err != nil {
-			logger.Warnf("Failed to close gowine_products file: %s", err.Error())
+			logger.Warn("Failed to close gowine_products file", zap.Error(err))
 		}
 	}()
 
@@ -32,18 +34,18 @@ func main() {
 	decoder := json.NewDecoder(file)
 	err = decoder.Decode(&filteredProducts)
 	if err != nil {
-		logger.Fatalf("Failed to decode gowine products: %s", err.Error())
+		logger.Fatal("Failed to decode gowine products", zap.Error(err))
 	}
 
 	// Prepare the README
 	readme, err := os.Create("README.md")
 	if err != nil {
-		logger.Fatalf("Failed to create README: %s", err.Error())
+		logger.Fatal("Failed to create README", zap.Error(err))
 	}
 	defer func() {
 		err = readme.Close()
 		if err != nil {
-			logger.Warnf("Failed to close readme file: %s", err.Error())
+			logger.Warn("Failed to close readme file", zap.Error(err))
 		}
 	}()
 
@@ -71,11 +73,16 @@ func main() {
 		}
 	}
 
-	// Write the header
-	readme.WriteString("# Go(d) wine\n\n")
-	readme.WriteString("Liste over produkter som blir billigere etter månedsskiftet:\n\n")
+	// helper function
+	write := func(description string, content string) {
+		if _, err := readme.WriteString(content); err != nil {
+			logger.Fatal("write failed", zap.String("part", description), zap.Error(err))
+		}
+	}
 
-	readme.WriteString(whiteWines.String())
-	readme.WriteString(redWines.String())
-	readme.WriteString(otherProducts.String())
+	write("header", "# Go(d) wine\n\n")
+	write("intro", "Liste over produkter som blir billigere etter månedsskiftet:\n\n")
+	write("white wines", whiteWines.String())
+	write("red wines", redWines.String())
+	write("other products", otherProducts.String())
 }

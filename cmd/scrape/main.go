@@ -2,16 +2,18 @@ package main
 
 import (
 	"encoding/json"
-	"fmt"
 	"gowine/internal/apertif"
 	"gowine/internal/shared"
 	"gowine/internal/vinmonopolet"
 	"os"
 	"slices"
+	"strings"
 	"sync"
+	"time"
 
 	"github.com/joho/godotenv"
 	"github.com/schollz/progressbar/v3"
+	"go.uber.org/zap"
 )
 
 var logger = shared.CreateSugaredLogger()
@@ -19,17 +21,22 @@ var logger = shared.CreateSugaredLogger()
 func init() {
 	err := godotenv.Load(".env")
 	if err != nil {
-		logger.Fatalf("Error loading .env file: %s", err.Error())
+		logger.Fatal("Failed to load .env file", zap.Error(err))
 	}
 }
 
 func main() {
+	err := cleanStaleFiles()
+	if err != nil {
+		logger.Error("Failed to clean stale files", zap.Error(err))
+	}
+
 	products, err := vinmonopolet.GetWines()
 	if len(products) == 0 {
 		logger.Fatal("Got zero wines from vinmonopolet")
 	}
 	if err != nil {
-		logger.Fatalf("Could not get vinmonopolet wines: %s", err.Error())
+		logger.Fatal("Failed to get vinmonopolet wines", zap.Error(err))
 	}
 
 	var wg sync.WaitGroup
@@ -45,18 +52,20 @@ func main() {
 		decoder := json.NewDecoder(file)
 		err := decoder.Decode(&expiredProducts)
 		if err != nil {
-			logger.Fatalf("Failed to decode expired products: %s", err.Error())
+			logger.Fatal("Failed to decode expired products", zap.Error(err))
 		}
 		err = file.Close()
 		if err != nil {
-			logger.Warnf("Failed to close file: %s", err.Error())
+			logger.Warn("Failed to close file",
+				zap.String("file", file.Name()),
+				zap.Error(err))
 		}
 	}
 
 	// Log expired products
 	if len(expiredProducts) > 0 {
-		logger.Infof("Found %d expired products, filtering...", len(expiredProducts))
-		logger.Infof("Amount of products before filtering: %d", len(products))
+		logger.Info("Filtering expired products",
+			zap.Int("amount", len(expiredProducts)))
 		for _, product := range expiredProducts {
 			for i, p := range products {
 				if p.Basic.ProductId == product.Basic.ProductId {
@@ -65,35 +74,15 @@ func main() {
 				}
 			}
 		}
-		logger.Infof("Amount of products after filtering: %d", len(products))
 	}
 
-	// Load scraped products from JSON, if it exists
-	file, err = os.Open("json/scraped_products.json")
-	if err == nil {
-		decoder := json.NewDecoder(file)
-		err := decoder.Decode(&scrapedProducts)
-		if err != nil {
-			logger.Fatalf("Failed to decode scraped products: %s", err.Error())
-		}
-		err = file.Close()
-		if err != nil {
-			logger.Infof("Failed to close file: %s", err.Error())
-		}
-	}
-
-	// TODO: Should not read pre-scraped, but maybe move it to json/log/month dir
-	// Log scraped products
-	if len(scrapedProducts) > 0 {
-		logger.Infof("Found %d pre-scraped products, adding to scraped...", len(scrapedProducts))
-	}
-
-	logger.Infof("Starting to scrape %d products", len(products))
+	logger.Info("Starting to scrape products", zap.Int("amount", len(products)))
 
 	loadingBar := progressbar.Default(int64(len(products)))
 
 	// Limit the number of concurrent goroutines
-	semaphore := make(chan struct{}, 25)
+	// Vinmonopolet are quick to throttle IPs from personal networks, use VPN etc with many goroutines
+	semaphore := make(chan struct{}, 100)
 
 	for _, product := range products {
 		semaphore <- struct{}{}
@@ -125,7 +114,7 @@ func main() {
 
 	// Wait for all goroutines to finish
 	wg.Wait()
-	logger.Infof("All scraping done, processing results.")
+	logger.Info("All scraping done, processing results.")
 
 	// Filter products with complete pricing
 	filteredProducts := filterCompleteProducts(scrapedProducts)
@@ -134,17 +123,18 @@ func main() {
 	// Save results to JSON
 	err = saveToJSON("json/scraped_products.json", priceDifferenceProducts)
 	if err != nil {
-		logger.Infof("Failed to save scraped products to json: %s", err.Error())
+		logger.Error("Failed to save scraped products to json", zap.Error(err))
 	}
 
 	// Save expired products to JSON
 	err = saveToJSON("json/expired_products.json", expiredProducts)
 	if err != nil {
-		logger.Infof("Failed to save expired products to json: %s", err.Error())
+		logger.Error("Failed to save expired products to json", zap.Error(err))
 	}
 
-	logger.Infof("Saved %d products with price differences to scraped_products.json", len(priceDifferenceProducts))
-	logger.Infof("Saved %d expired products to expired_products.json", len(expiredProducts))
+	logger.Info("Saved products to files",
+		zap.Int("amountScraped", len(priceDifferenceProducts)),
+		zap.Int("amountExpired", len(expiredProducts)))
 }
 
 // Filters products that have valid prices from both sources
@@ -154,7 +144,9 @@ func filterCompleteProducts(products []*shared.Product) []*shared.Product {
 		if product.VinmonopoletPrice != 0 && product.ApertifPrice != 0 {
 			filtered = append(filtered, product)
 		} else {
-			logger.Infof("Product %s, art.nr %s has missing prices, skipping", product.Basic.ProductShortName, product.Basic.ProductId)
+			logger.Info("Product har missing prices, skipping",
+				zap.String("productId", product.Basic.ProductId),
+				zap.String("productName", product.Basic.ProductShortName))
 		}
 	}
 	return filtered
@@ -175,20 +167,60 @@ func filterPriceDifferences(products []*shared.Product) []*shared.Product {
 func saveToJSON(filename string, products []*shared.Product) error {
 	file, err := os.Create(filename)
 	if err != nil {
-		return fmt.Errorf("failed to create file %s: %s", filename, err.Error())
+		return err
 	}
-
-	defer func() {
-		err := file.Close()
-		if err != nil {
-			logger.Warnf("Failed to close file: %s", err.Error())
-		}
-	}()
 
 	encoder := json.NewEncoder(file)
 	encoder.SetIndent("", "  ")
 	if err := encoder.Encode(products); err != nil {
-		return fmt.Errorf("failed to encode products to file %s: %s", filename, err.Error())
+		return err
+	}
+
+	err = file.Close()
+	if err != nil {
+		return err
+	}
+
+	return nil
+}
+
+// cleanStaleFiles moves old files (scraped and gowine products) to the log dir for the current month
+func cleanStaleFiles() error {
+	staleFiles := []string{"json/scraped_products.json", "json/gowine_products.json"}
+
+	for _, fileString := range staleFiles {
+		var products []*shared.Product
+
+		file, err := os.Open(fileString)
+		if err == nil {
+			decoder := json.NewDecoder(file)
+			err = decoder.Decode(&products)
+			if err != nil {
+				return err
+			}
+
+			if len(products) > 0 {
+				logger.Warn("Found stale scraped products, moving to archive", zap.String("file", fileString))
+
+				split := strings.Split(file.Name(), "/")
+				dirPath := split[0] + "/log/" + strings.ToLower(time.Now().UTC().Format("Jan")) + "/"
+
+				err = os.MkdirAll(dirPath, os.ModePerm)
+				if err != nil {
+					return err
+				}
+
+				err = os.Rename(file.Name(), dirPath+split[1])
+				if err != nil {
+					return err
+				}
+			}
+
+			err = file.Close()
+			if err != nil {
+				return err
+			}
+		}
 	}
 
 	return nil
