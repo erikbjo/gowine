@@ -203,7 +203,7 @@ func cleanStaleFiles() error {
 				logger.Warn("Found stale scraped products, moving to archive", zap.String("file", fileString))
 
 				split := strings.Split(file.Name(), "/")
-				dirPath := split[0] + "/log/" + strings.ToLower(time.Now().UTC().Format("Jan")) + "/"
+				dirPath := split[0] + "/log/" + strings.ToLower(time.Now().UTC().Format("2026/Jan")) + "/"
 
 				err = os.MkdirAll(dirPath, os.ModePerm)
 				if err != nil {
