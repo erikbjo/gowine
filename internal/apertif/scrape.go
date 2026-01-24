@@ -16,6 +16,7 @@ func ScrapeApertif(wine *shared.Product, retryNumber int) {
 		return
 	}
 
+	// TODO: new collector for each wine?
 	c := colly.NewCollector()
 
 	c.WithTransport(&http.Transport{
@@ -26,16 +27,30 @@ func ScrapeApertif(wine *shared.Product, retryNumber int) {
 	})
 
 	// Scrape price
-	c.OnHTML(".price", func(e *colly.HTMLElement) {
-		priceText := e.Text
+	// Apertif may return multiple results, so checking product id
+	c.OnHTML("li.product-list-element", func(e *colly.HTMLElement) {
+		attrID := e.Attr("data-product-id")
+		if attrID != wine.Basic.ProductId {
+			return
+		}
+
+		priceText := e.ChildText(".price")
+		if priceText == "" {
+			return
+		}
+
 		re := regexp.MustCompile(`[^0-9]`)
 		price := re.ReplaceAllString(priceText, "")
 		if len(price) > 2 {
-			price = price[:len(price)-2] // Remove last 2 digits
+			price = price[:len(price)-2]
 		}
-		wine.ApertifPrice, _ = strconv.Atoi(price)
+
+		if p, err := strconv.Atoi(price); err == nil {
+			wine.ApertifPrice = p
+		}
 	})
 
+	// TODO: remove apertif score, not used
 	// Scrape score
 	c.OnHTML(".number", func(e *colly.HTMLElement) {
 		scoreText := e.Text
@@ -48,8 +63,7 @@ func ScrapeApertif(wine *shared.Product, retryNumber int) {
 	})
 
 	// Visit the page
-	url := wine.GetApertifUrl()
-	err := c.Visit(url)
+	err := c.Visit(wine.GetApertifUrl())
 	if err != nil {
 		ScrapeApertif(wine, retryNumber+1)
 	}
