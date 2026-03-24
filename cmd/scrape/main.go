@@ -2,6 +2,7 @@ package main
 
 import (
 	"encoding/json"
+	"flag"
 	"gowine/internal/apertif"
 	"gowine/internal/shared"
 	"gowine/internal/vinmonopolet"
@@ -26,55 +27,76 @@ func init() {
 }
 
 func main() {
+	testMode := flag.Bool("test", false, "Run in test mode using mockdata")
+	flag.Parse()
+
 	err := cleanStaleFiles()
 	if err != nil {
 		logger.Error("Failed to clean stale files", zap.Error(err))
 	}
 
-	products, err := vinmonopolet.GetWines()
-	if len(products) == 0 {
-		logger.Fatal("Got zero wines from vinmonopolet")
-	}
-	if err != nil {
-		logger.Fatal("Failed to get vinmonopolet wines", zap.Error(err))
+	var products []shared.Product
+	var expiredProducts []*shared.Product
+
+	// --- STEP 1: LOAD DATA ---
+	if *testMode {
+		logger.Info("Test mode active: Loading from json/mockdata.json")
+		file, err := os.Open("json/mockdata.json")
+		if err != nil {
+			logger.Fatal("mockdata.json not found. Run without --test first.", zap.Error(err))
+		}
+		decoder := json.NewDecoder(file)
+		if err := decoder.Decode(&products); err != nil {
+			logger.Fatal("Failed to decode mockdata", zap.Error(err))
+		}
+		file.Close()
+	} else {
+		products, err = vinmonopolet.GetWines()
+		if len(products) == 0 {
+			logger.Fatal("Got zero wines from vinmonopolet")
+		}
+		if err != nil {
+			logger.Fatal("Failed to get vinmonopolet wines", zap.Error(err))
+		}
+
+		logger.Info("Got products from vinmonopolet", zap.Int("amount", len(products)))
+
+		// Load expired products from JSON, if it exists
+		file, err := os.Open("json/expired_products.json")
+		if err == nil {
+			decoder := json.NewDecoder(file)
+			err := decoder.Decode(&expiredProducts)
+			if err != nil {
+				logger.Fatal("Failed to decode expired products", zap.Error(err))
+			}
+			err = file.Close()
+			if err != nil {
+				logger.Warn("Failed to close file",
+					zap.String("file", file.Name()),
+					zap.Error(err))
+			}
+		}
+
+		// Log expired products
+		if len(expiredProducts) > 0 {
+			logger.Info("Filtering expired products",
+				zap.Int("amount", len(expiredProducts)))
+			for _, product := range expiredProducts {
+				for i, p := range products {
+					if p.Basic.ProductId == product.Basic.ProductId {
+						products = slices.Delete(products, i, i+1)
+						break
+					}
+				}
+			}
+		}
 	}
 
 	var wg sync.WaitGroup
 	var scrapedProducts []*shared.Product
 	var validMutex sync.Mutex
 
-	var expiredProducts []*shared.Product
 	var expiredMutex sync.Mutex
-
-	// Load expired products from JSON, if it exists
-	file, err := os.Open("json/expired_products.json")
-	if err == nil {
-		decoder := json.NewDecoder(file)
-		err := decoder.Decode(&expiredProducts)
-		if err != nil {
-			logger.Fatal("Failed to decode expired products", zap.Error(err))
-		}
-		err = file.Close()
-		if err != nil {
-			logger.Warn("Failed to close file",
-				zap.String("file", file.Name()),
-				zap.Error(err))
-		}
-	}
-
-	// Log expired products
-	if len(expiredProducts) > 0 {
-		logger.Info("Filtering expired products",
-			zap.Int("amount", len(expiredProducts)))
-		for _, product := range expiredProducts {
-			for i, p := range products {
-				if p.Basic.ProductId == product.Basic.ProductId {
-					products = slices.Delete(products, i, i+1)
-					break
-				}
-			}
-		}
-	}
 
 	logger.Info("Starting to scrape products", zap.Int("amount", len(products)))
 
@@ -127,9 +149,11 @@ func main() {
 	}
 
 	// Save expired products to JSON
-	err = saveToJSON("json/expired_products.json", expiredProducts)
-	if err != nil {
-		logger.Error("Failed to save expired products to json", zap.Error(err))
+	if !*testMode {
+		err = saveToJSON("json/expired_products.json", expiredProducts)
+		if err != nil {
+			logger.Error("Failed to save expired products to json", zap.Error(err))
+		}
 	}
 
 	logger.Info("Saved products to files",
@@ -203,7 +227,7 @@ func cleanStaleFiles() error {
 				logger.Warn("Found stale scraped products, moving to archive", zap.String("file", fileString))
 
 				split := strings.Split(file.Name(), "/")
-				dirPath := split[0] + "/log/" + strings.ToLower(time.Now().UTC().Format("2026/Jan")) + "/"
+				dirPath := split[0] + "/log/" + strings.ToLower(time.Now().UTC().Format("2006/Jan")) + "/"
 
 				err = os.MkdirAll(dirPath, os.ModePerm)
 				if err != nil {
