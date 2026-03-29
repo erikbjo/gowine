@@ -38,7 +38,6 @@ func main() {
 	var products []shared.Product
 	var expiredProducts []*shared.Product
 
-	// --- STEP 1: LOAD DATA ---
 	if *testMode {
 		logger.Info("Test mode active: Loading from json/mockdata.json")
 		file, err := os.Open("json/mockdata.json")
@@ -104,7 +103,7 @@ func main() {
 
 	// Limit the number of concurrent goroutines
 	// Vinmonopolet are quick to throttle IPs from personal networks, use VPN etc with many goroutines
-	semaphore := make(chan struct{}, 100)
+	semaphore := make(chan struct{}, 25)
 
 	for _, product := range products {
 		semaphore <- struct{}{}
