@@ -4,7 +4,6 @@ import (
 	"gowine/internal/shared"
 	"net"
 	"net/http"
-	"regexp"
 	"strconv"
 	"strings"
 	"time"
@@ -14,19 +13,15 @@ import (
 )
 
 var logger = shared.CreateSugaredLogger()
+var baseCollector *colly.Collector
 
-func ScrapeApertif(wine *shared.Product, retryNumber int) {
-	if retryNumber > 5 {
-		return
-	}
+func init() {
+	baseCollector = colly.NewCollector()
+	baseCollector.UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 
-	// TODO: new collector for each wine?
-	c := colly.NewCollector()
-
-	c.UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-	err := c.Limit(&colly.LimitRule{
+	err := baseCollector.Limit(&colly.LimitRule{
 		DomainGlob:  "*aperitif.no*",
-		Parallelism: 2,
+		Parallelism: 10,
 		Delay:       2 * time.Second,
 		RandomDelay: 1 * time.Second,
 	})
@@ -34,12 +29,21 @@ func ScrapeApertif(wine *shared.Product, retryNumber int) {
 		logger.Error("Error setting colly limits", zap.Error(err))
 	}
 
-	c.WithTransport(&http.Transport{
+	baseCollector.WithTransport(&http.Transport{
 		ResponseHeaderTimeout: 30 * time.Second,
 		DialContext: (&net.Dialer{
 			Timeout: 30 * time.Second,
 		}).DialContext,
 	})
+}
+
+func ScrapeApertif(wine *shared.Product, retryNumber int) {
+	if retryNumber > 5 {
+		logger.Warn("Skipping wine due to 5+ retries", zap.String("ProductId", wine.Basic.ProductId))
+		return
+	}
+
+	c := baseCollector.Clone()
 
 	// Scrape price
 	// Apertif may return multiple results, so checking product id
@@ -54,19 +58,18 @@ func ScrapeApertif(wine *shared.Product, retryNumber int) {
 			return
 		}
 
-		re := regexp.MustCompile(`[^0-9]`)
-		price := re.ReplaceAllString(priceText, "")
-		if len(price) > 2 {
-			price = price[:len(price)-2]
-		}
+		priceText = strings.ReplaceAll(priceText, "Pris: ", "") // "67.30 kr"
+		priceText = strings.ReplaceAll(priceText, " kr", "")    // "67.30"
+		priceText = strings.ReplaceAll(priceText, " ", "")      // Handle thousands separators if any
+		parts := strings.Split(priceText, ".")                  // Split by decimal
 
-		if p, err := strconv.Atoi(price); err == nil {
+		if p, err := strconv.Atoi(parts[0]); err == nil {
 			wine.ApertifPrice = p
 		}
 	})
 
 	// Visit the page
-	err = c.Visit(wine.GetApertifUrl())
+	err := c.Visit(wine.GetApertifUrl())
 	if err != nil {
 		ScrapeApertif(wine, retryNumber+1)
 	}
