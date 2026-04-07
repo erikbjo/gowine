@@ -1,0 +1,52 @@
+name: Monthly Wine Scrape
+
+on:
+  schedule:
+    # kl 12 hver 24d
+    - cron: "0 12 24 * *"
+  workflow_dispatch:
+
+jobs:
+  build-and-run:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: "1.22"
+          cache: true
+
+      - name: Install dependencies
+        run: go mod download
+
+      - name: Scrape
+        run: go run cmd/scrape/main.go --test
+        env:
+          VINMONOPOLETAPIKEY: ${{ secrets.VINMONOPOLETAPIKEY }}
+
+      - name: Scrape to filtered
+        run: go run cmd/scrape_to_filtered/main.go
+
+      - name: Filtered to readme
+        run: go run cmd/filtered_to_readme/main.go
+
+      - name: Get current month
+        run: echo "CURRENT_MONTH=$(date +%B | tr '[:upper:]' '[:lower:]')" >> $GITHUB_ENV
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "feat: ${{ env.CURRENT_MONTH }} :wine_glass:"
+          title: "feat: ${{ env.CURRENT_MONTH }} :wine_glass:"
+          body: "Automated monthly update of wine price differences between Vinmonopolet and Aperitif."
+          branch: "data/monthly-scrape"
+          base: main
+          delete-branch: true
