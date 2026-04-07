@@ -22,7 +22,7 @@ var logger = shared.CreateSugaredLogger()
 func init() {
 	err := godotenv.Load(".env")
 	if err != nil {
-		logger.Fatal("Failed to load .env file", zap.Error(err))
+		logger.Warn("Failed to load .env file, validate enviornment variables", zap.Error(err))
 	}
 }
 
