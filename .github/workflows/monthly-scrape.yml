@@ -27,7 +27,7 @@ jobs:
         run: go mod download
 
       - name: Scrape
-        run: go run cmd/scrape/main.go --test
+        run: go run cmd/scrape/main.go
         env:
           VINMONOPOLETAPIKEY: ${{ secrets.VINMONOPOLETAPIKEY }}
 
@@ -38,15 +38,15 @@ jobs:
         run: go run cmd/filtered_to_readme/main.go
 
       - name: Get current month
-        run: echo "CURRENT_MONTH=$(date +%B | tr '[:upper:]' '[:lower:]')" >> $GITHUB_ENV
+        run: echo "NEXT_MONTH=$(date -d "+1 month" +%B | tr '[:upper:]' '[:lower:]')" >> $GITHUB_ENV
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "feat: ${{ env.CURRENT_MONTH }} :wine_glass:"
-          title: "feat: ${{ env.CURRENT_MONTH }} :wine_glass:"
-          body: "Automated monthly update of wine price differences between Vinmonopolet and Aperitif."
+          commit-message: "feat: ${{ env.NEXT_MONTH }} :wine_glass:"
+          title: "feat: ${{ env.NEXT_MONTH }} :wine_glass:"
+          body: "Automated monthly update of wine price differences between Vinmonopolet and Aperitif. @erikbjo"
           branch: "data/monthly-scrape"
           base: main
           delete-branch: true
