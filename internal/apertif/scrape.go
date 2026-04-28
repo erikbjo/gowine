@@ -21,9 +21,9 @@ func init() {
 
 	err := baseCollector.Limit(&colly.LimitRule{
 		DomainGlob:  "*aperitif.no*",
-		Parallelism: 10,
+		Parallelism: 5,
 		Delay:       2 * time.Second,
-		RandomDelay: 1 * time.Second,
+		RandomDelay: 3 * time.Second,
 	})
 	if err != nil {
 		logger.Error("Error setting colly limits", zap.Error(err))

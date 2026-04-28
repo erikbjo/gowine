@@ -103,7 +103,7 @@ func main() {
 
 	// Limit the number of concurrent goroutines
 	// Vinmonopolet are quick to throttle IPs from personal networks, use VPN etc with many goroutines
-	semaphore := make(chan struct{}, 25)
+	semaphore := make(chan struct{}, 5)
 
 	for _, product := range products {
 		semaphore <- struct{}{}
