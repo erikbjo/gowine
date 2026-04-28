@@ -21,7 +21,7 @@ func init() {
 
 	err := baseCollector.Limit(&colly.LimitRule{
 		DomainGlob:  "*aperitif.no*",
-		Parallelism: 5,
+		Parallelism: 7,
 		Delay:       2 * time.Second,
 		RandomDelay: 3 * time.Second,
 	})

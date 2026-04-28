@@ -99,11 +99,14 @@ func main() {
 
 	logger.Info("Starting to scrape products", zap.Int("amount", len(products)))
 
-	loadingBar := progressbar.Default(int64(len(products)))
+	loadingBar := progressbar.NewOptions(len(products),
+		progressbar.OptionShowCount(),
+		progressbar.OptionThrottle(120*time.Second),
+	)
 
 	// Limit the number of concurrent goroutines
 	// Vinmonopolet are quick to throttle IPs from personal networks, use VPN etc with many goroutines
-	semaphore := make(chan struct{}, 5)
+	semaphore := make(chan struct{}, 7)
 
 	for _, product := range products {
 		semaphore <- struct{}{}
